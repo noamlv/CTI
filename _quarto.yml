@@ -1,0 +1,43 @@
+project:
+  type: website
+  output-dir: _site
+  render:
+    - index.qmd
+
+lang: es
+
+website:
+  title: "Prioridades CTI"
+  search: false
+  navbar:
+    pinned: true
+    collapse: true
+    right:
+      - text: "Indicadores"
+        href: "#indicadores"
+      - text: "Diagnóstico"
+        href: "#diagnostico"
+      - text: "Marco"
+        href: "#marco"
+      - text: "Referencias"
+        href: "#referencias"
+
+format:
+  html:
+    theme: default
+    css: styles/openai-editorial.css
+    toc: false
+    anchor-sections: false
+    smooth-scroll: true
+    page-layout: full
+    title-block: false
+    include-in-header:
+      text: |
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+execute:
+  echo: false
+  warning: false
+  error: false

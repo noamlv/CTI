@@ -1,0 +1,4 @@
+.quarto/
+.Rhistory
+~$*.docx
+.DS_Store

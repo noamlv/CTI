@@ -1,0 +1,990 @@
+---
+title: ""
+page-layout: full
+---
+
+::: {.hero-screen #inicio}
+<div class="hero-inner">
+<p class="hero-title">Prioridades de CTI para prevenir y controlar la criminalidad violenta en el Perú</p>
+<p class="hero-meta">
+<span>Noam López Villanes</span>
+<span>Dirección de Investigación y Estudios</span>
+<span>Consejo Nacional de Ciencia, Tecnología e Innovación Tecnológica.</span>
+</p>
+
+:::: {.kpi-strip .hero-kpi-strip}
+::: {.kpi-item data-meta="Fuente: CEIC · 2025"}
+<span class="label">Tasa de homicidios 2025</span>
+<span class="value value-kpi-1">10.7</span>
+:::
+::: {.kpi-item data-meta="Fuente: Latinobarómetro · 2024"}
+<span class="label">Victimización</span>
+<span class="value value-kpi-2">44%</span>
+:::
+::: {.kpi-item data-meta="Fuente: SIDPOL-PNP · 2025"}
+<span class="label">Denuncias por extorsión 2025</span>
+<span class="value value-kpi-3">26,585</span>
+:::
+::: {.kpi-item data-meta="Fuente: INEI-ENAPRES · 2025"}
+<span class="label">Confianza en la PNP</span>
+<span class="value value-kpi-4">14.5%</span>
+:::
+::: {.kpi-item data-meta="Fuente: MEF · 2025"}
+<span class="label">Costo de la inseguridad sobre el PBI</span>
+<span class="value value-kpi-5">1.7%</span>
+:::
+::: {.kpi-item data-meta="Fuente: MEF · 2025"}
+<span class="label">Costo económico anual estimado</span>
+<span class="value value-kpi-6">S/ 19,800 millones</span>
+:::
+::::
+</div>
+
+:::
+
+::: {.section-block #indicadores}
+## Indicadores { .section-title }
+
+### Confianza institucional { .subsection-title }
+
+<div class="visual-block">
+<div class="viz-head">
+<div class="legend-inline" id="legend-trust"></div>
+</div>
+<div class="chart-shell" data-render-group>
+<div id="chart-trust" class="chart-slot" aria-label="Gráfico interactivo de confianza institucional"></div>
+<div id="tooltip-trust" class="chart-tooltip" hidden></div>
+</div>
+<p class="chart-source">Fuente: INEI, ENAPRES 2019-2025.</p>
+</div>
+
+### Victimización y delincuencia común { .subsection-title }
+
+<div class="visual-block">
+<div class="tabs" data-tabs="victim">
+<div class="tab-list" role="tablist" aria-label="Victimización">
+<button class="tab-btn is-active" type="button" data-tab-target="victim-trend">Tendencia nacional</button>
+<button class="tab-btn" type="button" data-tab-target="victim-regions">Diferencias regionales</button>
+<button class="tab-btn" type="button" data-tab-target="victim-mobility">Modalidad</button>
+</div>
+
+<div class="tab-panel is-active" id="victim-trend">
+<div class="chart-shell" data-render-group>
+<div id="chart-victim" class="chart-slot" aria-label="Gráfico interactivo de victimización"></div>
+<div id="tooltip-victim" class="chart-tooltip" hidden></div>
+</div>
+<p class="chart-source">Fuente: INEI, ENAHO 2019-2025.</p>
+</div>
+
+<div class="tab-panel" id="victim-regions">
+<div class="split-two">
+<div>
+<h4 class="micro-title">Mayor incidencia (%)</h4>
+<div id="rank-victim-top" class="rank-list" aria-label="Mayor victimización por región"></div>
+</div>
+<div>
+<h4 class="micro-title">Menor incidencia (%)</h4>
+<div id="rank-victim-bottom" class="rank-list" aria-label="Menor victimización por región"></div>
+</div>
+</div>
+</div>
+
+<div class="tab-panel" id="victim-mobility">
+<div class="mini-grid mini-grid-2">
+<article class="mini-card">
+<span class="mini-label">Medio más usado en delitos</span>
+<strong class="mini-value">Motocicleta 54.1%</strong>
+</article>
+<article class="mini-card">
+<span class="mini-label">Uso en los delitos patrimoniales</span>
+<strong class="mini-value">73.3%</strong>
+</article>
+</div>
+<div class="stack-group">
+<div class="stack-track stack-track-lg" aria-label="Medios usados para cometer delitos en 2024">
+<div class="stack-part" style="width:54.1%; background:#2563EB;" title="Motocicleta 54.1%"></div>
+<div class="stack-part" style="width:24.2%; background:#0EA5E9;" title="Mototaxi 24.2%"></div>
+<div class="stack-part" style="width:23.4%; background:#10B981;" title="Auto o camioneta 23.4%"></div>
+</div>
+<div class="stack-legend">
+<span><span class="dot" style="background:#2563EB"></span>Motocicleta</span>
+<span><span class="dot" style="background:#0EA5E9"></span>Mototaxi</span>
+<span><span class="dot" style="background:#10B981"></span>Auto o camioneta</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+### Violencia letal { .subsection-title }
+
+<div class="visual-block">
+<div class="tabs" data-tabs="letal">
+<div class="tab-list" role="tablist" aria-label="Violencia letal">
+<button class="tab-btn is-active" type="button" data-tab-target="letal-rate">Tasa de homicidios</button>
+<button class="tab-btn" type="button" data-tab-target="letal-territory">Territorio</button>
+<button class="tab-btn" type="button" data-tab-target="letal-sicariato">Sicariato</button>
+</div>
+
+<div class="tab-panel is-active" id="letal-rate">
+<div class="chart-shell" data-render-group>
+<div id="chart-homicide" class="chart-slot" aria-label="Gráfico interactivo de homicidios"></div>
+<div id="tooltip-homicide" class="chart-tooltip" hidden></div>
+</div>
+<p class="chart-source">Fuente: Comité Estadístico Interinstitucional de la Criminalidad (CEIC), 2019-2025.</p>
+<div class="mini-grid mini-grid-2 kpi-after-chart">
+<article class="mini-card">
+<span class="mini-label">Arma usada en homicidios</span>
+<strong class="mini-value">80% arma de fuego</strong>
+</article>
+<article class="mini-card">
+<span class="mini-label">Distritos con más denuncias</span>
+<strong class="mini-value">Callao, Lima y San Juan de Lurigancho</strong>
+<p class="mini-note">207, 133 y 107 denuncias.</p>
+</article>
+</div>
+</div>
+
+<div class="tab-panel" id="letal-territory">
+<div class="split-two">
+<div>
+<h4 class="micro-title">Mayor tasa (por 100 mil hab.)</h4>
+<div id="rank-homicide-top" class="rank-list" aria-label="Mayores tasas de homicidio"></div>
+</div>
+<div>
+<h4 class="micro-title">Menor tasa (por 100 mil hab.)</h4>
+<div id="rank-homicide-bottom" class="rank-list" aria-label="Menores tasas de homicidio"></div>
+</div>
+</div>
+</div>
+
+<div class="tab-panel" id="letal-sicariato">
+<div class="mini-grid mini-grid-3">
+<article class="mini-card">
+<span class="mini-label">Casos registrados en 2023</span>
+<strong class="mini-value">705</strong>
+</article>
+<article class="mini-card">
+<span class="mini-label">Casos registrados en 2024</span>
+<strong class="mini-value">778</strong>
+</article>
+<article class="mini-card">
+<span class="mini-label">Participación de Lima</span>
+<strong class="mini-value">50%</strong>
+<p class="mini-note">460 casos en 2024.</p>
+</article>
+</div>
+</div>
+</div>
+</div>
+
+### Extorsión y otros delitos complejos { .subsection-title }
+
+<div class="visual-block">
+<div class="tabs" data-tabs="complex">
+<div class="tab-list" role="tablist" aria-label="Delitos complejos">
+<button class="tab-btn is-active" type="button" data-tab-target="complex-extortion">Extorsión</button>
+<button class="tab-btn" type="button" data-tab-target="complex-digital">Delitos informáticos</button>
+<button class="tab-btn" type="button" data-tab-target="complex-secuestro">Secuestro</button>
+</div>
+
+<div class="tab-panel is-active" id="complex-extortion">
+<div class="chart-shell" data-render-group>
+<div id="chart-extortion" class="chart-slot" aria-label="Gráfico interactivo de denuncias por extorsión"></div>
+<div id="tooltip-extortion" class="chart-tooltip" hidden></div>
+</div>
+<p class="chart-source">Fuente: PNP, SIDPOL 2019-2025.</p>
+<div class="mini-grid mini-grid-3 kpi-after-chart">
+<article class="mini-card">
+<span class="mini-label">Victimización por extorsión</span>
+<strong class="mini-value">0.9%</strong>
+</article>
+<article class="mini-card">
+<span class="mini-label">Canales no presenciales</span>
+<strong class="mini-value">87%</strong>
+</article>
+<article class="mini-card">
+<span class="mini-label">Internos por extorsión</span>
+<strong class="mini-value">1,461</strong>
+<p class="mini-note">346 extranjeros; 272 venezolanos.</p>
+</article>
+</div>
+<div class="split-two">
+<div>
+<h4 class="micro-title">Mayor tasa (por 100 mil hab.)</h4>
+<div id="rank-extortion-top" class="rank-list" aria-label="Mayor tasa de extorsión por región"></div>
+</div>
+<div>
+<h4 class="micro-title">Más denuncias en Lima y Callao</h4>
+<div id="rank-extortion-districts" class="rank-list" aria-label="Distritos con más denuncias por extorsión"></div>
+</div>
+</div>
+</div>
+
+<div class="tab-panel" id="complex-digital">
+<div class="chart-shell" data-render-group>
+<div id="chart-cyber" class="chart-slot" aria-label="Gráfico interactivo de delitos informáticos"></div>
+<div id="tooltip-cyber" class="chart-tooltip" hidden></div>
+</div>
+<p class="chart-source">Fuente: PNP, SIDPOL 2019-2025.</p>
+</div>
+
+<div class="tab-panel" id="complex-secuestro">
+<div class="chart-shell" data-render-group>
+<div id="chart-kidnap" class="chart-slot" aria-label="Gráfico interactivo de secuestro"></div>
+<div id="tooltip-kidnap" class="chart-tooltip" hidden></div>
+</div>
+<p class="chart-source">Fuente: PNP, SIDPOL 2019-2025.</p>
+</div>
+</div>
+</div>
+
+:::
+
+::: {.section-block #diagnostico}
+## Diagnóstico { .section-title }
+
+<p class="section-intro">Síntesis de la revisión de literatura y evidencia aplicada sobre ciencia, tecnología e innovación en prevención y control del delito.</p>
+
+### Literatura internacional y nacional { .subsection-title }
+
+<div class="visual-block reveal-on-scroll">
+<div class="dx-table-wrap">
+<table class="dx-table">
+  <thead>
+    <tr>
+      <th>Hallazgo de la revisión</th>
+      <th>Lectura para priorización CTI</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>América Latina concentra una carga desproporcionada de violencia letal respecto de su peso poblacional.</td>
+      <td>Se justifican intervenciones focalizadas en reducción de homicidios y control territorial.</td>
+    </tr>
+    <tr>
+      <td>La brecha regional frente al promedio global sigue siendo amplia y persistente.</td>
+      <td>Las soluciones tecnológicas requieren integración con capacidades policiales y judiciales.</td>
+    </tr>
+    <tr>
+      <td>El escenario peruano reciente muestra incremento sostenido de violencia letal.</td>
+      <td>La ventana de impacto exige pilotos evaluables y escalables en territorios críticos.</td>
+    </tr>
+    <tr>
+      <td>Una proporción relevante de homicidios se vincula con economías criminales (extorsión y sicariato).</td>
+      <td>Conviene priorizar trazabilidad financiera, inteligencia criminal e interoperabilidad operativa.</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+
+<p class="dx-scale-note">Escala de respaldo en la literatura comparada: mayor longitud implica mayor consistencia de resultados en revisiones y evaluaciones.</p>
+
+<div class="dx-bar-list">
+<div class="dx-bar-row">
+<span class="dx-bar-label">Hot spots policing</span>
+<div class="dx-bar-track"><span class="dx-bar-fill dx-tone-1" data-width="74"></span></div>
+<div class="dx-bar-level">Alto</div>
+</div>
+<div class="dx-bar-row">
+<span class="dx-bar-label">Videovigilancia (CCTV)</span>
+<div class="dx-bar-track"><span class="dx-bar-fill dx-tone-2" data-width="62"></span></div>
+<div class="dx-bar-level">Alto</div>
+</div>
+<div class="dx-bar-row">
+<span class="dx-bar-label">Policiamiento predictivo</span>
+<div class="dx-bar-track"><span class="dx-bar-fill dx-tone-3" data-width="46"></span></div>
+<div class="dx-bar-level">Medio</div>
+</div>
+<div class="dx-bar-row">
+<span class="dx-bar-label">Cámaras corporales</span>
+<div class="dx-bar-track"><span class="dx-bar-fill dx-tone-4" data-width="43"></span></div>
+<div class="dx-bar-level">Medio</div>
+</div>
+<div class="dx-bar-row">
+<span class="dx-bar-label">Interoperabilidad institucional</span>
+<div class="dx-bar-track"><span class="dx-bar-fill dx-tone-5" data-width="39"></span></div>
+<div class="dx-bar-level">Medio-bajo</div>
+</div>
+<div class="dx-bar-row">
+<span class="dx-bar-label">Forense digital</span>
+<div class="dx-bar-track"><span class="dx-bar-fill dx-tone-6" data-width="41"></span></div>
+<div class="dx-bar-level">Medio</div>
+</div>
+</div>
+<p class="chart-source">Fuente de la escala: síntesis de 11 textos (Braga et al., 2012, 2019; Kochel et al., 2026; Welsh &amp; Farrington, 2008; Piza et al., 2019; Lee, 2024; Ratcliffe et al., 2021; Lum et al., 2020; NASEM, 2024; INTERPOL &amp; UNICRI, 2019; Defensoría del Pueblo, 2020).</p>
+</div>
+
+### Tipología de intervenciones tecnológicas en policiamiento { .subsection-title }
+
+<div class="visual-block reveal-on-scroll">
+<div class="dx-table-wrap">
+<table class="dx-table">
+  <thead>
+    <tr>
+      <th>Tecnología</th>
+      <th>Evidencia internacional</th>
+      <th>Estado en Perú</th>
+      <th>Balance</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Análisis predictivo y aprendizaje automático</td>
+      <td>Resultados mixtos y alta sensibilidad al diseño operativo.</td>
+      <td>Sin programas evaluados públicamente con diseño robusto.</td>
+      <td><span class="dx-chip dx-chip-mid">Mixta</span></td>
+    </tr>
+    <tr>
+      <td>IA en video y vigilancia inteligente</td>
+      <td>Adopción creciente con debate por sesgos y efectividad real.</td>
+      <td>Despliegues puntuales; no hay evaluación causal pública.</td>
+      <td><span class="dx-chip dx-chip-mid">Mixta</span></td>
+    </tr>
+    <tr>
+      <td>Sensores biométricos y dispositivos móviles</td>
+      <td>Pilotos útiles para trazabilidad y respuesta operativa.</td>
+      <td>Implementación fragmentada y escasa documentación de impacto.</td>
+      <td><span class="dx-chip dx-chip-low">Incipiente</span></td>
+    </tr>
+    <tr>
+      <td>Equipamiento de patrullaje tecnológico</td>
+      <td>Mejora trazabilidad; no siempre reduce violencia por sí solo.</td>
+      <td>Uso operativo creciente; falta evaluación comparativa.</td>
+      <td><span class="dx-chip dx-chip-mid">Mixta</span></td>
+    </tr>
+    <tr>
+      <td>Forense digital y ciberinvestigación</td>
+      <td>Clave para esclarecimiento en delitos complejos.</td>
+      <td>Capacidades presentes, con brecha de evaluación y escalamiento.</td>
+      <td><span class="dx-chip dx-chip-mid">Mixta</span></td>
+    </tr>
+    <tr>
+      <td>Inteligencia financiera y lavado de activos</td>
+      <td>Estándares internacionales consolidados (FATF/AML-CFT).</td>
+      <td>Avances descriptivos; evidencia causal aún limitada.</td>
+      <td><span class="dx-chip dx-chip-mid">Mixta</span></td>
+    </tr>
+    <tr>
+      <td>Interoperabilidad institucional</td>
+      <td>Modelos integrados mejoran continuidad investigativa.</td>
+      <td>Persisten bases fragmentadas y baja interoperabilidad real.</td>
+      <td><span class="dx-chip dx-chip-low">Incipiente</span></td>
+    </tr>
+  </tbody>
+</table>
+</div>
+<p class="chart-source">Fuente: Entregable 1 (sección 2.3); INTERPOL &amp; UNICRI (2019); Defensoría del Pueblo (2020); NASEM (2024).</p>
+</div>
+
+### Estado del conocimiento en ciencias sociales { .subsection-title }
+
+<div class="visual-block reveal-on-scroll">
+<div class="dx-table-wrap">
+<table class="dx-table">
+  <thead>
+    <tr>
+      <th>Tipo de estudio</th>
+      <th>Qué aporta</th>
+      <th>Limitación principal</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Descriptivo</td>
+      <td>Mapea magnitud, tendencias y distribución territorial.</td>
+      <td>Predomina el análisis correlacional (p. ej., pobreza/urbanización) y no explica mecanismos causales ni dinámicas institucionales.</td>
+    </tr>
+    <tr>
+      <td>Explicativo</td>
+      <td>Propone mecanismos sobre violencia, mercados y gobernanza.</td>
+      <td>La heterogeneidad de métodos y escalas reduce comparabilidad y dificulta llevar hallazgos a decisiones operativas.</td>
+    </tr>
+    <tr>
+      <td>Evaluativo</td>
+      <td>Mide efectos de programas con diseños cuasi/experimentales.</td>
+      <td>Sigue siendo escaso en América Latina y Perú; se concentra en programas puntuales y resultados heterogéneos.</td>
+    </tr>
+    <tr>
+      <td>Comparado</td>
+      <td>Extrae lecciones transferibles entre países y ciudades.</td>
+      <td>La transferencia no es automática: comparaciones entre “mano dura”, policía comunitaria o reformas de justicia dependen del contexto institucional.</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+
+<div class="dx-table-wrap">
+<table class="dx-table">
+  <thead>
+    <tr>
+      <th>Campo temático en Perú</th>
+      <th>Hallazgo</th>
+      <th>Brecha de investigación</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Victimización y percepción</td>
+      <td>Existe base empírica consistente con ENAPRES/ENAHO.</td>
+      <td>Faltan modelos que conecten medición con diseño programático.</td>
+    </tr>
+    <tr>
+      <td>Criminalidad organizada y extorsión</td>
+      <td>Mayor volumen cualitativo y diagnósticos sectoriales recientes.</td>
+      <td>Escasez de series comparables y análisis causales continuos.</td>
+    </tr>
+    <tr>
+      <td>Confianza y legitimidad institucional</td>
+      <td>Relación robusta entre desconfianza y baja cooperación ciudadana.</td>
+      <td>Faltan evaluaciones de intervenciones para reconstruir legitimidad.</td>
+    </tr>
+    <tr>
+      <td>Tecnología aplicada a seguridad</td>
+      <td>Adopción operativa creciente en vigilancia e investigación.</td>
+      <td>Muy pocas evaluaciones de impacto atribuible.</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+<p class="chart-source">Fuente: Entregable 1 (secciones 2.4 y 2.4.1); CIES (2022); Hernández et al. (2020); Silvestre et al. (2025).</p>
+</div>
+
+### Evaluaciones de impacto existentes { .subsection-title }
+
+<div class="visual-block reveal-on-scroll">
+<div class="dx-table-wrap">
+<table class="dx-table">
+  <thead>
+    <tr>
+      <th>Intervención evaluada</th>
+      <th>Diseño</th>
+      <th>Resultado principal</th>
+      <th>Lectura para decisión pública</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Hot spots policing</td>
+      <td>RCT y revisiones sistemáticas</td>
+      <td>Efectos más claros en desorden y delitos focalizados que en violencia armada.</td>
+      <td><span class="dx-chip dx-chip-mid">Efecto condicionado</span></td>
+    </tr>
+    <tr>
+      <td>CCTV y vigilancia electrónica</td>
+      <td>Meta-análisis</td>
+      <td>Impacto heterogéneo; mejor desempeño en delitos patrimoniales.</td>
+      <td><span class="dx-chip dx-chip-mid">Efecto parcial</span></td>
+    </tr>
+    <tr>
+      <td>Policiamiento predictivo</td>
+      <td>Experimentos y revisión sistemática</td>
+      <td>Resultados modestos y sensibles a calidad de datos/implementación.</td>
+      <td><span class="dx-chip dx-chip-low">Evidencia limitada</span></td>
+    </tr>
+    <tr>
+      <td>Estrategia Barrio Seguro (Perú)</td>
+      <td>Cuasi-experimental</td>
+      <td>Mejora en indicadores inmediatos; sin efecto consistente en confianza y victimización.</td>
+      <td><span class="dx-chip dx-chip-low">Rediseño requerido</span></td>
+    </tr>
+    <tr>
+      <td>Nuevo Código Procesal Penal (Perú)</td>
+      <td>Cuasi-experimental</td>
+      <td>Reducción inicial de victimización, con pérdida de efecto en el tiempo.</td>
+      <td><span class="dx-chip dx-chip-mid">Sostenibilidad crítica</span></td>
+    </tr>
+  </tbody>
+</table>
+</div>
+<p class="chart-source">Fuente: Entregable 1 (secciones 2.5 y 2.5.1); Hernández (2019); Amaya et al. (2021); Kochel et al. (2026); Piza et al. (2019); Lee (2024).</p>
+</div>
+
+### Tendencias emergentes { .subsection-title }
+
+<div class="visual-block reveal-on-scroll trends-block">
+<div class="mini-grid mini-grid-2">
+<article class="mini-card">
+<span class="mini-label">IA generativa en funciones policiales</span>
+<strong class="mini-value">Análisis y síntesis de grandes volúmenes</strong>
+<p class="mini-note">Riesgos: sesgo, opacidad y decisiones automáticas sin trazabilidad.</p>
+</article>
+<article class="mini-card">
+<span class="mini-label">Policiamiento predictivo centrado en personas</span>
+<strong class="mini-value">Mayor sensibilidad ética y regulatoria</strong>
+<p class="mini-note">Requiere gobernanza estricta por perfilamiento y derechos fundamentales.</p>
+</article>
+<article class="mini-card">
+<span class="mini-label">Ciberdelincuencia de alta sofisticación</span>
+<strong class="mini-value">Escala operativa con automatización e IA</strong>
+<p class="mini-note">Demanda capacidad forense digital y cooperación internacional sostenida.</p>
+</article>
+<article class="mini-card">
+<span class="mini-label">Integración de datos y analítica avanzada</span>
+<strong class="mini-value">Interoperabilidad como cuello de botella central</strong>
+<p class="mini-note">Sin datos integrados, la tecnología no se traduce en mejor persecución penal.</p>
+</article>
+</div>
+<p class="chart-source">Fuente: Entregable 1 (sección 2.6); Europol (2023, 2025); OCDE (2025); UNODC (2024, 2025); World Economic Forum (2025).</p>
+</div>
+
+### Vacíos críticos de conocimiento { .subsection-title }
+
+<div class="visual-block reveal-on-scroll">
+<div class="dx-table-wrap">
+<table class="dx-table">
+  <thead>
+    <tr>
+      <th>Vacío identificado</th>
+      <th>Implicancia para convocatorias CTI</th>
+      <th>Prioridad</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Escasez de evaluaciones causales sobre reducción de violencia</td>
+      <td>Financiar pilotos con diseño evaluativo desde el inicio.</td>
+      <td><span class="dx-chip dx-chip-high">Alta</span></td>
+    </tr>
+    <tr>
+      <td>Baja evidencia contextualizada para Perú y América Latina</td>
+      <td>Priorizar estudios multi-sitio con datos locales y comparables.</td>
+      <td><span class="dx-chip dx-chip-high">Alta</span></td>
+    </tr>
+    <tr>
+      <td>Débil articulación entre tecnología y mecanismos sociales</td>
+      <td>Exigir componentes socioinstitucionales en proyectos tecnológicos.</td>
+      <td><span class="dx-chip dx-chip-high">Alta</span></td>
+    </tr>
+    <tr>
+      <td>Poca evidencia aplicada en ética, sesgo y derechos</td>
+      <td>Incluir auditoría algorítmica y evaluación de riesgos en campo.</td>
+      <td><span class="dx-chip dx-chip-mid">Media-alta</span></td>
+    </tr>
+    <tr>
+      <td>Desconexión entre I+D y ciclo real de política pública</td>
+      <td>Vincular financiamiento a planes de adopción institucional verificables.</td>
+      <td><span class="dx-chip dx-chip-high">Alta</span></td>
+    </tr>
+    <tr>
+      <td>Brechas en datos abiertos, interoperabilidad y actualización</td>
+      <td>Invertir en arquitectura de datos, estándares y trazabilidad interinstitucional.</td>
+      <td><span class="dx-chip dx-chip-high">Alta</span></td>
+    </tr>
+  </tbody>
+</table>
+</div>
+<p class="chart-source">Fuente: Entregable 1 (sección 2.7); NASEM (2024); INTERPOL &amp; UNICRI (2019); OCDE (2025); INEI (2026a).</p>
+</div>
+
+:::
+
+<section class="section-block">
+## Marco { .section-title }
+
+<p class="section-intro">Marco conceptual y de consistencia analítica para orientar convocatorias de CTI con foco en prevención, investigación y control del delito.</p>
+
+### Marco conceptual y causal { .subsection-title }
+
+<div class="visual-block reveal-on-scroll">
+<p class="tree-caption">Árbol del problema público del Plan Nacional de Seguridad Ciudadana y Lucha contra la Criminalidad 2026 - 2028</p>
+<div class="tree-controls" aria-label="Filtros del árbol de problemas">
+<button class="tree-filter-btn is-active" type="button" data-tree-filter-target="problem-tree-plan" data-tree-filter="all">Todo</button>
+<button class="tree-filter-btn" type="button" data-tree-filter-target="problem-tree-plan" data-tree-filter="priority">Priorizadas CTI</button>
+<button class="tree-filter-btn" type="button" data-tree-filter-target="problem-tree-plan" data-tree-filter="linea1">Línea 1</button>
+<button class="tree-filter-btn" type="button" data-tree-filter-target="problem-tree-plan" data-tree-filter="linea2">Línea 2</button>
+<button class="tree-filter-btn" type="button" data-tree-filter-target="problem-tree-plan" data-tree-filter="linea3">Línea 3</button>
+</div>
+<div class="problem-tree" id="problem-tree-plan" data-tree-filter-state="all">
+<div class="tree-band">
+<span class="tree-label">Efectos</span>
+<div class="tree-grid tree-grid-3">
+<article class="tree-card">Incremento de la victimización y percepción de inseguridad ciudadana.</article>
+<article class="tree-card">Deslegitimación del sistema de justicia y desconfianza ciudadana en los operadores de justicia.</article>
+<article class="tree-card">Desincentivo a la inversión formal y corrupción institucional por el poder económico del crimen organizado.</article>
+</div>
+</div>
+
+<div class="tree-band tree-central">
+<span class="tree-label">Problema central</span>
+<div class="tree-central-row">
+<div class="tree-node">Problema central identificado</div>
+<div class="tree-main">Alta incidencia de delitos violentos, en las modalidades de extorsión y homicidios a nivel nacional.</div>
+</div>
+</div>
+
+<div class="tree-band">
+<span class="tree-label">Causas directas</span>
+<div class="tree-grid tree-grid-4">
+<article class="tree-card tree-direct" data-group="linea1" data-linea3="1">Debilidad en las estrategias de prevención policial y comunitaria en territorios de alta vulnerabilidad.</article>
+<article class="tree-card tree-direct" data-linea3="1">Insuficiente control territorial del Estado en zonas de frontera y espacios vulnerables que facilitan la migración ilegal, el desplazamiento y el desarrollo de economías ilegales.</article>
+<article class="tree-card tree-direct" data-group="linea2" data-linea3="1">Insuficientes capacidades y recursos del Estado para generar inteligencia, desarrollar investigación criminal y análisis criminalístico.</article>
+<article class="tree-card tree-direct" data-group="linea2" data-linea3="1">Debilidades en el sistema de administración de justicia que generan impunidad y deficiente control en el interior de los establecimientos penitenciarios.</article>
+</div>
+</div>
+
+<div class="tree-band">
+<span class="tree-label">Causas indirectas</span>
+<div class="tree-columns">
+<div class="tree-column">
+<article class="tree-subcard">Deterioro de espacios públicos comunitarios que facilitan la comisión y proliferación de faltas y delitos.</article>
+<article class="tree-subcard tree-priority" data-priority="1" data-group="linea1" data-linea3="1">Limitada capacidad operativa policial en la prevención de delitos.</article>
+<article class="tree-subcard tree-priority" data-priority="1" data-group="linea1" data-linea3="1">Limitada implementación de actividades preventivas para jóvenes y poblaciones en situación de vulnerabilidad.</article>
+<article class="tree-subcard tree-priority" data-priority="1" data-group="linea1" data-linea3="1">Limitada articulación de las organizaciones sociales y vecinales (rondas campesinas, juntas vecinales, entre otros) con las instancias del SINASEC.</article>
+</div>
+<div class="tree-column">
+<article class="tree-subcard">Limitada vigilancia y control fronterizo de flujos migratorios y de bienes fiscalizados.</article>
+<article class="tree-subcard">Limitadas acciones de control de actividades económicas informales e ilegales.</article>
+<article class="tree-subcard">Debilidad de las capacidades del Estado para fiscalizar insumos y rutas vinculadas a la minería ilegal y al tráfico de armas, municiones y explosivos.</article>
+<article class="tree-subcard">Limitada capacidad de respuesta operativa integrada en territorios de alta incidencia delictiva.</article>
+</div>
+<div class="tree-column">
+<article class="tree-subcard tree-priority" data-priority="1" data-group="linea2" data-linea3="1">Insuficientes herramientas tecnológicas y recursos para la inteligencia, investigación criminal y pericias criminalísticas.</article>
+<article class="tree-subcard tree-priority" data-priority="1" data-group="linea2" data-linea3="1">Limitado desarrollo de la interoperabilidad entre entidades vinculadas a la seguridad ciudadana.</article>
+<article class="tree-subcard">Limitada disponibilidad de personal policial especializado en inteligencia, investigación y criminalística, con énfasis en extorsiones y homicidios.</article>
+<article class="tree-subcard tree-priority" data-priority="1" data-group="linea2" data-linea3="1">Limitadas capacidades para investigar flujos económicos de origen ilegal.</article>
+</div>
+<div class="tree-column">
+<article class="tree-subcard">Incremento de la carga procesal e incumplimiento de plazos en el proceso penal.</article>
+<article class="tree-subcard">Desactualización normativa que dificulta la tipificación y sanción a nuevas modalidades delictivas.</article>
+<article class="tree-subcard">Deficiencias en la gestión y administración penitenciaria.</article>
+<article class="tree-subcard tree-priority" data-priority="1" data-group="linea2" data-linea3="1">Limitada capacidad de los sistemas de seguridad tecnológica en los penales que facilitan la comisión de delitos desde su interior.</article>
+</div>
+</div>
+</div>
+</div>
+<p class="chart-source">Fuente: Ministerio del Interior. <a href="https://busquedas.elperuano.pe/dispositivo/NL/2493627-1" target="_blank" rel="noopener noreferrer">Decreto Supremo N.° 001-2026-IN, que aprueba el Plan Nacional de Seguridad Ciudadana y Lucha contra la Criminalidad 2026-2028</a>. Publicado hoy, 9 de marzo de 2026.</p>
+</div>
+
+<div class="visual-block reveal-on-scroll">
+<div class="dx-table-wrap">
+<table class="dx-table">
+  <thead>
+    <tr>
+      <th>Componente del marco</th>
+      <th>Qué ordena para la decisión pública</th>
+      <th>Implicancia para financiamiento CTI</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Problema público priorizado</td>
+      <td>Alta extorsión y homicidios con impacto territorial, económico e institucional.</td>
+      <td>Priorizar proyectos con resultados verificables en reducción de violencia e impunidad.</td>
+    </tr>
+    <tr>
+      <td>Causas directas críticas</td>
+      <td>Debilidad preventiva, investigación e inteligencia insuficiente, y coordinación interinstitucional limitada.</td>
+      <td>Financiar soluciones que intervengan mecanismos causales y no solo brechas de equipamiento.</td>
+    </tr>
+    <tr>
+      <td>Tres líneas CTI priorizadas</td>
+      <td>Línea 1: prevención; Línea 2: investigación e inteligencia; Línea 3: investigación social básica y aplicada.</td>
+      <td>Combinar innovación tecnológica con evidencia social aplicada para diseño, implementación y escalamiento.</td>
+    </tr>
+    <tr>
+      <td>Lógica de implementación</td>
+      <td>Pilotos, evaluación rigurosa, ajuste operativo y escalamiento condicionado a desempeño.</td>
+      <td>Exigir teoría de cambio, línea de base, métricas y plan de adopción institucional.</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+<p class="chart-source">Fuente: Entregable 1 (capítulo III, secciones 3.1 a 3.4).</p>
+</div>
+
+### Criterios técnicos para convocatorias CTI { .subsection-title }
+
+<div class="visual-block reveal-on-scroll">
+<div class="dx-table-wrap">
+<table class="dx-table">
+  <thead>
+    <tr>
+      <th>Criterio</th>
+      <th>Aplicación en evaluación de propuestas</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Impacto potencial en reducción de violencia</td>
+      <td>Metas medibles en extorsión, homicidios u otros delitos complejos en territorios focalizados.</td>
+    </tr>
+    <tr>
+      <td>Evidencia previa y plausibilidad causal</td>
+      <td>Respaldo en literatura y pilotos, con teoría de cambio explícita y supuestos verificables.</td>
+    </tr>
+    <tr>
+      <td>Calidad metodológica y estrategia de evaluación</td>
+      <td>Diseños robustos (experimental, cuasi, longitudinal o mixto), con atribución plausible.</td>
+    </tr>
+    <tr>
+      <td>Escalabilidad territorial y adaptabilidad</td>
+      <td>Transferibilidad a contextos diversos (urbano, rural y frontera) con ajustes institucionales.</td>
+    </tr>
+    <tr>
+      <td>Sostenibilidad fiscal y operativa</td>
+      <td>Costos viables de operación y mantenimiento, evitando dependencia de soluciones cerradas.</td>
+    </tr>
+    <tr>
+      <td>Fortalecimiento de capacidades nacionales</td>
+      <td>Transferencia tecnológica/metodológica y desarrollo de talento en instituciones peruanas.</td>
+    </tr>
+    <tr>
+      <td>Integración interdisciplinaria</td>
+      <td>Articulación entre ciencias sociales, tecnología y gestión pública para implementación real.</td>
+    </tr>
+    <tr>
+      <td>Compatibilidad con derechos y gobernanza de datos</td>
+      <td>Mitigación de sesgos, seguridad, transparencia y rendición de cuentas en uso de datos.</td>
+    </tr>
+    <tr>
+      <td>Articulación interinstitucional</td>
+      <td>Roles claros y flujos operativos entre PNP, MP, PJ, INPE y gobiernos subnacionales.</td>
+    </tr>
+    <tr>
+      <td>Contribución a la infraestructura nacional de evidencia</td>
+      <td>Repositorios, estándares, protocolos e instrumentos reutilizables para futuras convocatorias.</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+<p class="chart-source">Fuente: Entregable 1 (sección 3.5).</p>
+</div>
+
+### Tabla de consistencia de las líneas 1 y 2 { .subsection-title }
+
+<div class="visual-block reveal-on-scroll">
+<div class="dx-table-wrap">
+<table class="dx-table dx-table-tight">
+  <thead>
+    <tr>
+      <th>Problema central</th>
+      <th>Causa directa</th>
+      <th>Sub-línea (líneas 1 y 2)</th>
+      <th>Tipo de instrumento</th>
+      <th>Mecanismo causal</th>
+      <th>Resultado esperado</th>
+      <th>Indicador clave</th>
+      <th>Modalidad de financiamiento</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Alta extorsión y homicidios</td>
+      <td>Prevención policial y comunitaria débil</td>
+      <td>1.1 Patrullaje preventivo inteligente</td>
+      <td>Tecnológico y organizacional</td>
+      <td>Patrullaje guiado por riesgo territorial y franjas horarias críticas.</td>
+      <td>Menor incidencia en puntos calientes y respuesta más rápida.</td>
+      <td>Variación de homicidios/extorsión en zonas focalizadas; tiempo de respuesta.</td>
+      <td>Desarrollo tecnológico con piloto evaluable.</td>
+    </tr>
+    <tr>
+      <td>Alta extorsión y homicidios</td>
+      <td>Prevención policial y comunitaria débil</td>
+      <td>1.2 Prevención focalizada en jóvenes</td>
+      <td>Informacional</td>
+      <td>Prevención temprana para jóvenes en riesgo con seguimiento digital.</td>
+      <td>Menor captación por bandas y menor reincidencia juvenil.</td>
+      <td>Participación en programas; incidencia juvenil en zonas intervenidas.</td>
+      <td>Investigación aplicada más desarrollo tecnológico.</td>
+    </tr>
+    <tr>
+      <td>Alta extorsión y homicidios</td>
+      <td>Prevención policial y comunitaria débil</td>
+      <td>1.3 Redes de alerta comunitaria</td>
+      <td>Organizacional e informacional</td>
+      <td>Canales de alerta vecinal seguros, trazables y de uso simple.</td>
+      <td>Más reportes útiles y mayor respuesta coordinada.</td>
+      <td>Alertas validadas atendidas; tiempo de atención.</td>
+      <td>Desarrollo tecnológico con evaluación de impacto.</td>
+    </tr>
+    <tr>
+      <td>Alta extorsión y homicidios</td>
+      <td>Investigación e inteligencia insuficiente</td>
+      <td>2.1 Inteligencia digital</td>
+      <td>Tecnológico</td>
+      <td>Analítica de datos para identificar patrones, nodos y objetivos criminales.</td>
+      <td>Investigaciones más precisas y mayor tasa de esclarecimiento.</td>
+      <td>Casos apoyados por analítica; tiempo de esclarecimiento.</td>
+      <td>Investigación aplicada más desarrollo tecnológico.</td>
+    </tr>
+    <tr>
+      <td>Alta extorsión y homicidios</td>
+      <td>Investigación e inteligencia insuficiente</td>
+      <td>2.2 Interoperabilidad interinstitucional</td>
+      <td>Organizacional e informacional</td>
+      <td>Integración operativa de datos entre PNP, MP, PJ e INPE.</td>
+      <td>Menos quiebres de información y mejor trazabilidad de casos.</td>
+      <td>Casos con intercambio de datos; reducción de expedientes inconexos.</td>
+      <td>Desarrollo tecnológico más investigación aplicada.</td>
+    </tr>
+    <tr>
+      <td>Alta extorsión y homicidios</td>
+      <td>Investigación e inteligencia insuficiente</td>
+      <td>2.3 Formación asistida por tecnología</td>
+      <td>Organizacional</td>
+      <td>Capacitación continua con simuladores y entrenamiento digital.</td>
+      <td>Mejor uso de herramientas de investigación e inteligencia.</td>
+      <td>Personal certificado; desempeño pre y post capacitación.</td>
+      <td>Investigación aplicada con validación operativa.</td>
+    </tr>
+    <tr>
+      <td>Alta extorsión y homicidios</td>
+      <td>Investigación e inteligencia insuficiente</td>
+      <td>2.4 Inteligencia financiera</td>
+      <td>Tecnológico e informacional</td>
+      <td>Trazabilidad financiera para detectar y seguir flujos ilícitos.</td>
+      <td>Más detección y bloqueo de recursos criminales.</td>
+      <td>Activos inmovilizados; casos judicializados por lavado/extorsión.</td>
+      <td>Investigación aplicada más desarrollo analítico.</td>
+    </tr>
+    <tr>
+      <td>Alta extorsión y homicidios</td>
+      <td>Investigación e inteligencia insuficiente</td>
+      <td>2.5 Seguridad tecnológica penitenciaria</td>
+      <td>Tecnológico</td>
+      <td>Control tecnológico intramuros para cortar mandos criminales.</td>
+      <td>Menor incidencia de delitos coordinados desde penales.</td>
+      <td>Incidentes delictivos originados en penales; eventos críticos intramuros.</td>
+      <td>Desarrollo tecnológico con validación experimental.</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+<p class="chart-source">Fuente: Entregable 1 (sección 3.6.1).</p>
+</div>
+
+### Tabla de consistencia de la línea 3 { .subsection-title }
+
+<section class="visual-block reveal-on-scroll">
+<section class="dx-table-wrap">
+<table class="dx-table dx-table-tight">
+  <thead>
+    <tr>
+      <th>Sub-línea (línea 3)</th>
+      <th>Contribución principal</th>
+      <th>Causas directas del PNSC a las que contribuye</th>
+      <th>Producto esperado</th>
+      <th>Indicador clave</th>
+      <th>Modalidad de financiamiento</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>3.1 Fenómenos criminales y economías ilegales (medición, explicación causal y focalización territorial)</td>
+      <td>Explica cómo operan los mercados criminales y dónde focalizar la intervención.</td>
+      <td>Insuficiente control territorial; capacidades de inteligencia e investigación limitadas.</td>
+      <td>Tipologías, mapas de riesgo, índices territoriales y protocolos de datos.</td>
+      <td>Datasets integrados, índices validados y uso en planes operativos.</td>
+      <td>Investigación básica y aplicada con infraestructura de datos.</td>
+    </tr>
+    <tr>
+      <td>3.2 Respuesta del Estado ante la criminalidad (evaluación de impacto, ciencia de implementación y mejora institucional)</td>
+      <td>Mide qué funciona, en qué condiciones y con qué costo.</td>
+      <td>Debilidad preventiva; capacidades de inteligencia limitadas; debilidades en justicia y control penitenciario.</td>
+      <td>Evaluaciones de impacto/proceso, análisis costo-efectividad y guías operativas.</td>
+      <td>Evaluaciones ejecutadas, mejoras en KPIs y decisiones de escalamiento documentadas.</td>
+      <td>Investigación aplicada, pilotos cuasi/experimentales y ciencia de implementación.</td>
+    </tr>
+    <tr>
+      <td>3.3 Legitimidad, confianza y acción ciudadana (denuncia y cooperación)</td>
+      <td>Fortalece confianza, denuncia y cooperación comunitaria.</td>
+      <td>Debilidad preventiva; control territorial insuficiente; baja denuncia y desconfianza institucional.</td>
+      <td>Instrumentos de medición, modelos explicativos y pilotos comunitarios evaluados.</td>
+      <td>Cambio en confianza/denuncia/cooperación y adopción por gobiernos locales/PNP.</td>
+      <td>Investigación básica y aplicada con evaluación de impacto.</td>
+    </tr>
+  </tbody>
+</table>
+</section>
+<p class="chart-source">Fuente: Entregable 1 (sección 3.6.2).</p>
+</section>
+
+</section>
+
+::: {.section-block #referencias}
+## Referencias { .section-title }
+
+<div class="visual-block">
+<div class="tabs" data-tabs="refs">
+<div class="tab-list" role="tablist" aria-label="Referencias">
+<button class="tab-btn is-active" type="button" data-tab-target="refs-nlp">Mapa NLP</button>
+<button class="tab-btn" type="button" data-tab-target="refs-list">Listado APA</button>
+</div>
+
+<div class="tab-panel is-active" id="refs-nlp">
+<div class="mini-grid mini-grid-2 refs-kpi-grid">
+<article class="mini-card">
+<span class="mini-label">Total de referencias</span>
+<strong class="mini-value" id="refs-total">—</strong>
+</article>
+<article class="mini-card">
+<span class="mini-label">Años identificados</span>
+<strong class="mini-value" id="refs-years-count">—</strong>
+</article>
+</div>
+<div class="split-two refs-nlp-grid">
+<div>
+<h4 class="micro-title">Términos más frecuentes</h4>
+<div id="refs-terms" class="refs-bars" aria-label="Términos frecuentes en referencias"></div>
+</div>
+<div>
+<h4 class="micro-title">Publicaciones por año</h4>
+<div id="refs-years" class="refs-bars" aria-label="Publicaciones por año"></div>
+</div>
+</div>
+<p class="chart-source">Fuente: Elaboración propia mediante NLP ligero sobre el listado de referencias.</p>
+</div>
+
+<div class="tab-panel" id="refs-list">
+<ol class="refs refs-small" id="refs-listing">
+  <li>Amaya, E., Cueto, J. J., Cozzubo, A., &amp; Hernández, W. (2021). ¿Es efectivo el uso de la estrategia de hotspots en el Perú? CIES.</li>
+  <li>Braga, A. A., Papachristos, A. V., &amp; Hureau, D. M. (2012). <i>Hot spots policing effects on crime</i>. Campbell Systematic Reviews. https://doi.org/10.4073/csr.2012.8</li>
+  <li>Braga, A. A., Turchan, B., Papachristos, A. V., &amp; Hureau, D. M. (2019). <i>Hot spots policing of small geographic areas effects on crime</i>. Campbell Systematic Reviews, 15(3), e1046. https://doi.org/10.1002/cl2.1046</li>
+  <li>CIES. (2022). <i>Seguridad ciudadana: Balance de investigación 2016–2021 y agenda 2021–2026</i>. https://cies.org.pe/wp-content/uploads/2022/06/2.4_estado_y_gestion_seguridad_ciudadana_0.pdf</li>
+  <li>Corbacho, A., Philipp, J., &amp; Ruiz-Vega, M. (2015). Crime and erosion of trust: Evidence for Latin America. <i>World Development</i>, 70, 400–415. https://doi.org/10.1016/j.worlddev.2014.04.013</li>
+  <li>Defensoría del Pueblo. (2020). <i>Interoperabilidad en el sistema de justicia penal</i> (Informe N.° 01-2020-DP/ALCCTEE). https://www.defensoria.gob.pe/wp-content/uploads/2020/09/Informe-de-Adjunt%C3%ADa-N%C2%B0-01-2020-DP-ALCCTEE-Interoperabilidad-en-el-Sistema-de-Justicia-Penal.pdf</li>
+  <li>Europol. (2023). <i>ChatGPT: The impact of large language models on law enforcement</i>.</li>
+  <li>Europol. (2025). <i>EU Serious and Organised Crime Threat Assessment 2025</i>. https://www.europol.europa.eu/cms/sites/default/files/documents/EU-SOCTA-2025.pdf</li>
+  <li>Fondo Monetario Internacional. (2024). <i>Violent crime and insecurity in Latin America and the Caribbean</i>. https://www.imf.org/-/media/files/publications/dp/2024/english/vcilacea.pdf</li>
+  <li>Gill, C., Weisburd, D., Telep, C. W., Vitter, Z., &amp; Bennett, T. (2014). Community-oriented policing… <i>Campbell Systematic Reviews</i>, 10(1), 1–99. https://doi.org/10.4073/csr.2014.3</li>
+  <li>Hernández, W. (2019). Do criminal justice reforms reduce crime and perceived risk of crime? <i>International Review of Law and Economics</i>, 58, 89–100. https://doi.org/10.1016/j.irle.2019.03.004</li>
+  <li>Hernández, W., Cozzubo, Á., &amp; Román, A. (2024). <i>¿A costa de qué? Impacto de los estados de emergencia en el Callao</i>. CIES. https://cies.org.pe/wp-content/uploads/2023/10/Estado-de-Emergencia-en-el-Callao-y-su-impacto.pdf</li>
+  <li>Instituto Nacional de Estadística e Informática. (2024). <i>Estadísticas de seguridad ciudadana: enero–junio 2024</i>. https://www.inei.gob.pe/media/MenuRecursivo/boletines/estadisticas-de-seguridad-ciudadana-enero-junio-2024.pdf</li>
+  <li>Instituto Nacional de Estadística e Informática. (2025). <i>Estadísticas de seguridad ciudadana: dic. 2024–may. 2025</i>. https://www.inei.gob.pe/media/MenuRecursivo/boletines/boletin_seguridad_ciudadana_dic24-may25.pdf</li>
+  <li>Instituto Nacional de Estadística e Informática. (2026a). <i>Evolución de la tasa de homicidios e indicadores de seguridad ciudadana, 2022–2025</i>. https://www.gob.pe/institucion/inei/informes-publicaciones/7648859-evolucion-de-la-tasa-de-homicidios-e-indicadores-de-seguridad-ciudadana-2022-2025</li>
+  <li>Instituto Nacional Penitenciario. (2025). <i>Informe estadístico: diciembre 2025</i>. https://siep.inpe.gob.pe/Archivos/2025/Informes%20estadisticos/informe_estadistico_diciembre_2025.pdf</li>
+  <li>INTERPOL &amp; United Nations Interregional Crime and Justice Research Institute. (2019). <i>Artificial intelligence and robotics for law enforcement</i>. https://unicri.org/sites/default/files/2025-06/UNICRI%20-%20Artificial%20intelligence%20and%20robotics%20for%20law%20enforcement.pdf</li>
+  <li>Kochel, T. R., O’Guinn, B. J., Nouri, S., &amp; Haberman, C. P. (2026). Impact of hot spots patrol treatment duration… <i>Policing</i>, 20, paaf069. https://doi.org/10.1093/police/paaf069</li>
+  <li>Lee, Y. (2024). The effectiveness of big data-driven predictive policing: Systematic review. <i>Journal of Experimental Criminology</i>. https://doi.org/10.1080/24751979.2024.2371781</li>
+  <li>Lum, C., Koper, C. S., Wilson, D. B., Stoltz, M., &amp; Goodier, M. (2020). Body-worn cameras’ effects… <i>Campbell Systematic Reviews</i>, 16(3), e1112. https://doi.org/10.1002/cl2.1112</li>
+  <li>National Academies of Sciences, Engineering, and Medicine. (2024). <i>Law enforcement use of predictive policing approaches</i>. https://doi.org/10.17226/28037</li>
+  <li>OCDE. (2025). <i>AI in law enforcement and disaster risk management</i>. https://www.oecd.org/en/publications/2025/06/governing-with-artificial-intelligence_398fa287/full-report/ai-in-law-enforcement-and-disaster-risk-management_99fc1804.html</li>
+  <li>Piza, E. L., Welsh, B. C., Farrington, D. P., &amp; Thomas, A. L. (2019). CCTV surveillance for crime prevention… <i>Criminology &amp; Public Policy</i>, 18(1), 135–159. https://doi.org/10.1111/1745-9133.12419</li>
+  <li>Ratcliffe, J. H., Taylor, R. B., Askey, A. P., et al. (2021). The Philadelphia predictive policing experiment. <i>Journal of Experimental Criminology</i>, 17, 15–41. https://doi.org/10.1007/s11292-019-09400-2</li>
+  <li>Tyler, T. R. (2015). <i>Procedural justice, legitimacy, and effective law enforcement</i>. Yale Law School. https://law.yale.edu/sites/default/files/area/center/justice/document/5697d9ee08aea2d74375cb87.pdf</li>
+  <li>United Nations Office on Drugs and Crime. (2023). <i>Global study on homicide 2023</i>. https://www.unodc.org/documents/data-and-analysis/gsh/2023/Global_study_on_homicide_2023_web.pdf</li>
+  <li>United Nations Office on Drugs and Crime. (2024). <i>United Nations Convention against Cybercrime</i>. https://www.unodc.org/unodc/en/cybercrime/convention/home.html</li>
+  <li>Welsh, B. C., &amp; Farrington, D. P. (2008). Effects of closed circuit television surveillance on crime. <i>Campbell Systematic Reviews</i>, 4(1), 1–62. https://doi.org/10.4073/csr.2008.17</li>
+  <li>Abizanda, B., Serra Hoffman, J., Marmolejo, L., &amp; Duryea, S. (2012). <i>Citizen security: Conceptual framework and empirical evidence</i>. Inter-American Development Bank. https://publications.iadb.org/en/citizen-security-conceptual-framework-and-empirical-evidence</li>
+  <li>Becker, G. S. (1968). Crime and punishment: An economic approach. <i>Journal of Political Economy</i>, 76(2), 169–217. https://doi.org/10.1086/259394</li>
+  <li>Braga, A. A., Weisburd, D. L., &amp; Turchan, B. (2019). Focused deterrence strategies and crime control: An updated systematic review and meta-analysis. <i>Criminology &amp; Public Policy</i>, 18(1), 205–250. https://doi.org/10.1111/1745-9133.12431</li>
+  <li>Brayne, S. (2017). Big data surveillance: The case of policing. <i>American Sociological Review</i>, 82(5), 977–1008. https://doi.org/10.1177/0003122417725865</li>
+  <li>Degli Esposti, M., Dantas, C., &amp; Andresen, M. A. (2023). Effects of the Pelotas (Brazil) Peace Pact on violence and crime: A synthetic control evaluation. <i>The Lancet Regional Health – Americas</i>, 18, 100413. https://doi.org/10.1016/j.lana.2023.100413</li>
+  <li>Doucette, M. L., Buggs, S. A., Braga, A. A., &amp; Hyder, A. A. (2021). Impact of ShotSpotter technology on firearm homicides and arrests among large metropolitan counties: A longitudinal analysis (1999–2016). <i>Journal of Urban Health</i>, 98(4), 497–506. https://doi.org/10.1007/s11524-021-00515-y</li>
+  <li>Mohler, G. O., Short, M. B., Malinowski, S., Johnson, M., Tita, G. E., Bertozzi, A. L., &amp; Brantingham, P. J. (2015). Randomized controlled field trials of predictive policing. <i>Journal of the American Statistical Association</i>, 110(512), 1399–1411. https://doi.org/10.1080/01621459.2015.1077710</li>
+  <li>Nagin, D. S., Solow, R. M., &amp; Lum, C. (2015). Deterrence, criminal opportunities, and police. <i>Criminology</i>, 53(1), 74–100. https://doi.org/10.1111/1745-9125.12047</li>
+  <li>Perez-Vincent, S. M., Puebla, D., &amp; Alvarado, N. (2024). <i>Los costos del crimen y la violencia: Ampliación y actualización de las estimaciones para América Latina y el Caribe</i>. Banco Interamericano de Desarrollo. https://doi.org/10.18235/0013238</li>
+  <li>Skogan, W. G. (2006). The promise of community policing. In D. L. Weisburd &amp; A. A. Braga (Eds.), <i>Police innovation: Contrasting perspectives</i> (pp. 27–43). Cambridge University Press.</li>
+  <li>Sunshine, J., &amp; Tyler, T. R. (2003). The role of procedural justice and legitimacy in shaping public support for policing. <i>Law &amp; Society Review</i>, 37(3), 555–589.</li>
+  <li>Weisburd, D., Telep, C. W., Hinkle, J. C., &amp; Eck, J. E. (2010). Is problem-oriented policing effective in reducing crime and disorder? <i>Criminology &amp; Public Policy</i>, 9(1), 139–172. https://doi.org/10.1111/j.1745-9133.2010.00617.x</li>
+  <li>Welsh, B. C., &amp; Farrington, D. P. (2009). Public area CCTV and crime prevention: An updated systematic review and meta-analysis. <i>Justice Quarterly</i>, 26(4), 716–745. https://doi.org/10.1080/07418820802506206</li>
+  <li>Presidencia del Consejo de Ministros. (2026). <i>Decreto Supremo N.° 001-2026-IN que aprueba el Plan Nacional de Seguridad Ciudadana y Lucha contra la Criminalidad 2026-2028</i>. Diario Oficial El Peruano. https://busquedas.elperuano.pe/dispositivo/NL/2493627-1</li>
+</ol>
+</div>
+</div>
+</div>
+:::
+
+<script src="scripts/indicadores.js"></script>

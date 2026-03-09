@@ -1,0 +1,1022 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Consejo Nacional de Ciencia, Tecnología e Innovación Tecnológica – CONCYTEC
+Dirección de Investigación y Estudios (DIE)
+
+Área usuaria: Dirección de Investigación y Estudios (DIE)
+Actividad POI: RO.CO.IE.03 – Elaboración de estudios de prospectiva y vigilancia tecnológica
+Orden de Servicio N.° 0000081
+N.° Exp. SIAF: 0000000117
+CCP N.° 101-2026-CONCYTEC
+Proceso: CM-12-2026-CONCYTEC
+
+Denominación de la contratación:
+Servicio de Consolidación y Sistematización de Información:
+“Servicio de identificación de prioridades en Ciencia, Tecnología e Innovación (CTI) para la prevención y el control de la criminalidad violenta en el Perú”
+
+Documento: Entregable 1
+
+Presentado por: Noam López Villanes
+
+Fecha: 27 de febrero de 2026
+Lima – Perú
+
+
+Tabla de contenido
+I.	Introducción	4
+II.	Diagnóstico de la producción en ciencia, tecnología e innovación en la prevención y control del delito	5
+2.1	Panorama internacional	5
+2.2	Panorama nacional	6
+2.3	Tipología de intervenciones tecnológicas en policiamiento	7
+2.4	Estado del conocimiento en ciencias sociales sobre criminalidad violenta	9
+2.4.1	Estado de conocimiento de las ciencias sociales en Perú	11
+2.5	Evaluaciones de impacto existentes	14
+2.5.1	Evaluaciones de impacto en Perú	15
+2.6	Tendencias emergentes	16
+2.7	Vacíos críticos de conocimiento	17
+III.	Marco conceptual y de consistencia analítica para las prioridades de ciencia, tecnología e innovación en la prevención y control del delito	23
+3.1	Reformulación analítica del problema público	23
+3.2	Análisis causal	24
+3.3	La CTI como instrumento de la política pública en seguridad	27
+3.3.1	Innovación tecnológica para la prevención e investigación del delito	27
+3.3.2	La investigación en ciencias sociales para el diseño, implementación y evaluación de políticas en seguridad	28
+3.4	Articulación entre líneas CTI priorizadas, tecnológicas y de investigación social, con causas directas del PNSC 2026 - 2028	29
+3.4.1	Línea 1 – Prevención del delito	30
+3.4.2	Línea 2 – Investigación e inteligencia policial	31
+3.4.3	Línea 3 – Investigación en ciencias sociales	34
+3.5	Criterios técnicos de priorización para convocatorias	36
+3.6	Tablas de consistencia de las prioridades de CTI para prevenir y controlar el delito según el PNSC 2026 – 2028	39
+3.6.1	Tabla de consistencia de las Líneas 1 y 2: prevención del delito e investigación e inteligencia	39
+3.6.2	Tabla de consistencia de la Línea 3: investigación en ciencias sociales (básica y aplicada)	41
+IV.	Referencias	43
+
+
+	•	Introducción
+El presente documento constituye el primer entregable de la consultoría denominada “Servicio de identificación de prioridades en Ciencia, Tecnología e Innovación (CTI) para la prevención y el control de la criminalidad violenta en el Perú”, desarrollada en el marco del Servicio de Consolidación y Sistematización de Información para la Dirección de Investigación y Estudios (DIE) del Consejo Nacional de Ciencia, Tecnología e Innovación Tecnológica – CONCYTEC. Esta consultoría responde a la urgencia de fortalecer la capacidad del Estado peruano para enfrentar la criminalidad violenta, particularmente en sus manifestaciones más críticas, mediante el desarrollo estratégico de ciencia, tecnología e innovación. La creciente incidencia de delitos como la extorsión y el homicidio, así como su impacto económico y social, exige no solo respuestas operativas inmediatas, sino también una base sólida de conocimiento científico y desarrollo tecnológico orientado a resultados. En este contexto, el documento busca contribuir a la definición de lineamientos técnicos que permitan orientar futuras inversiones públicas en CTI con criterios de evidencia, coherencia de política pública y sostenibilidad.
+La necesidad que sustenta esta consultoría parte del reconocimiento de que el delito violento no solo genera pérdidas económicas significativas y deterioro de la confianza institucional, sino que también profundiza desigualdades territoriales y debilita la gobernanza democrática (FMI, 2024). Frente a ello, resulta indispensable promover un ecosistema de investigación aplicada, desarrollo tecnológico e innovación pública que fortalezca tanto la prevención como el control del delito. En este marco, el rol del CONCYTEC adquiere especial relevancia como ente articulador del sistema nacional de CTI, llamado a promover proyectos estratégicos que respondan a problemas públicos prioritarios con rigor técnico y enfoque multidisciplinario.
+El documento se estructura en dos grandes componentes. El primero presenta un diagnóstico exhaustivo del estado actual del uso de la ciencia, tecnología e innovación y de la producción científica en ciencias sociales aplicadas a la criminalidad violenta, tanto a nivel nacional como internacional, para la última década. Este diagnóstico identifica tendencias, experiencias comparadas, niveles de evidencia, brechas de conocimiento y oportunidades estratégicas, constituyendo la base empírica sobre la cual se sustentan las prioridades propuestas. El segundo componente desarrolla un marco conceptual y de consistencia analítica que organiza los hallazgos del diagnóstico en función del problema central de política pública en seguridad ciudadana y sus causas estructurales. Este marco establece los mecanismos causales que vinculan las debilidades institucionales con la persistencia de la violencia, y justifica el uso de instrumentos de CTI como herramientas legítimas y potencialmente eficaces para intervenir sobre dichas causas (OCDE, 2022). Asimismo, define criterios técnicos de priorización que podrán orientar el diseño de futuras convocatorias de financiamiento en investigación aplicada y desarrollo tecnológico en materia de seguridad.
+De esta manera, el Entregable 1 debe de leerse como un documento que sistematiza información y conocimiento existente sobre la materia y propone una arquitectura analítica que permite traducir evidencia científica y tecnológica en decisiones estratégicas de política pública.
+	•	Diagnóstico de la producción en ciencia, tecnología e innovación en la prevención y control del delito
+	•	Panorama internacional
+En el ámbito mundial, la criminalidad violenta organizada (especialmente homicidios, extorsión y tráficos ilegales) ha alcanzado niveles alarmantes. América Latina, con el 8% de la población mundial, concentra un tercio de los homicidios globales. La tasa de homicidios regional triplica el promedio mundial (18 frente al 5.6 por 100,000 habitantes), y aproximadamente la mitad de estos homicidios se vincula directamente al crimen organizado, frente al 24% global (BID, 2024; FMI, 2024). Estas cifras dan cuenta de un fenómeno estructural vinculado a pobreza, desigualdad, debilidad institucional y expansión de grupos delictivos transnacionales. Los estudios destacan además la diversificación de negocios ilícitos: además de los clásicos narcóticos, los grupos delictivos incursionan en la explotación minera y forestal ilegal, tráfico de armas, tráfico de personas y ciberdelincuencia, generalmente con complicidades estatales o corrupción (UNODC, 2023). En este contexto de violencia generalizada la comunidad internacional ha buscado soluciones basadas en ciencia y tecnología (CTI) integradas con políticas públicas.
+En materia de CTI, se observan tendencias globales hacia la adopción de big data, inteligencia artificial (IA) y analítica predictiva en seguridad. Una revisión de literatura reciente resalta el uso creciente de herramientas como reconocimiento facial, sistemas de videovigilancia inteligente, análisis de redes delictivas y minería de datos para anticipar patrones de crimen (INTERPOL & UNICRI, 2019). Por ejemplo, contranálisis automáticos basados en algoritmos de redes neuronales han logrado identificar vínculos ocultos en redes de crimen organizado con alta precisión. De manera similar, sistemas de “policiamiento predictivo” basados en modelos estadísticos se han probado en diversos países avanzados, aunque los estudios de impacto riguroso han encontrado resultados mixtos (Contreras-Velasco et al., 2025). Un taller de la Academia Nacional de Ciencias de EE. UU. resume que los pocos ensayos controlados con asignación aleatoria disponibles mostraron “ninguna”, “limitada” o “moderada” efectividad de las herramientas predictivas si no se acompañan de intervenciones adaptadas. En efecto, Lee (2024) clasificaron 161 estudios de policiamiento predictivo y concluyeron que sólo 6 empleaban diseños experimentales robustos, con resultados modestos. En general, las agencias policiales en Estados Unidos y Europa promocionan la IA como mejora operativa, pero existe consenso en que faltan evaluaciones empíricas sobre su impacto real en la reducción de delitos violentos (NASEM, 2024).
+Además del policiamiento predictivo, otras aplicaciones de CTI a escala internacional incluyen el uso de cámaras corporales para agentes, drones de vigilancia, sistemas avanzados de despacho y geolocalización, y bases de datos interoperables entre agencias (INTERPOL & UNICRI, 2019). Sin embargo, la evidencia disponible indica desafíos. Por ejemplo, las cámaras corporales (body-worn cameras) diseñadas para documentar interacciones policiales ofrecen resultados inconsistentes en la reducción de abuso de fuerza o crímenes, según reseñas de revisiones sistemáticas (Lum et al., 2020). En el ámbito penitenciario, tecnologías de seguridad como sistemas biométricos y monitoreo digital han mejorado la vigilancia de reclusos, pero su impacto cuantitativo en la prevención de violencia entre internos está menos documentado (UNICRI, 2024; UNODC, 2025).
+A nivel internacional se observa un creciente interés en innovaciones basadas en datos y tecnologías avanzadas (IA, forense digital, vigilancia inteligente), aunque persisten vacíos de evidencias sobre su efectividad real en contextos de violencia organizada. Las limitaciones incluyen sesgos algorítmicos y éticos (discriminación en algoritmos de predicción) y la falta de estándares regulatorios. Al respecto, organizaciones internacionales (UNODC, OIJ, NIJ, etc.) subrayan la necesidad de implementar marcos de transparencia y marcos éticos junto con la adopción tecnológica.
+	•	Panorama nacional
+En Perú, la violencia organizada ha mostrado variaciones recientes: tras una caída en la tasa de homicidios en los años 2010, se registró un repunte hasta 2022, seguido de una leve disminución en 2023, situándose cerca de 8 homicidios por 100,000 habitantes (el doble que la media global). A la fecha que se redacta este informe, se ha presentado el informe de homicidios elaborado por el INEI el cual presenta que para el 2025 nos encontramos en una tasa de 10.7 por 100,000 habitantes (INEI, 2026). Un análisis revela que más del 74% de los homicidios peruanos está relacionado con extorsión y sicariato; es decir, sicarios asociados a redes criminales que actúan mayoritariamente con armas de fuego (Observatorio del Crimen y la Violencia, 2026). Por ejemplo, en 2025 se reportaron 1,826 homicidios, de los cuales 1 357 fueron con arma de fuego y vinculados en su gran mayoría a sicarios de extorsionadores. Se subraya que restringir el acceso a armas de fuego y aplicar tecnología adecuada para la identificación forense de culpables son vías claras para reducir estos homicidios. Además de homicidios, la extorsión a negocios (especialmente transporte y minería artesanal) ha sido señalada como fuente importante de ingresos ilícitos, aunque hay poca investigación académica sobre su prevalencia exacta.
+En el plano de CTI aplicada, el Estado peruano ha impulsado algunas iniciativas tecnológicas en fuerzas del orden. Por ejemplo, en 2023 el gobierno regional de La Libertad adquirió 40 “patrulleros inteligentes” equipados con video grabadores móviles, radios TETRA y cámaras testigo para documentar detenciones (Gobierno Regional La Libertad, 2023). Estas herramientas buscan mejorar la transparencia policial y la recolección de evidencia visual en patrullajes. Sin embargo, hasta la fecha no se dispone de estudios formales que evalúen su impacto en la reducción de la criminalidad. A nivel nacional, se han implementado sistemas de reporte digital de incidentes (plataformas web ciudadanas y aplicaciones móviles de denuncia) que facilitan la detección de focos delictivos en tiempo real. 
+Otro desafío nacional ha sido la legitimidad institucional y la confianza en la PNP. Encuestas recientes muestran que para el año 2025 solo el 14.2% de peruanos confiaba en la Policía Nacional, el nivel más bajo en una década (INEI, 2025). Este colapso de confianza se explica en parte por casos recientes de corrupción policial, violencia policial en protestas, feminicidios con participación de agentes, robos con complicidad interna, y desplazamiento de agentes a bandas criminales (Seclén, 2025). La proliferación de dichos casos ha erosionado la imagen policial, lo cual incide negativamente en la cooperación ciudadana necesaria para cualquier iniciativa CTI (reportes comunitarios, uso de apps de seguridad) (Corbacho et al., 2015). En este sentido, la investigación nacional en ciencias sociales resalta que la falta de confianza en el sistema penal y las carencias institucionales incentivan prácticas de “justicia por mano propia” (como los linchamientos). Estudios han documentado que los linchamientos se explican por el “vacío de justicia”: procesos judiciales lentos, carencias policiales y discursos maniqueos entre vecinos y autoridades. Estos fenómenos de autodeterminación reflejan profundas motivaciones sociales y son síntomas de brechas de gobernanza del orden público (Lossio Chávez, 2008).
+El Estado peruano enfrenta retos en interoperabilidad: los sistemas de información policial, fiscal y judicial suelen operar con bases de datos segmentadas, limitando la analítica conjunta. Aunque ha habido intentos de vincular bases de datos (alimentar y compartir registros criminales), aún se carece de una fuente de información oficial que se alimente de otras y que permita realizar seguimiento a los casos. En 2024 se avanzó en enlaces de comunicación digital que busca mejorar la coordinación policial en emergencias (MTC, 2026). No obstante, la evidencia sobre mejoras reales en respuesta o prevención delictiva tras estas innovaciones es hasta ahora anecdótica. En el ámbito penitenciario, si bien se han instalado sistemas de telepresencia y vigilancia electrónica (cámaras, biometría para ingreso), aún por medios periodísticos se conoce de fugas y uso de equipos móviles en centros penitenciarios. En este ámbito tampoco hay evaluaciones públicas sobre la eficacia del uso de tecnologías.
+Se reconoce que a nivel nacional peruano la adopción de CTI en seguridad ha sido selectiva y emergente. Se han desplegado algunos esfuerzos de tecnificación (patrulleros equipados en los serenazgos, plataformas digitales, interoperabilidad inicial), pero faltan mediciones rigurosas de resultados. El contexto de alta criminalidad (extorsión con homicidios) y baja confianza ciudadana resalta la necesidad de combinar estas herramientas con reformas institucionales. Las investigaciones peruanas apuntan a la importancia de reforzar la capacidad estatal y los marcos regulatorios paralelamente a la introducción tecnológica.
+	•	Tipología de intervenciones tecnológicas en policiamiento
+A continuación, se presenta una clasificación de las principales intervenciones basadas en CTI utilizadas internacionalmente y en algunos casos en Perú para garantizar la prevención e investigación del crimen violento.
+
+Tecnología
+Descripción
+Análisis predictivo y aprendizaje automático
+Incluye modelos de hotspots y algoritmos de predicción espacial y temporal. Internacionalmente, programas como PredPol (EE. UU.) han sido probados en varias ciudades, con evidencia mixta sobre su efectividad (Mohler et al., 2015) (NIJ, 2018; Saunders et al., 2015). En Perú no existen programas publicados de patrullaje predictivo; si bien existe una herramienta denominada SIPCOP, hasta la fecha no hay evaluaciones formales de impacto MININTER, 2017).
+Inteligencia artificial en video/vigilancia
+Sistemas de reconocimiento facial, análisis automatizado de imágenes y cámaras inteligentes para detección de comportamientos sospechosos (INTERPOL & UNICRI, 2019). En Brasil, China y países europeos se han desplegado redes CCTV con análisis en tiempo real, aunque la literatura señala que la eficacia preventiva directa es incierta. En Perú se utiliza reconocimiento facial en aeropuertos y algunos centros urbanos, pero sin reportes sistemáticos de su impacto (Superintendencia Nacional de Migraciones, 2024a, 2024b).
+Sensores biométricos y dispositivos móviles
+Dispositivos portátiles para identificación (iris, huellas) y smartphones con aplicaciones de reporte ciudadano. Un piloto en Honduras mostró que el mapeo móvil en tiempo real agiliza la localización de delitos (IDB, 2010). En Perú no existen estudios publicados que evalúen el efecto de estas tecnologías en desempeño operativo o reducción del delito.
+Equipos de patrullaje tecnológico
+Vehículos equipados con cámaras 360°, grabadores móviles y comunicaciones seguras. En EE. UU., los MDT (Mobile Data Terminals) en autos policiales han mejorado la gestión de información; sin embargo, no hay evidencia robusta que vincule estos equipos con reducción directa de violencia (Meehan, 1998; INTERPOL & UNICRI, 2019).
+Forense digital y ciberinvestigación
+Laboratorios con herramientas para interceptación legal de comunicaciones y recuperación/análisis de datos digitales. En países con mayor desarrollo policial (unidades de forense digital del FBI) estas capacidades aceleran el esclarecimiento de delitos (UNODC, 2011). En Perú, la implementación de estas herramientas se utiliza en el marco de la inteligencia o investigación policial para delitos de crimen organizado. Sin embargo, como en los otros casos, no se cuenta con evaluaciones públicas sobre su contribución efectiva a la investigación criminal.
+Inteligencia financiera y lavado de activos
+Uso de big data y algoritmos para detectar flujos financieros ilícitos. En Perú existen sistemas y plataformas de la UIF para reportes financieros. La evidencia muestra avances en congelamiento de activos, pero la desarticulación estructural de redes criminales sigue limitada por capacidades humanas y cooperación transnacional.
+Interoperabilidad institucional
+Plataformas integradas que conectan policía, fiscalía y jueces en tiempo real (como el modelo de “ventanilla única”). Existen sistemas de intercambio de información como el Schengen Information System. En Perú existen registros centralizados y relaciones con la PIDE (Presidencia del Consejo de Ministros, 2025), pero aún falta una arquitectura nacional sólida que permita interoperabilidad plena y alertas en tiempo real entre instituciones del sistema de justicia (Defensoría del Pueblo, 2020).
+
+Cada intervención presenta distintos niveles de evidencias documentadas. Los meta-análisis internacionales concluyen que las tecnologías sin acompañamiento institucional (capacitaciones, protocolos claros) rara vez logran cambios drásticos por sí solas. Por ejemplo, los estudios de predicción resaltan la necesidad de combinar la predicción con estrategias de despliegue apropiadas. De forma similar, la biotecnología (reconocimiento facial o el uso de muestras de ADN) requiere bases de datos nacionales robustas para ser efectiva, lo cual en la práctica ha enfrentado desafíos de cobertura y privacidad. Para la habilitación de nuevas tecnologías se requiere además de marcos legales, como el que permita la creación de un banco de datos genético para fines criminalísticos que robustezcan la investigación criminal, el cual se encuentra en curso en el Congreso de la República (Congreso de la República, 2025a, 2025b). En suma, las intervenciones tecnológicas en prevención e investigación deben verse como herramientas dentro de una estrategia más amplia de política criminal, y su éxito depende de la capacitación, gobernanza de datos y aceptación social.
+	•	Estado del conocimiento en ciencias sociales sobre criminalidad violenta
+La investigación en ciencias sociales en el período en la última década ha abordado diversos aspectos del crimen violento. En temas estructurales y organizativos, se destaca que la violencia América Latina obedece a múltiples factores: pobreza, desigualdad, y debilidad institucional en el control territorial. Estudios comparados señalan que las transiciones democráticas recientes dejaron legados institucionales débiles, facilitando la expansión de grupos criminales en la región (Soares & Naritomi, 2010; Fondo Monetario Internacional [FMI], 2024). Los estudios de la seguridad internacional apuntan que el crimen organizado se ha fragmentado en pequeños grupos hipercompetitivos que recurren a la violencia como “divisa” para dirimir disputas y enviar mensajes (Durán-Martínez, 2015; Lessing, 2018). En Perú, se reconoce que bandas dedicadas a la extorsión (principalmente contra pequeños y micro empresarios) operan redes locales muy activas, aunque la literatura local sobre su estructura interna es escasa.
+Los mercados criminales han sido objeto de creciente análisis. A escala global y regional, se documentan las sinergias entre mercados (drogas, minería ilegal, tráfico de migrantes) y la forma en que cada uno alimenta la violencia organizada (United Nations Office on Drugs and Crime [UNODC], 2024a, 2025a, 2025b). Por ejemplo, el incremento histórico de la producción de cocaína en Colombia y Perú ha sido ligado a oleadas de violencia territorial entre organizaciones rivales. En el ámbito nacional, informes técnicos del Perú concluyen que una fracción sustantiva de la violencia homicida está asociado a mercados ilícitos (INEI, 2026a; Observatorio del Crimen y la Violencia, 2026). No obstante, faltan estudios empíricos rigurosos sobre dinámicas de mercado específicas en Perú (flujos de armas cortas, circuitos de extorsión).
+Respecto a la evaluación de intervenciones policiales, la literatura muestra un avance en experimentos controlados. En el plano internacional, abundan meta-análisis sobre estrategias clásicas. Por ejemplo, estudios de patrullaje focalizado (“hot spots”) han demostrado reducciones significativas en delitos menores y desorden cuando se aplican patrullajes breves e intensos (Braga et al., 2012). En la región, programas comunitarios de policías vecinales han sido evaluados con resultados mixtos (reducción en robos, pero sin impacto en homicidios) (Degli Esposti et al., 2023). Otra área es la reforma policial: estudios comparados de entrenamiento y profesionalización subrayan que mejoras en profesionalismo y transparencia (rendición de cuentas) mejoran la percepción de legitimidad, aunque no siempre resultan en menores crímenes a corto plazo (Sunshine & Tyler, 2003; Tyler, 2015).
+Sobre políticas penales y penitenciarias, el debate internacional ha enfatizado costos, efectividad y alternativas al encarcelamiento, incluido el monitoreo electrónico. En Perú, la evidencia oficial del INPE muestra un hacinamiento penitenciario severo: en diciembre de 2025, el propio Instituto reporta una diferencia de 61,993 personas entre capacidad de albergue y población intramuros, equivalente a 148% de la capacidad, lo que sugiere sobrepoblación crítica (INPE, 2025). En cuanto a alternativas, revisiones sistemáticas sobre monitoreo electrónico encuentran resultados que dependen del diseño y contexto, con evidencia de efectos en reincidencia en ciertos entornos, aunque la transferibilidad a crimen organizado y violencia letal es más incierta (Belur et al., 2020). Para el caso peruano, el uso de tecnologías penitenciarias (CCTV, biometría, vigilancia) es mencionado en reportes institucionales, pero no se identificaron evaluaciones públicas rigurosas que midan su impacto causal sobre violencia intramuros o reincidencia (INPE, 2025).
+En el ámbito de confianza institucional y percepción ciudadana, diversas fuentes sitúan a Perú entre países con niveles bajos de confianza en la policía; por ejemplo, la Política Nacional Multisectorial de Seguridad Ciudadana al 2030 ya advertía niveles de confianza muy bajos (menores al 15%) en la policía en diagnósticos previos (Ministerio del Interior, 2021). Reportes de prensa con base en datos oficiales también han señalado niveles mínimos recientes (14.2% en 2025) (Seclén, 2025). La literatura comparada sostiene que la confianza/legitimidad institucional influye en cooperación ciudadana y disposición a acatar normas, con implicancias para estrategias de seguridad (Corbacho et al., 2015; Tyler, 2015). En Perú, además, estudios cualitativos han documentado que la desconfianza y el “vacío de justicia” pueden alentar prácticas de justicia por mano propia (Lossio Chávez, 2008).
+En gobernanza de la seguridad, literatura comparada sobre “gobernanza criminal” y competencia entre actores armados subraya que capacidades estatales débiles o selectivas facilitan arreglos de autoridad paralela y control territorial informal en ciertos espacios, con efectos sobre vida política local y seguridad cotidiana (Durán-Martínez, 2015; Lessing, 2018). En territorios con economías ilícitas (cocaína, minería ilegal, crimen forestal), reportes internacionales han documentado convergencias entre actividades ilegales, corrupción y violencia, con impactos sobre comunidades y gobernanza (UNODC, 2024a, 2025a, 2025b; UNODC & DEVIDA, 2024).
+Finalmente, en cuanto a metodología de la literatura social, podemos distinguir hasta cuatro tipos de estudios.
+Tipo de estudio
+Características
+Estudios descriptivos
+Informes institucionales (INEI, de ministerios) y registros administrativos que presentan estadísticas de homicidios y delincuencia, identificando patrones y asociaciones con variables como pobreza o urbanización. Predomina el análisis correlacional, sin profundizar en mecanismos causales ni dinámicas institucionales subyacentes.
+Estudios explicativos
+Investigaciones en revistas de ciencias sociales que buscan identificar mecanismos causales de la violencia. Incluyen análisis de cohortes criminales, estudios longitudinales y encuestas de victimización vinculadas con variables económicas y políticas. Por ejemplo, Malamud y Núñez (2024) sostienen que el estancamiento económico y el fortalecimiento del crimen organizado erosionan la confianza ciudadana y pueden contribuir a crisis democráticas.
+Estudios evaluativos
+Son escasos en América Latina. Se concentran en programas específicos de prevención (por ejemplo, intervenciones juveniles financiadas por el BID evaluadas mediante diseños experimentales o cuasi-experimentales). En el ámbito policial, los estudios evaluativos independientes suelen comparar enfoques de “mano dura” frente a modelos de policía comunitaria, con resultados heterogéneos y frecuentemente controvertidos. En el caso peruano se cuenta un estudio sobre el uso continuo de los estados de emergencia.
+Estudios comparados
+Análisis que contrastan políticas de seguridad entre países o gobiernos subnacionales para identificar lecciones transferibles. Ejemplos incluyen comparaciones entre modelos policiales como el uso del policiamiento comunitario, los procesos de reforma policial o del sistema de justicia, evaluando qué modelos muestran mejores resultados bajo condiciones institucionales similares.
+ 
+	•	Estado de conocimiento de las ciencias sociales en Perú
+La literatura peruana sobre el tema hasta el 2020 la prestó atención al uso de las encuestas de victimización y percepción, así como a la descripción de algunos fenómenos criminales. En tal sentido, sobre la victimización en el país se ha explorado tanto sus determinantes como los factores asociados a la denuncia. Hernández (2017) analiza factores individuales y distritales asociados a la victimización en Lima haciendo uso de la Encuesta Nacional de Programas Presupuestales y concluye que la ciudad no puede ser tratada como un espacio homogéneo. Mediante análisis de clusters, clasifica los distritos en tres grupos (protección latente, protección limitada y desprotección abierta) según capital social, percepción de inseguridad, desorden social y recursos policiales. En esa misma línea, Armas y Herrera (2018) estudian el robo a hogares y el maltrato intrafamiliar, hallando correlación espacial en su incidencia. En el caso del robo a hogares, las variables más relevantes se vinculan con la capacidad del hogar (número de miembros, vigilancia policial, frecuencia de ausencia del jefe del hogar), sin evidenciar interacción significativa con variables de desorganización social.
+En cuanto a homicidios, considerados un indicador clave de seguridad por su comparabilidad internacional (UNODC, 2015), la producción académica nacional es limitada. Reportes del Consejo Nacional de Política Criminal (2018) e INDAGA (2017b) evidencian alta concentración geográfica (50% en 15 distritos) y crecimiento en ciudades intermedias, pero no existen estudios sistemáticos sobre sus determinantes individuales o estructurales. El sicariato fue analizado también por INDAGA (2017a), que identifica trayectorias delictivas aceleradas, entornos familiares complejos y vínculos con crimen organizado.
+Sobre criminalidad organizada, destacan estudios cualitativos en la costa norte. Bonilla (2019) documenta relaciones de convivencia entre actores legales e ilegales en Florencia de Mora (Trujillo). Hernández y Corcuera (2020) analizan reglas informales de bandas de extorsión, identificando lógicas de tutelaje y castigo orientadas a la preservación del negocio. En trata de personas, INDAGA (2017c) identifica perfiles penitenciarios con alta presencia femenina (40%), vínculos con pobreza y trabajo informal. Ruiz (2018) evidencia deficiencias en la implementación del Plan Nacional en Madre de Dios. Dammert et al. (2020) destacan dinámicas fronterizas que facilitan captación y traslado de víctimas. Vergaray (2016) y Tuesta (2018) documentan problemas de coordinación y selectividad penal en la investigación y judicialización. Desde un enfoque cuantitativo, Yupari-Azabache et al. (2020) encuentran que factores socioeconómicos (actividad independiente, mayor educación, productividad) aumentan la probabilidad de victimización por extorsión y señalan infiltración de actores del sistema de justicia. Vizcarra et al. (2020) critican la fragmentación de la política estatal contra el crimen organizado, mientras que Jares Reyme (2017) muestra limitaciones de la geolocalización por falta de cooperación de empresas de telecomunicaciones. En mercados ilícitos, Pimentel (2019) y Meza (2018) describen redes relativamente articuladas en celulares y vehículos robados, con participación de actores formales e informales. En la triple frontera, Malamud (2018) y López y Tuesta (2015) subrayan la limitada capacidad estatal frente a economías ilícitas. Estudios sobre contrabando y falsificación (Sarango, 2016; Bernaola, 2016) muestran descoordinación institucional.
+En desempeño policial y formación, Azpilcueta (2016) y Musayón (2019) señalan deficiencias en gestión de personal. De la Jara y Bazán (2019) y Ramírez (2019) evidencian incoherencias en la formación policial. El Observatorio Nacional de Seguridad Ciudadana (2019) muestra que la inversión subnacional prioriza infraestructura, equipamiento y videovigilancia. Evaluaciones de patrullaje y videovigilancia (Valladares, 2018; Torrejón, 2016; Rivas Sucuple, 2019; Samame Sánchez, 2017) encuentran efectos limitados por problemas de coordinación y capacidad. Caballero (2016) identifica falencias logísticas y formativas en el Grupo Terna, mientras que Barreto (2016) evidencia falta de estandarización en intervenciones por conducción en estado de ebriedad.
+En percepción de inseguridad, la medición basada en expectativa futura ha sido cuestionada por VICLAC–UNODC, proponiéndose medir miedo situacional nocturno. La diferencia entre ambas medidas alcanza aproximadamente 30%, evidenciando sensibilidad al instrumento. Kanashiro, Dammert y Hernández (2018) muestran que la estructura de riesgo es similar por género, aunque con diferencias cualitativas; además, mayor número de comisarías se asocia inversamente con percepción de inseguridad. Hernández, Dammert y Kanashiro (2020) identifican que la victimización contra el cuerpo es el predictor más fuerte del miedo, incluso más que la victimización con arma, y encuentran un efecto de clase asociado a mayor percepción de inseguridad en personas de mayores recursos.
+En los últimos cinco años, la literatura peruana en ciencias sociales sobre criminalidad ha tendido a ordenarse alrededor de documentos institucionales, libros de divulgsación, balances sistemáticos y agendas de investigación que buscan cerrar la brecha entre producción académica y decisiones públicas. Un punto de reflexión es el balance y agenda elaborado para el CIES, que sistematiza la investigación 2016–2021 y propone prioridades 2021–2026, explicitando subcampos (victimización, actores delictivos, crimen organizado, mercados ilícitos, actuación policial, medios, evaluación de intervenciones y vínculos socioeconómicos) y, sobre todo, mapeando qué se ha estudiado, con qué métodos y dónde están los vacíos para investigación aplicada. Este documento es relevante porque reubica el debate: menos “diagnóstico genérico” y más identificación de mecanismos, intervenciones evaluables y fuentes de datos que permitan acumulación de evidencia (CIES, 2022). 
+En paralelo, se ha fortalecido una línea que discute la criminalidad desde la infraestructura estadística (encuestas, registros, indicadores) y sus implicancias para el diseño de políticas. Los boletines del INEI sobre seguridad ciudadana (basados en ENAPRES/ENAPRES-PP) siguen siendo el insumo recurrente para el análisis público, con definiciones operativas sobre victimización y percepción, diseño muestral y niveles de inferencia. Sin embargo, en el debate académico-peruano reciente se ha vuelto más visible la advertencia de que la política puede quedar capturada por indicadores que sobrerrepresentan delitos patrimoniales y subregistran fenómenos más complejos (por ejemplo, extorsión en circuitos comerciales o redes organizadas), lo que empuja respuestas desalineadas respecto de la transformación del crimen. 
+Una tercera vertiente, bastante actual, se concentra en la evaluación de respuestas extraordinarias del Estado —en particular los estados de emergencia— mediante estrategias de identificación cuantitativas y triangulación cualitativa. El estudio de Hernández, Cozzubo y Román (2024) sobre los estados de emergencia en el Callao (con ENAPRES como fuente central para variables de seguridad ciudadana) reporta efectos puntuales, pero subraya límites estructurales: desplazamiento de recursos policiales, sostenibilidad temporal de resultados y dificultad para alterar condiciones que originan y reproducen delincuencia; además, incorpora impactos colaterales sobre bienestar y violencia de pareja, ampliando la noción de “efectividad” de una política de seguridad más allá de la reducción inmediata de victimización. 
+En el campo de criminalidad organizada, la producción peruana reciente combina diagnósticos institucionales con lecturas de gobernanza (corrupción, debilidad estatal, economías ilegales) y análisis de expansión territorial. Parte de esta literatura aparece en revistas y espacios vinculados a formación y estudios de seguridad y policía, con un énfasis en causalidad macro (crisis económica, corrupción, debilidad institucional) y en impactos multisectoriales (economía, salud, reputación internacional), lo cual refleja el esfuerzo por conectar crimen organizado con variables de Estado y desarrollo —aunque con heterogeneidad metodológica y desafíos de comparabilidad entre casos y territorios (Silvestre, Guivar y Morales, 2025). 
+Otra línea con crecimiento sostenido es la sociojurídica y de derechos humanos sobre trata de personas, trabajo forzoso y explotación, que se apoya en análisis jurisprudencial y seguimiento de prácticas judiciales como forma de producir evidencia usable para operadores (fiscales, policías, jueces) y para discusión académica. Los boletines del IDEHPUCP (en colaboración con la OIT, entre otras entidades) muestran una agenda muy centrada en cómo los tribunales entienden vulnerabilidad, consentimiento, tipicidad y estándares probatorios; este enfoque ha venido consolidándose como un puente entre ciencia social aplicada, criminología y dogmática penal, con un fuerte anclaje en casos y sentencias peruanas recientes (IDEHPUCP, 2022). 
+Finalmente, el ciclo más reciente incorpora con más fuerza la criminalidad mediada por tecnología, especialmente en torno a extorsión y entornos digitales. Un ejemplo es la literatura que discute extorsión digital potenciada por IA (deepfakes, clonación de voz) desde Perú, con revisiones sistemáticas del marco normativo y propuestas de lineamientos operativos (preservación temprana de evidencia, estándares periciales, deberes de plataforma y prevención), señalando que la persecución penal aislada es insuficiente si no se articula con capacidades forenses y mecanismos de respuesta rápida en el ecosistema digital (Palomino, 2025). Esta agenda dialoga con el debate nacional sobre crimen organizado y extorsión que también se observa en documentos de análisis institucional, donde “extorsión” aparece ya como prioridad transversal (legislativa y de política), reforzando la idea de que la literatura social peruana se está reorientando hacia fenómenos violentos y complejos, y no solo hacia el delito oportunista clásico (Congreso de la República, 2025). 
+	•	Evaluaciones de impacto existentes
+Pese a la proliferación de tecnologías puestas en el mercado y políticas que fomentan el uso de nuevas tecnologías, la cantidad de evaluaciones rigurosas de impacto en crimen violento es relativamente limitada. Entre las pocas disponibles se encuentran las siguientes.
+
+Intervención evaluada
+Hallazgos
+Estudios experimentales de patrullaje (Hot Spots policing)
+Ensayos controlados muestran que el patrullaje focalizado puede reducir desorden/llamadas por desorden y ciertos delitos, aunque los efectos sobre violencia armada no son siempre estadísticamente detectables. Por ejemplo, un RCT reciente en Estados Unidos evaluó distintas “duraciones” del tratamiento (2, 4 y 8 semanas) y encontró reducciones significativas en llamadas por desorden en los puntos tratados, pero sin diferencias significativas en “shots-fired calls” y alertas de ShotSpotter frente a controles (Kochel et al., 2026). Este resultado es consistente con revisiones sistemáticas que encuentran evidencia relativamente sólida para reducciones de crimen en hot spots, pero con variación por tipo de delito, dosificación y estrategia de despliegue (Braga et al., 2019). En Perú, no se identificaron evaluaciones experimentales publicadas de patrullaje focalizado en zonas de alta incidencia.
+Ensayos de vigilancia electrónica (CCTV)
+La evidencia internacional indica efectos heterogéneos: meta-análisis y revisiones sistemáticas encuentran, en promedio, reducciones modestas en delitos (particularmente delitos contra la propiedad y vehículos), mientras que los efectos sobre crimen violento suelen ser nulos o menos consistentes, especialmente cuando no existe monitoreo activo o integración con despliegues policiales (Welsh & Farrington, 2002; Piza et al., 2019; Welsh & Farrington, 2008). En Perú, la expansión de videovigilancia en Lima Metropolitana se asocia a reportes de menor robo en espacios específicos, aunque hay pocas publicaciones académicas formales que evalúen su impacto causal (López, 2015).
+Estrategias y heramientas de inteligencia criminal
+A nivel comparado, existen reportes oficiales de operaciones internacionales que culminan en detenciones masivas vinculadas a mercados ilícitos en línea; por ejemplo, Europol reportó 270 arrestos en una operación global contra redes criminales en la dark web (Europol, 2025). Sin embargo, este tipo de resultados operativos no constituye por sí mismo una evaluación de impacto sobre reducción sostenida de violencia, y raramente se acompaña de diseños rigurosos que midan efectos agregados. En Perú, existen reportes operativos sobre desarticulación de bandas, pero no se identificaron estudios que midan con rigor el efecto agregado sobre reducción sostenida del crimen violento.
+Programas orientados a mejorar confianza pública (Policía comunitaria)
+La evidencia internacional sobre legitimidad y justicia procedimental indica que estrategias orientadas al ciudadano pueden mejorar legitimidad, satisfacción y cooperación bajo ciertas condiciones (Sunshine & Tyler, 2003; Tyler, 2015). Las revisiones sistemáticas sobre community-oriented policing encuentran efectos pequeños a moderados en percepciones (confianza, satisfacción y temor) y resultados más mixtos en reducción del delito, con alta dependencia del diseño e implementación (Gill et al., 2014; Skogan, 2006).
+
+Por último, en análisis comparativos, algunos documentos del BID documentan intervenciones donde el policiamiento basado en análisis de crimen y focalización se asocia con reducciones en delitos patrimoniales; por ejemplo, en Uruguay el BID reporta que en áreas con patrullaje PADO hubo 23% menos robos que en áreas sin intervención, según su estrategia país (IDB Invest, 2021). Este tipo de evidencia sugiere que enfoques que combinan focalización operativa y analítica pueden producir mejoras en ciertos delitos, pero no permite generalizar por sí solo que “la represión” erosione confianza y no reduzca crimen a largo plazo sin especificar mecanismos, medidas y estudios de seguimiento (Corbacho et al., 2015; Tyler, 2015).
+
+	•	Evaluaciones de impacto en Perú
+En cuanto a evaluación de impacto en los últimos años podemos decir que la literatura es escasa. Esto principalmente porque han existo pocas evaluaciones de intervenciones o programas vinculados a políticas de seguridad ciudadana. Ninguna de ellas, además, ha sido promovida por el propio Estado. La primera es una evaluación del impacto del nuevo Código Procesal Penal sobre la victimización y la percepción de inseguridad (Hernández, 2019). Mediante métodos cuasi-experimentales se halló que esta reforma procesal penal redujo la victimización aunque el efecto fue decayendo en fuerza con el tiempo, aspecto relacionado a la pérdida de celeridad en los procesos judiciales. Además, algunos delitos fueron más afectados que otros, y entre estos la victimización con arma fue la que tuvo la disminución más fuerte. De su parte, todos los indicadores de percepción de inseguridad cayeron. 
+
+La segunda evaluación es que analizó el impacto del programa más paradigmático de los últimos años en el sector de la seguridad ciudadana, la Estrategia Multisectorial Barrio Seguro (Amaya, Cueto, Cozzubo y Hernández, 2021). A partir del uso de la ENAPRES, los autores exploran la variación temporal y geográfica de Barrio Seguro y evalúan su impacto sobre una cadena de efectos. Los resultados advierten que hay un impacto positivo en indicadores inmediatos (presencia de patrullaje de policía y serenazgo), pero no hallan efecto en términos de confianza en la policía, calificación de la comisaría, percepción de inseguridad ni denuncia. Es más, la victimización aumentó en las zonas de intervención aunque cayeron algunos delitos cometidos con armas. Ambas investigaciones llaman la atención sobre la necesidad de gestionar en forma adecuada las intervenciones, revisar sus teorías de cambio y realizar evaluaciones de procesos que a medio términos de programas de este tipo puedan sugerir ajustes para su mayor efectividad.
+En Perú, la falta de datos públicos sobre estos programas hace difícil valorar su impacto. Por lo tanto, es clave fomentar investigaciones empíricas rigurosas (idealmente RCT o cuasi-experimentos) en las intervenciones tecnológicas emergentes. Hasta ahora, el diagnóstico sugiere que pocas tecnologías han demostrado “pruebas sólidas” de eficacia por sí mismas, y que su mayor valor puede estar en complementar tácticas de seguridad tradicional.
+	•	Tendencias emergentes
+En el último lustro han surgido tendencias notables en el uso (y debate) de tecnologías avanzadas para seguridad y justicia. En primer lugar, la integración de IA generativa y modelos de lenguaje (LLM) en funciones policiales y de justicia empieza a explorarse para tareas como clasificación y síntesis de grandes volúmenes de reportes/denuncias, apoyo a análisis y automatización administrativa. A la vez, se advierten riesgos asociados a alucinaciones/desinformación, sesgos y trazabilidad, por lo que se recomiendan salvaguardas de gobernanza, transparencia y control humano significativo (Europol, 2023; OCDE, 2025). En paralelo, blockchain y criptoactivos se han consolidado como un foco relevante por su vínculo con lavado de activos y financiamiento ilícito transfronterizo, lo que ha incrementado el uso de blockchain analytics por parte de actores públicos y privados para rastreo e identificación de patrones de riesgo (FATF, 2025; World Bank, 2025). La UIF-Perú tiene mandato de análisis financiero y, en línea con tendencias globales según notas de prensa, las FIU y supervisores están fortaleciendo capacidades analíticas para activos virtuales; sin embargo, no se identificaron reportes públicos detallados sobre herramientas algorítmicas específicas. 
+Otra tendencia es el policiamiento predictivo centrado en personas (person-based predictive policing). Además de pronosticar lugares de ocurrencia delictiva (place-based), se exploran enfoques que predicen riesgos de individuos (como potenciales perpetradores o víctimas) utilizando historiales, redes y otros datos; esta línea es particularmente sensible por sus riesgos de perfilamiento indebido, proporcionalidad y derechos fundamentales, por lo que los marcos regulatorios y éticos son centrales (NASEM, 2024). 
+También se observa mayor atención a la ciberdelincuencia y delitos informáticos. Organismos internacionales describen el crecimiento y sofisticación de modalidades como phishing, ransomware, fraude y otras estafas digitales, y destacan el papel de la automatización y la IA en la escala de estos ataques (UNODC, 2025a; World Economic Forum, 2025; INTERPOL, 2024). Estas dinámicas requieren capacidades especializadas: detección temprana basada en machine learning, análisis forense digital avanzado, monitoreo de foros y mercados ilícitos, threat intelligence y coordinación entre CERT/CSIRT, policía y sistema financiero; además, la adopción de la Convención de las Naciones Unidas contra la Ciberdelincuencia refuerza el énfasis en cooperación internacional y evidencia electrónica (UNODC, 2024). 
+Se identifican, entre otras, las siguientes tendencias de investigación y aplicación de CTI en estrategias de seguridad a nivel internacional:
+	•	Modelos agénticos y sistemas de IA cada vez más autónomos para apoyo operativo. El debate público-técnico en organismos y reportes de amenaza destaca la perspectiva de sistemas de IA más capaces y el impacto de la automatización en prácticas criminales y en respuestas estatales; sin embargo, el salto de “prototipos” a despliegues operacionales con evaluación robusta todavía es limitado (Europol, 2025; UNODC, 2025b). 
+	•	Vigilancia no intrusiva (como la detección acústica de disparos) y sensórica. Tecnologías como gunshot detection han sido ampliamente desplegadas en EE. UU., con evidencia mixta respecto a su contribución a homicidios o resultados de justicia; por ejemplo, estudios longitudinales y evaluaciones financiadas por NIJ reportan ausencia de efectos significativos en homicidios en algunos diseños y contextos, aunque puede haber mejoras en detección/registro de incidentes (Doucette et al., 2021; Piza, 2023). 
+	•	Datos abiertos y cómputo en la nube para integrar fuentes. La adopción de analítica y plataformas de datos en el sector público (incluida seguridad) se discute como vía para mejorar escala, oportunidad y coordinación, pero requiere capacidades institucionales y marcos de gobernanza (OCDE, 2025). 
+
+	•	Vacíos críticos de conocimiento
+El diagnóstico ha identificado varios vacíos clave:
+	•	Falta de evidencia empírica de impacto. A pesar del crecimiento de tecnologías disponibles y su adopción por agencias de seguridad, la cantidad de evaluaciones rigurosas de impacto (RCTs, cuasi-experimentos fuertes con buen contrafactual) sobre reducción de crimen violento sigue siendo limitada y altamente dependiente del contexto, con resultados heterogéneos y, en muchos casos, modestos (Lee, 2024; NASEM, 2024; Piza et al., 2019). Este vacío dificulta priorizar qué tecnologías reducen efectivamente delitos violentos, especialmente cuando la evidencia disponible se concentra en descripciones operativas sin métricas de resultados o sin diseños evaluativos robustos (Laufs & Waseem, 2022).
+
+	•	Escasa investigación contextualizada en América Latina y en Perú sobre CTI en seguridad. La literatura internacional sobre technology-enabled policing reconoce una concentración significativa de evidencia evaluativa en ciertos países y entornos institucionales, así como brechas para entender desempeño, implementación y transferencia de tecnologías en contextos con capacidades estatales distintas y presencia de crimen organizado (NASEM, 2024; INTERPOL & UNICRI, 2019; Laufs & Borrion, 2022). En Perú, persiste una limitada producción académica publicada sobre analítica predictiva adaptada a patrones locales o sobre condiciones de adopción/uso sostenido de herramientas tecnológicas en seguridad ciudadana, en comparación con el volumen de despliegues y adquisiciones tecnológicas reportados por distintas entidades.
+
+	•	Brechas de integración con ciencias sociales y mecanismos causales. Faltan análisis integrados que conecten causas estructurales desigualdad territorial, capacidad estatal, mercados ilícitos) con la eficacia de intervenciones CTI, especificando mecanismos y condiciones bajo las cuales la tecnología mejora prevención/investigación. La literatura comparada sugiere que la efectividad de herramientas predictivas y de vigilancia depende de gobernanza, calidad de datos, despliegue operativo y legitimidad, más que de “la tecnología” por sí sola (Lee, 2024; NASEM, 2024). En Perú, la ausencia de evaluaciones causales dificulta estimar si inversiones tecnológicas reducen brechas territoriales de seguridad o si su efecto se concentra en zonas con mayor capacidad institucional y recursos.
+
+	•	Ética, derechos y gobernanza tecnológica con poca evidencia empírica local. Aunque existe producción normativa y de guías institucionales sobre riesgos (sesgos algorítmicos, discriminación, privacidad, uso de datos personales), hay menos evidencia empírica que evalúe cómo estos riesgos se materializan en despliegues reales y qué salvaguardas funcionan en la práctica (Europol, 2023; INTERPOL & UNICRI, 2019; OCDE, 2025). Este vacío es crítico ante la expansión de IA (incluida IA generativa) y sensórica (IoT), donde los riesgos de opacidad y sesgo se combinan con presiones por automatizar decisiones (Europol, 2023; OCDE, 2025).
+
+	•	Desconexión entre CTI y el ciclo de política criminal y de seguridad ciudadana. Se observa una brecha entre investigación académica y decisiones de inversión pública en CTI: con frecuencia, el despliegue de herramientas tecnológicas no se acompaña de un marco de investigación evaluativa paralelo, indicadores acordados y datos para seguimiento. La literatura sobre innovación tecnológica en policiamiento documenta obstáculos recurrentes en adquisición, implementación, capacidades internas y medición de desempeño, lo que tiende a debilitar evaluaciones y aprendizaje institucional (Laufs & Borrion, 2022). Se requieren arreglos multi-institucionales que coordinen investigación aplicada y evaluación con implementación policial y del sistema de justicia (NASEM, 2024).
+
+	•	Datos reutilizables y actualización oportuna: avances parciales y brechas persistentes. A la fecha, países con mayor desarrollo tecnológico y policial han propiciado investigaciones con datos más actuales. Se puede encontrar revisiones y comparaciones con datos de 2025 en revistas científicas sobre policiamiento. Sin embargo, estudios latinoamericanos carecen de datos abiertos actualizados. En este aspecto, las entidades del sistema de justicia del Estado peruano prácticamente no difunden datos abiertos que se puedan reutilizar. El hecho de no haber tenido por 5 años consecutivos la tasa actualizada de homicidios es un claro indicador de que los sistemas de información no interoperan y hay poca preocupación por liberar datos anonimizados. Aun cuando el Sistema de Informático Nacional de Defunciones (SINADEF) presenta la evolución de los homicidios de manera mensual, persisten brechas relevantes en el sistema de justicia: (i) fragmentación de fuentes y necesidad de integración interinstitucional para depuración y consistencia (INEI, 2026a); (ii) disponibilidad desigual de microdatos anonimizados para reutilización; y (iii) heterogeneidad en periodicidad y estándares entre portales (tableros/observatorios, open data sectorial o regional) (DATACRIM–INEI; Plataforma Nacional de Datos Abiertos). 
+
+Llegados a este punto, se plantea una siguiente síntesis comparativa de experiencias internacionales y de la situación peruana.
+
+Intervención
+Experiencias internacionales
+Situación peruana
+Policiamiento predictivo
+La evidencia evaluativa para big data–driven predictive policing es limitada y muy dependiente del contexto; una revisión sistemática identifica 161 estudios y señala que solo una fracción pequeña usa diseños robustos, con resultados en general modestos (Lee, 2024). En Filadelfia, un experimento aleatorizado con software predictivo (HunchLab) no encontró beneficios claros para la fase de crimen violento; los beneficios principales aparecieron en la fase de propiedad y con patrullaje marcado (Ratcliffe et al., 2021).
+No se han implementado programas formales de policiamiento predictivo basados en algoritmos complejos. Se dispone de monitoreo clásico de focos delictivos (mapas delictivos en físico), pero sin IA predictiva dedicada ni evaluaciones publicadas.
+Patrullaje inteligente (hot spots)
+Un RCT reciente sobre duración del tratamiento (2/4/8 semanas) halló reducciones en desorden, pero efectos no consistentes en indicadores de violencia armada (Kochel et al., 2026). Esto es coherente con revisiones sistemáticas que encuentran efectos promedio favorables del hot spots policing, con heterogeneidad por diseño/implementación (Braga et al., 2019).
+La PNP aplica ocasionalmente operativos intensivos en zonas de alta incidencia, pero no hay estudios locales evaluados externamente.
+Videovigilancia (CCTV, drones)
+Los meta-análisis concluyen efectos heterogéneos: típicamente más claros en delitos patrimoniales/vehículos, y menos consistentes en crimen violento, dependiendo de monitoreo activo e integración operativa (Piza et al., 2019; Welsh & Farrington, 2008).
+Existe también una tendencia a integrar CCTV con modelos de IA que asistan la investigación policial Lima y otras ciudades cuentan con cámaras en vías principales y vehículos policiales equipados con cámaras. Hay muy pocos estudios formales publicados sobre su eficacia en reducción de delitos violentos. Drones policiales se usan en operativos puntuales, pero sin informes públicos de impacto.
+Sistemas de información policial
+En EE. UU., NIBRS es el estándar nacional para reporte de datos criminales y captura detalles incidentales (FBI; Bureau of Justice Statistics, 2022). En Europa, el Schengen Information System (SIS) permite alertas compartidas en tiempo real entre países Schengen (Comisión Europea). Interpol opera múltiples bases de datos policiales globales (INTERPOL
+Perú cuenta con sistemas de información para registrar denuncias e investigaciones, pero su calidad ha sido motivo de cuestionamiento. Todavía persisten los registros manuales y en hojas de cálculo en las computadoras de los policías. Estos sistemas no interoperan con los del Ministerio Público o los del Poder Judicial o del Instituto Penitenciario. Se cuenta con un sitio web repositorio del INEI y de los observatorios del MININTER, MPFN, PJ e INPE, pero que no son herramienta para la investigación criminal sino para el conocimiento ciudadano.
+Biometría y reconocimiento facial
+Organismos internacionales describen expansión y debate por riesgos de sesgo, rendición de cuentas y marcos de uso responsable (INTERPOL & UNICRI, 2019).
+En Perú algunas municipalidades informan a través de comunicados de prensa que iniciaron proyectos de reconocimiento facial en lugares públicos desde 2020, pero problemas de cobertura y falsos positivos han limitado su despliegue. No existen informes académicos sobre su efectividad.
+Cámaras corporales (body-worn cameras)
+La revisión sistemática (Campbell) encuentra resultados inconsistentes según jurisdicción; el valor suele ser mayor como evidencia/procedimiento que como prevención directa (Lum et al., 2020).
+La PNP adiquirió cámaras que se usan en algunos operativos especiales pero sin carácter masivo. No hay evaluación publicada; su uso sigue siendo menor que en otros países.
+Inteligencia financiera (análisis de flujos)
+A nivel internacional, FATF mantiene estándares y guías sobre activos virtuales y AML/CFT; la tendencia es fortalecer capacidades analíticas y cooperación internacional.
+En Perú, la Unidad de Inteligencia Financiera tiene el mandato de recibir, analizar y transmitir inteligencia financiera (SBS). Se publican reportes continuos sobre el análisis que realizan a nivel descriptivo, pero no a nivel de evaluaciones de impacto.
+Forense digital
+Es un campo en expansión; organismos internacionales recomiendan estándares, marco legal y sostenibilidad de servicios forenses para utilidad en justicia penal (UNODC, 2011). Afirmaciones basadas en marketing corporativo (p. ej., “Cellebrite cuenta casos exitosos”) no se consideran evidencia académica.
+En Perú la PNP y Ministerio Público cuentan con laboratorios forenses de lucha contra ciberdelitos. Se han resuelto casos importantes usando análisis digital, pero no se han publicado estudios que cuantifiquen la mejora investigativa atribuible.
+
+Las evidencias globales resaltan que las intervenciones funcionan mejor cuando se implementan como parte de estrategias integradas y no de manera aislada. Por ejemplo, evaluaciones sistemáticas sobre videovigilancia indican que el despliegue de CCTV tiene efectos limitados si no se combina con patrullaje focalizado y respuestas policiales proactivas (Welsh & Farrington, 2009; Piza et al., 2019). Asimismo, la literatura sobre “hot spots policing” demuestra que las intervenciones basadas en evidencia producen mayores impactos cuando se articulan con análisis criminal, focalización territorial y supervisión organizacional (Weisburd et al., 2010; Braga et al., 2019). De manera similar, la evidencia emergente sobre tecnologías avanzadas —como analítica predictiva e inteligencia artificial— sugiere que estas herramientas pueden mejorar la eficiencia operativa (por ejemplo, reduciendo tiempos administrativos o mejorando la asignación de recursos), pero su efecto directo sobre la reducción de la criminalidad violenta depende de factores contextuales como la capacidad institucional, la calidad de los datos y el entorno social (Perry et al., 2013; Lum & Isaac, 2016; Brayne, 2017).
+En el caso peruano, las intervenciones tecnológicas aún se encuentran en fases iniciales, aunque son congruentes con tendencias internacionales orientadas a la modernización de flotas, comunicaciones y digitalización operativa. Sin embargo, la literatura comparada advierte que la adopción tecnológica sin marcos de gobernanza adecuados, controles democráticos y capacidades analíticas consolidadas tiende a generar impactos limitados o difíciles de evaluar (Ferguson, 2017; Nagin et al., 2015). En ese sentido, la experiencia internacional muestra que la tecnología, por sí sola, no transforma dinámicas criminales complejas si no se integra con reformas organizacionales, supervisión institucional y legitimidad pública.
+En síntesis, la revisión comparada evidencia que las estrategias basadas en ciencia, tecnología e innovación (CTI) han evolucionado con rapidez —especialmente en predicción del delito, videovigilancia inteligente e interoperabilidad de datos—, pero la evidencia robusta sobre su impacto sostenido en la reducción de la violencia organizada sigue siendo limitada y altamente dependiente del entorno institucional (Lum & Isaac, 2016; Braga et al., 2019). A nivel internacional, el debate académico enfatiza la necesidad de evaluaciones experimentales rigurosas, transparencia algorítmica y participación ciudadana para garantizar legitimidad y efectividad (Ferguson, 2017; Brayne, 2017). En contraste, en el ámbito peruano predominan enfoques técnico-administrativos centrados en adquisición de equipamiento o digitalización operativa, con escaso acompañamiento de evaluaciones de impacto o generación sistemática de evidencia pública.
+La comparación entre el contexto internacional y el peruano muestra coincidencias en prioridades tecnológicas, pero diferencias en escala, velocidad de adopción y densidad institucional. Además, la literatura destaca que la efectividad de las innovaciones tecnológicas depende críticamente de la calidad de los datos, la capacidad analítica y la confianza pública en las instituciones (Nagin et al., 2015; Weisburd et al., 2010). En este marco, futuras convocatorias de CTI orientadas a enfrentar extorsión, homicidios y delitos complejos deberían priorizar investigación aplicada con datos locales, promover evaluaciones experimentales de innovaciones tecnológicas e incentivar enfoques interdisciplinarios que integren ciencias sociales y desarrollo tecnológico, acompañados de reformas institucionales que fortalezcan transparencia, justicia oportuna y legitimidad democrática.
+
+
+	•	Marco conceptual y de consistencia analítica para las prioridades de ciencia, tecnología e innovación en la prevención y control del delito
+Este capítulo ajusta y organiza los hallazgos del diagnóstico al marco de las políticas públicas de seguridad del Estado, en particular al Plan Nacional de Seguridad Ciudadana (PNSC) 2026–2028. Su objetivo es consolidar un marco teórico y causal que le otorgue coherencia al diagnóstico previo, alineándolo explícitamente con el problema público oficial, y sirva de base técnica para convocatorias de CTI en prevención e investigación del delito.
+	•	Reformulación analítica del problema público
+El problema central —la alta incidencia de extorsiones y homicidios violentos— se explica por fallas sistémicas del Estado, más que por decisiones individuales. Desde un enfoque de capacidad estatal, las deficiencias institucionales estructurales (recursos limitados, falta de procesos robustos, bajos incentivos internos) generan un contexto donde el crimen organizado prospera. La economía del crimen (Becker, 1968) precisa que los individuos actúan racionalmente ante las oportunidades: si las leyes no se aplican con certeza y severidad, los beneficios del delito superan sus costos esperados. En el caso peruano, la baja probabilidad de detención o condena (estimada en varios informes oficiales) hace rentable el negocio de la extorsión, mientras que la sobrecarga de los juzgados minimiza la presión judicial por homicidios.
+Adicionalmente, las fallas de información agravan la situación. Las instituciones de seguridad poseen información fragmentada y desactualizada, mientras que las redes criminales se benefician de inteligencia propia. Por ejemplo, la carencia de plataformas integradas de datos impide que la Policía y Ministerio Público compartan en tiempo real información sobre sospechosos, lo que favorece la evasión de la justicia. En el enfoque territorial, las organizaciones delictivas ocupan efectivamente “vacíos de autoridad” en zonas alejadas o marginales. En ausencia de presencia continua del Estado (infraestructura policial, fiscalías de atención rápida, operativos de control), estas áreas funcionan como refugio y centro de operaciones para redes de extorsión y sicariato.
+Desde la perspectiva de la gobernanza interinstitucional, el sistema peruano históricamente sufre de coordinación incompleta. Instituciones como Policía, Ministerio Público, Poder Judicial e Instituto Penitenciario operan frecuentemente en silos, con procedimientos y prioridades no armonizadas. Ello produce duplicidades o vacíos en el seguimiento de casos. El diagnóstico internacional y nacional señala que una causa importante de impunidad es esta fragmentación institucional, que impide una respuesta integrada ante el crimen organizado.
+Finalmente, el enfoque de implementación de políticas destaca que no basta diseñar planes; su puesta en práctica requiere sistemas de monitoreo y evaluación que en el Perú han sido débiles. La pobreza de recursos, la rotación de personal y la falta de rendición de cuentas a nivel local prolongan la inercia del statu quo. En suma, la criminalidad violenta persiste porque existen déficits estructurales: se carece de capacidad disuasoria eficaz, la información es insuficiente, las instituciones están desarticuladas y las políticas no se implementan plenamente.
+La persistencia del crimen violento organizado en Perú es explicable entonces por la confluencia de brechas sistémicas (recursos, información, coordinación, incentivos) en el aparato estatal. No es el resultado exclusivo de la agencia de los delincuentes, sino de fallas estructurales e institucionales que les facilitan actuar con impunidad.
+	•	Análisis causal
+A continuación, se examinan los mecanismos causales de las cuatro causas directas del problema central, la falla institucional subyacente, el tipo de déficit predominante y su efecto sobre la impunidad o expansión criminal. Esta sección integra hallazgos académicos peruanos y fuentes normativas del sector Interior.
+	•	Causa: debilidad en estrategias de prevención policial y comunitaria
+
+	•	Mecanismo causal: la baja cobertura y proactividad del patrullaje policial (debido a planificación limitada) deja “puntos calientes” sin vigilancia, de modo que extorsionadores y pandillas identifican objetivos desprevenidos. Simultáneamente, la falta de redes comunitarias organizadas impide un flujo de alertas precoz (INEI, 2024). Los delincuentes perciben así un escenario de detección tardía o nula, reforzando su confianza para continuar operando.
+	•	Falla institucional subyacente: en el Perú existe una falla de información en la prevención: no se utilizan herramientas analíticas modernas para orientar los operativos de seguridad. Además, es una falla de capacidad operativa: la fuerza policial está insuficientemente dotada de efectivos y equipamiento para patrullar consistentemente. A esto se suma una falta de coordinación territorial: los gobiernos locales, la policía y la comunidad no comparten mecanismos institucionalizados de vigilancia y denuncia, perdiéndose sinergias potenciales (Ministerio del Interior, 2024).
+	•	Déficits predominantes:
+	•	Información: ausencia de sistemas integrados de georreferenciación de delitos que guíen el patrullaje.
+	•	Capacidad operativa: equipos policiales dedicados a la prevención insuficientes y capacitación preventiva débil.
+	•	Coordinación: mecanismos informales de comunicación; comités locales carentes de recursos.
+	•	Impunidad y expansión: al no prevenirse ni reaccionar a tiempo, los delitos generan baja percepción de riesgo. Las víctimas, al no ver resultados, dejan de denunciar. Esto fortalece las bandas criminales, pues operan sin interrupción. La criminalidad expande por contagio social: zonas vecinas se vuelven vulnerables, y comunidades vulnerables (por pobreza con ausencia de servicios estatales) son cooptadas. En síntesis, la debilidad preventiva permite que los delitos se reproduzcan y escalen, arrastrando al sistema judicial a un círculo de casos cada vez más complejos.
+	•	Causa: insuficientes capacidades y recursos para inteligencia e investigación
+
+	•	Mecanismo causal: sin capacidades avanzadas de inteligencia, el Estado enfrenta el delito al azar. Los grupos criminales se organizan de manera compleja y usan comunicaciones cifradas, intercambiando roles clandestinos (brokers, recabadores de información, inversores, contadores, sicarios, receptadores). La investigación policial se limita a respuestas reactivas, con escaso aprovechamiento de fuentes digitales o análisis predictivo. Esto genera investigaciones fragmentadas que terminan en sobrecarga de expedientes y pocos arrestos (Ministerio Público, 2025).
+	•	Falla institucional subyacente: se explica en parte por la falta de tecnología e información. La falta de equipamiento pericial actualizado (laboratorios de criminalística modernos), sistemas de análisis de datos y formación en nuevas técnicas. Por ejemplo, la ausencia de bases de datos biométricas unificadas o de herramientas de análisis de redes impide conectar casos relacionados. También es una falla de incentivos y capacidad operativa en tanto las unidades de inteligencia criminal (por ejemplo contra el tráfico ilícito de drogas) están poco coordinadas y con recursos limitados, resultando en una investigación que avanza lentamente (PNP, 2025).
+	•	Déficits predominantes:
+	•	Información: datos dispersos en múltiples archivos físicos y digitales sin interoperabilidad.
+	•	Tecnología: equipamiento forense y sistemas de inteligencia obsoletos o insuficientes.
+	•	Capacidad operativa: agentes especializados en investigación limitados y con poca actualización metodológica.
+	•	Impunidad y expansión: este mecanismo genera alta impunidad operacional. Al no poder identificar y desmantelar células criminales, éstas continúan expandiéndose. Los criminales aprenden a ocultarse mejor (para seguir operando y para lavar ganancias) debido a la falta de seguimiento financiero. Además, la demora investigativa permite que los procesados dilaten sus casos (perdiendo testigos y evidencias), debilitando la efectividad policial. En consecuencia, las organizaciones violentas ven una baja tasa de desarticulación, se fortalecen logísticamente y atraen a nuevos miembros aprovechando el vacío fiscal.
+	•	Causa: debilidades en la administración de justicia y control penitenciario
+
+	•	Mecanismo causal: al no ser castigados con celeridad ni proporcionalidad, los autores de delitos violentos se reincorporan rápidamente al crimen. Las cárceles, por su parte, funcionan como centros de coordinación y reclutamiento de criminales. Instituciones débiles (jueces con lista de casos, penales con hacinamiento) permiten la retransmisión de órdenes ilícitas desde dentro.
+	•	Falla institucional subyacente: es una falla de capacidad operativa y incentivos. Los órganos judiciales carecen de digitalización eficaz y suficientes fiscales y asistentes de función fiscal, provocando cuellos de botella procesales. El sistema penitenciario enfrenta sobrepoblación y escaso control de comunicaciones internas. Además, la regla de incentivos es deficiente: los plazos excesivos para resolver casos desincentivan la persecución activa, y la corrupción premia a procesados con beneficios injustificados.
+	•	Déficits predominantes:
+	•	Capacidad operativa: juzgados al límite de su productividad, falta de personal especializado en crímenes complejos.
+	•	Tecnología: carencia de sistemas de gestión de expedientes interoperativos con policía y fiscalía.
+	•	Incentivos: escasa evaluación institucional del desempeño de jueces y fiscales; posibles filtraciones entre detenidos y personal penitenciario corruptible.
+	•	Impunidad y expansión: la falta de sanción efectiva funciona como un incentivo perverso. La percepción general es que “no pasa nada” o “que no hay justicia”, lo que refuerza la reincidencia. Las organizaciones criminales se benefician de la lentitud judicial y la red de contactos en penales para continuar operando al margen de la ley, contraviniendo el efecto ejemplificador de la justicia. Esto debilita la prevención social: las comunidades afectadas ven que el castigo no llega, reduciendo la colaboración ciudadana e incrementando el descrédito estatal.
+	•	Causa: insuficiente control territorial en zonas vulnerables y de frontera
+
+	•	Mecanismo causal: en áreas fronterizas, cuencas amazónicas, yacimientos mineros o de difícil acceso, la ausencia del Estado es interpretada por criminales como “zona libre”. En estas zonas, grupos delictivos instalan redes logísticas (rutas de trasiego, laboratorios, narcopistas, almacenes de insumos químicos, venta de armas, explotación sexual, micro tráfico). Sin presencia policial constante, dichas redes se afianzan y trascienden la jurisdicción de una sola institución, aprovechando la burocracia interinstitucional.
+	•	Falla institucional subyacente: se observa principalmente una falla de coordinación territorial y de capacidad operativa. Las distintas agencias (policía, fiscalía, fuerzas armadas) no despliegan una estrategia conjunta continua, salvo en casos aislados y en coordinación con fuerzas de países vecinos. Tampoco existen suficientes unidades especializadas permanentes en esas zonas. Además, hay una falla de información: no hay monitoreo satelital o comunitario sistematizado que alerte tempranamente sobre actividades anómalas.
+	•	Déficits predominantes:
+	•	Capacidad operativa: falta de puestos y patrullas permanentes en zonas críticas.
+	•	Coordinación: deficiente articulación entre los diferentes órdenes de gobierno y seguridad (civil-policial-militar) en fronteras.
+	•	Tecnología: escaso uso de herramientas de inteligencia geoespacial (drones, información satelital, sensores remotos).
+	•	Impunidad y expansión: la debilidad territorial permite que la criminalidad se “territorialice”: las bandas establecen una gobernanza local y expanden su influencia regional. La impunidad es alta: los casos en frontera tardan en resolverse por la dispersión jurisdiccional. Los delitos trascienden rápido a otras regiones. Con el tiempo, estas redes se convierten en potencias logísticas (como la desviación de insumos químicos y explosivos que habilita la minería ilegal), lo que amplia el alcance del problema nacional.
+Cada causa directa alimenta la impunidad y expansión del crimen mediante mecanismos claros de falla institucional: la prevención deficiente reduce la disuasión, la inteligencia limitada implica bajo esclarecimiento, las debilidades judiciales elongan procesos y permiten escape de reos, y la falta de control territorial crea refugios criminales. Estos mecanismos se retroalimentan y explican cómo las organizaciones delictivas violentas operan estructuralmente con baja interferencia estatal.
+	•	La CTI como instrumento de la política pública en seguridad
+La CTI, entendida como un conjunto de instrumentos que combinan generación de conocimiento, desarrollo tecnológico e innovación organizacional, permite intervenir sobre los déficits estructurales identificados en el análisis causal del problema público (información fragmentada, baja capacidad operativa, descoordinación e incentivos débiles). En el campo de la seguridad pública, este aporte adopta dos formas complementarias. Por un lado, la innovación tecnológica amplía capacidades estatales para prevenir e investigar el delito mediante analítica de datos, interoperabilidad, forensia digital y herramientas de soporte operativo. Por otro lado, la investigación en ciencias sociales produce evidencia básica y aplicada para comprender mecanismos criminales, diseñar intervenciones ajustadas al territorio, anticipar efectos no deseados (sesgos, desplazamiento, impactos en confianza) y evaluar rigurosamente pilotos y escalamiento.
+
+	•	Innovación tecnológica para la prevención e investigación del delito
+Desde este enfoque, la CTI es pertinente cuando existen lagunas de conocimiento y capacidad que la tecnología o la generación de nuevo conocimiento puede llenar. Por ejemplo, en una situación de falla informativa, los sistemas predictivos de datos pueden convertirse en instrumentos clave. La CTI puede representar instrumentos de tipo:
+	•	Informacional, en tanto mejora la obtención y gestión de datos (plataformas de análisis de crimen, visualización estadística).
+	•	Tecnológico, a través de la implementación de herramientas (equipos informáticos, software, biometría) que directamente amplían las capacidades operativas (cámaras inteligentes, drones).
+	•	Organizacional, a través de la introducción de nuevos procesos o estructuras apoyadas en tecnología (unidades de investigación digital, laboratorios móviles).
+La selección del producto de CTI adecuado depende del mecanismo causal a abatir. Por ejemplo, ante un problema de prevención policial (déficit 1), un algoritmo de patrullaje inteligente (instrumento tecnológico-organizacional) modifica el mecanismo reduciendo la aleatoriedad, aumentando la disuasión. Ante fallas en investigación (déficit 2), un producto de CTI informacional (inteligencia artificial aplicada a grandes bases de datos) modifica el mecanismo al entregar nuevas pistas investigativas.
+Como condiciones institucionales, la eficacia de las innovaciones tecnológicas exige dotar a las instituciones de soporte jurídico y administrativo. Se requiere, por ejemplo, que los policías estén formados en el uso de herramientas digitales y que exista legislación clara sobre el uso de grandes cantidades de datos personales. Sin estas condiciones, la tecnología puede fracasar o corromperse. Asimismo, las nuevas tecnologías deben operar bajo un esquema de gobernanza robusto que integre los distintos actores del sistema de seguridad (siguiendo enfoque territorial e interinstitucional).
+Como límites estructurales, la innovación tecnológica no remplaza el déficit de voluntad política o recursos básicos. Si no hay personal para operar y mantener los desarrollos tecnológicos, o si los procesos burocráticos no cambian, los beneficios serán marginales. Además, la dependencia tecnológica externa (proveedores internacionales de software) puede volver frágil la iniciativa. Por ello, el fortalecimiento de capacidades nacionales (ingeniería local, investigación) es crucial.
+Como riesgos asociados, se identifica que la adopción de tecnología “por moda” sin evidencia de efectividad (por ejemplo, cámaras biométricas sin protocolos claros). También existe riesgo de sesgos algorítmicos que refuerzan prejuicios (Lynch et al., 2019). La fragmentación institucional puede replicarse tecnológicamente si cada agencia compra sistemas incompatibles, en lugar de consolidar plataformas unificadas. Estos riesgos subrayan la necesidad de acompañar las intervenciones con evaluaciones rigurosas y enfoques integradores.
+En conclusión, la CTI, en tanto se define como conjunto de actividades que generan conocimiento y lo transforman en soluciones útiles para la sociedad, debe de ser aprovechado para prevenir y controlar el delito. Como se ha presentado en este documento, bien puede estar orientado para mitigar las fallas de información y las brechas de capacidad en el sector seguridad. Su valor reside en la generación de soluciones tecnológicas e informacionales capaces de reconfigurar los mecanismos causales de la criminalidad. No obstante, su éxito no depende de la sofisticación técnica, sino de un ecosistema favorable: instituciones con soporte jurídico, gobernanza interconectada y una gestión que reconozca sus límites estructurales. Solo bajo este enfoque integrador, la CTI dejará de ser una suma de herramientas aisladas para convertirse en el motor de una seguridad pública basada en evidencia, garantizando así paz y justicia para todos los peruanos.
+	•	La investigación en ciencias sociales para el diseño, implementación y evaluación de políticas en seguridad
+La CTI no se agota en el desarrollo de equipamiento, software o infraestructura digital; también comprende la producción de conocimiento científico —básico y aplicado— que permite describir, explicar y modificar fenómenos complejos mediante evidencia verificable. En materia de criminalidad violenta, la investigación en ciencias sociales constituye un componente central de la CTI porque aporta explicaciones causales sobre dinámicas criminales y fortalece el diseño, implementación y evaluación de políticas públicas. En particular, las ciencias sociales permiten (i) identificar mecanismos causales relevantes (por ejemplo, la organización y fragmentación de redes delictivas, el funcionamiento de mercados de extorsión y sicariato, la captura territorial y los incentivos institucionales), (ii) generar mediciones, tipologías e indicadores necesarios para orientar intervenciones y construir sistemas de información, y (iii) evaluar políticas mediante enfoques experimentales y cuasi-experimentales, así como métodos mixtos y ciencia de implementación para el escalamiento.
+Bajo este enfoque, la investigación social constituye CTI en tanto produce “tecnologías blandas” y capacidades analíticas que incrementan la efectividad y legitimidad de las intervenciones estatales. Estas tecnologías incluyen protocolos y modelos de intervención, instrumentos de medición validados (encuestas, índices, tipologías), sistemas de monitoreo y evaluación, diseños evaluativos y guías de implementación adaptadas al contexto territorial. Su valor es doble: primero, reduce la incertidumbre estratégica, al permitir focalizar recursos en función de evidencia sobre riesgos, actores, territorios y mecanismos; segundo, mejora la gobernanza democrática de las intervenciones, al anticipar y medir efectos no deseados como desplazamiento del delito, sesgos en la focalización, afectaciones a derechos, o impactos en confianza institucional y cooperación ciudadana.
+Además, la investigación social es clave para que las inversiones tecnológicas tengan retornos reales en términos de reducción de homicidios, extorsión y otros fenómenos criminales complejos. En ausencia de conocimiento social aplicado, la adopción tecnológica tiende a operar como un conjunto de adquisiciones fragmentadas, sin teoría de cambio explícita, sin indicadores adecuados y sin capacidades institucionales para sostener su uso. Por el contrario, cuando la investigación social acompaña la innovación tecnológica, se fortalece la capacidad estatal de traducir información en decisiones operativas, de ajustar intervenciones en función de resultados y de escalar lo que funciona en condiciones institucionales realistas. Esto incluye, por ejemplo, el diseño de pilotos con métricas claras, la estimación de costo-efectividad, la identificación de condiciones de implementación (recursos humanos, gobernanza de datos, coordinación interinstitucional) y la construcción de legitimidad pública para el uso de herramientas intensivas en datos.
+	•	Articulación entre líneas CTI priorizadas, tecnológicas y de investigación social, con causas directas del PNSC 2026 - 2028
+A continuación, se vinculan las líneas CTI priorizadas —tanto tecnológicas como de investigación en ciencias sociales— con las causas directas del PNSC 2026–2028, precisando cómo cada sub-línea interviene sobre un mecanismo causal específico. Para cada una se detalla el tipo de instrumento que implica (tecnológico, informacional u organizacional), los resultados esperados e indicadores sugeridos, así como la modalidad de financiamiento más adecuada. En el caso de la investigación social, se enfatiza su contribución como instrumento CTI para producir evidencia básica y aplicada que permita comprender dinámicas criminales, fortalecer el diseño e implementación de intervenciones y sustentar evaluaciones rigurosas para el escalamiento.
+
+
+	•	Línea 1 – Prevención del delito
+
+
+Sub-línea CTI
+Componentes analíticos y de diseño
+1.1 Patrullaje preventivo inteligente
+Causa directa: debilidad en estrategias de prevención policial y comunitaria. 
+Mecanismo a modificar: focalización del patrullaje mediante análisis de riesgos en tiempo real (uso de datos históricos y predicción para priorizar distritos y horarios).
+Tipo de instrumento: tecnológico-organizacional (software de analítica predictiva y rediseño basado en evidencia de rutas de patrullaje).
+Resultado esperado: mayor presencia policial en lugares y momentos críticos; disuasión en zonas calientes; reducción de extorsión y homicidio.
+Indicadores: variación porcentual de delitos violentos en zonas tratadas vs. control; tiempo medio de respuesta policial; percepción ciudadana de seguridad local.
+Modalidad de financiamiento: desarrollo tecnológico (plataformas analíticas con datos oficiales) y validación experimental (pilotos comparativos tipo RCT).
+1.2 Prevención focalizada en jóvenes y población vulnerable
+Causa directa: debilidad preventiva comunitaria y social.
+Mecanismo a modificar: implementación de programas sociotecnológicos dirigidos a jóvenes en riesgo (plataformas educativas digitales, apps de seguimiento, sistemas de alerta temprana en entornos escolares).
+Tipo de instrumento: informacional (TIC aplicadas a programas sociales con análisis de perfiles de riesgo basados en big data sociodemográfico).
+Resultado esperado: reducción del reclutamiento criminal juvenil; mayor retención escolar y denuncia temprana.
+Indicadores: participación juvenil en delincuencia (paneles o encuestas longitudinales); número de jóvenes inscritos; tasas de abandono/repetición escolar en zonas focalizadas.
+Modalidad de financiamiento: investigación aplicada (evaluación mixta de intervenciones) y desarrollo tecnológico (herramientas de gestión y monitoreo).
+1.3 Articulación comunitaria y redes de alerta
+Causa directa: débil coordinación preventiva comunitaria.
+Mecanismo a modificar: creación de sistemas integrados de comunicación ciudadana (apps seguras de denuncia, plataformas web de alerta temprana) para acortar el ciclo de información entre comunidad y policía.
+Tipo de instrumento: organizacional e informacional (protocolos digitales participativos y estructuras locales apoyadas en tecnología).
+Resultado esperado: mayor volumen y rapidez en el procesamiento de denuncias; mejora en tiempos de respuesta policial; fortalecimiento de confianza ciudadana.
+Indicadores: número de denuncias digitales recibidas; tiempo promedio de atención; percepción de eficacia policial en encuestas locales.
+Modalidad de financiamiento: desarrollo tecnológico (apps y redes locales) y evaluación de impacto (pilotos territoriales con medición en tiempo real).
+
+
+
+	•	Línea 2 – Investigación e inteligencia policial
+
+Sub-línea CTI
+Componentes analíticos y de diseño
+2.1 Inteligencia e investigación digital
+Causa directa: insuficientes capacidades de inteligencia e investigación.
+Mecanismo a modificar: implementación de tecnologías de análisis forense digital y minería de datos (análisis de redes sociales, registros telefónicos, transacciones) para conectar casos mediante algoritmos de identificación de patrones y análisis de grafos.
+Tipo de instrumento: tecnológico (IA aplicada a inteligencia criminal).
+Resultado esperado: mayor identificación de miembros de redes criminales; incremento de resoluciones judiciales basadas en evidencia digital; reducción del tiempo de investigación.
+Indicadores: casos resueltos con apoyo digital; porcentaje de detenidos vinculados por inteligencia digital; tiempo promedio de investigación en casos complejos.
+Modalidad de financiamiento: investigación aplicada y desarrollo tecnológico con validación piloto en unidades PNP/MP.
+2.2 Interoperabilidad interinstitucional
+Causa directa: débil coordinación interinstitucional y escasa integración de información.
+Mecanismo a modificar: plataforma interoperable que conecte bases de datos de Policía, Fiscalía, INPE y otras entidades, con alertas automáticas y vinculación de antecedentes judiciales.
+Tipo de instrumento: organizacional/informacional (sistema integrado de gestión interinstitucional).
+Resultado esperado: reducción de casos paralizados por falta de información; respuestas coordinadas a nivel nacional; seguimiento automatizado de procesos.
+Indicadores: coincidencias automáticas de datos entre instituciones; tiempo de transferencia de información; reducción de casos sin avance por vacíos informativos.
+Modalidad de financiamiento: desarrollo tecnológico y evaluación de impacto antes/después.
+2.3 Formación especializada asistida por tecnología
+Causa directa: déficit de capacidades técnicas en investigación e inteligencia.
+Mecanismo a modificar: entrenamiento mediante simuladores virtuales, realidad aumentada y plataformas e-learning en investigación criminal y forense digital.
+Tipo de instrumento: organizacional apoyado en tecnología educativa.
+Resultado esperado: mayor competencia técnica en unidades especializadas; adopción efectiva de nuevas metodologías.
+Indicadores: Número de agentes capacitados; desempeño pre y post capacitación; tasa de adopción de técnicas modernas en expedientes reales.
+Modalidad de financiamiento: desarrollo tecnológico y evaluación continua basada en métricas de aprendizaje y transferencia.
+2.4 Inteligencia financiera contra economías criminales
+Causa directa: Insuficientes capacidades de investigación financiera del crimen organizado.
+Mecanismo a modificar: uso de big data y analítica financiera para detectar flujos ilícitos asociados a homicidios y extorsión (modelos de riesgo, detección de transacciones anómalas).
+Tipo de instrumento: tecnológico/informacional (sistemas de detección de lavado basados en IA).
+Resultado esperado: desarticulación de redes económicas delictivas; incremento de congelamiento de activos; reducción de rentabilidad criminal.
+Indicadores: número y monto de activos congelados; nuevos casos procesados; tiempo de detección de operaciones sospechosas.
+Modalidad de financiamiento: desarrollo tecnológico en UIF/SUNAT/SBS y investigación aplicada para adaptar modelos al contexto peruano.
+2.5 Seguridad tecnológica penitenciaria
+Causa directa: debilidades en control penitenciario y administración de justicia.
+Mecanismo a modificar: implementación de sistemas inteligentes en cárceles (cámaras con análisis de comportamiento, sensores, biometría, comunicación en tiempo real con fiscalías).
+Tipo de instrumento: tecnológico (infraestructura y control digital).
+Resultado esperado: reducción de delitos coordinados desde prisión; mayor control y disuasión interna.
+Indicadores: casos de delitos ordenados desde penales; fugas o complicidades internas; cumplimiento de protocolos electrónicos.
+Modalidad de financiamiento: desarrollo tecnológico piloto y validación comparativa entre penales intervenidos y no intervenidos.
+
+
+
+
+
+
+	•	Línea 3 – Investigación en ciencias sociales
+
+Sub-línea CTI
+Componentes analíticos y de diseño
+3.1 Fenómenos criminales y economías ilegales (medición, explicación causal y focalización territorial)
+Causa directa: insuficiente control territorial en zonas vulnerables y con mayor densidad criminal; e insuficientes capacidades y recursos para inteligencia e investigación. 
+
+Mecanismo a modificar: reducción de incertidumbre estratégica mediante investigación social que describa y explique dinámicas criminales como la extorsión, el homicidio, los mercados de objetos robados, la trata de personas, los tráficos de bienes ilegales (minerales, drogas, especies forestales, flora y fauna salvaje, armas, entre otros), estructuras organizacionales criminales, modalidades operativas y patrones territoriales. Esto permite focalización de las políticas basadas en evidencia y mejora de la inteligencia criminal al identificar actores, nodos, rutas y contextos de oportunidad. 
+
+Tipo de instrumento: informacional y analítico (producción de evidencia científica; modelos explicativos; tipologías; indicadores e índices; análisis espacial y de redes; protocolos de medición y calidad de datos). 
+
+Resultado esperado: comprensión accionable de los fenómenos criminales priorizados; mejora de la focalización territorial de intervenciones (policiales y multisectoriales); identificación de factores de riesgo y mecanismos de reproducción del delito para orientar prevención y control. 
+
+Indicadores: elaboración de datasets integrados y diccionarios de variables; tipologías e índices territoriales validados (riesgo de extorsión y homicidios por distrito); modelos explicativos replicables; productos de transferencia (informes técnicos, documentos de política, guías metodológicas); adopción de hallazgos en planes operativos y matrices de riesgo institucionales. 
+
+Modalidad de financiamiento: investigación básica (mecanismos y medición) e investigación aplicada (modelos y herramientas analíticas adaptadas a Perú), con componente de infraestructura de datos (estandarización, interoperabilidad analítica, anonimización y gobernanza para uso de registros administrativos).
+3.2 Respuesta del Estado ante la criminalidad (evaluación de impacto, ciencia de implementación y mejora institucional)
+Causa directa: debilidad en estrategias de prevención policial y comunitaria; insuficientes capacidades y recursos para inteligencia e investigación; debilidades en la administración de justicia y control penitenciario. 
+
+Mecanismo a modificar: incremento de efectividad estatal a través de evidencia evaluativa y ciencia de implementación: identificación de “qué funciona”, “para quién”, “en qué condiciones” y “con qué costos”, para ajustar diseños, mejorar procesos y sostener el escalamiento de intervenciones (operativos focalizados, programas preventivos, herramientas de investigación, justicia rápida, control penitenciario, coordinación interinstitucional). 
+
+Tipo de instrumento: organizacional y evaluativo (evaluaciones experimentales y cuasi-experimentales; evaluaciones de proceso; análisis costo-efectividad; rediseño de procesos; indicadores de desempeño; metodologías de monitoreo y evaluación).
+
+Resultado esperado: portafolio de intervenciones estatales evaluadas con evidencia robusta; protocolos operativos y de gestión basados en evidencia; mejoras medibles en desempeño del sistema (investigación, judicialización, seguimiento de casos, control penitenciario), con rutas claras de escalamiento. 
+
+Indicadores: número de evaluaciones rigurosas ejecutadas (RCT/cuasi); mejoras verificadas en indicadores de desempeño (tiempos de respuesta, tasa de esclarecimiento, trazabilidad de casos, reducción de archivamientos por fallas de información); estimaciones de costo-efectividad; guías y protocolos implementados; decisiones de escalamiento sustentadas en evidencia (documentadas). 
+
+Modalidad de financiamiento: investigación aplicada, validación experimental o cuasi-experimental (pilotos comparativos), evaluación de proceso e implementación (para escalamiento), articulando academia y sector público (PNP/MP/PJ/INPE/GORE/GL).
+
+
+3.3 Cultura política, acción ciudadana y legitimidad (confianza, denuncia, cooperación y control social)
+Causa directa: debilidad en estrategias de prevención policial y comunitaria; insuficiente control territorial (en tanto afecta gobernanza local); y factores transversales de baja denuncia y cooperación ciudadana vinculados a desconfianza institucional. 
+
+Mecanismo a modificar: fortalecimiento de cooperación ciudadana y control social informal mediante evidencia sobre confianza institucional, miedo al delito, normas sociales, redes comunitarias, incentivos de denuncia y efectividad percibida. Esto habilita intervenciones comunitarias y comunicacionales basadas en evidencia que mejoren denuncia efectiva, flujo de información y legitimidad operativa (condición crítica para que la tecnología y la acción policial funcionen). 
+
+Tipo de instrumento: informacional y organizacional (instrumentos de medición validados; modelos explicativos de confianza-miedo-denuncia; diseños de intervención comunitaria; metodologías de participación y rendición de cuentas; evaluaciones de intervenciones de prevención comunitaria). 
+
+Resultado esperado: incremento de denuncia y cooperación con canales formales; fortalecimiento de redes comunitarias y capacidades locales de prevención; mejora de legitimidad y confianza (para sostener adopción de herramientas intensivas en datos y prácticas de prevención); reducción de tolerancia social a economías criminales locales. 
+
+Indicadores: instrumentos validados aplicados (encuestas e índices longitudinales de confianza, miedo, denuncia y cooperación); variación en confianza y disposición a denunciar; incremento de reportes útiles y tiempos de atención; desempeño de pilotos comunitarios; adopción de estrategias basadas en evidencia por comités locales y unidades policiales. 
+
+Modalidad de financiamiento: investigación básica (modelos y medición), investigación aplicada (pilotos comunitarios evaluados), evaluación de impacto (cuasi/RCT donde sea viable), con enfoque territorial y mecanismos de transferencia a gobiernos locales y PNP.
+
+	•	Criterios técnicos de priorización para convocatorias
+Para seleccionar proyectos de CTI financiados por el Estado, se proponen los siguientes criterios técnicos que aplican tanto a proyectos de innovación tecnológica como a proyectos de investigación en ciencias sociales (básica y aplicada) orientados a la prevención, investigación y control de la criminalidad violenta.
+	•	Impacto potencial en reducción de violencia. Se priorizarán iniciativas con alta probabilidad de contribuir a disminuir extorsión y homicidios, entre otros delitos complejos, conforme a la lógica causal expuesta. Se favorecerán proyectos con metas claras, medibles y alineadas al PNSC (“reducir X% homicidios o extorsiones en Y meses en territorios piloto” o “incrementar x puntos la tasa de esclarecimiento en casos priorizados”).
+
+	•	Evidencia empírica previa y plausibilidad de la teoría de cambio. Dado que múltiples intervenciones (tecnológicas y no tecnológicas) muestran resultados mixtos, se dará ventaja a proyectos sustentados en literatura nacional e internacional, experiencias piloto documentadas y una teoría de cambio explícita (mecanismo causal, supuestos y condiciones de implementación).
+
+	•	Calidad metodológica y estrategia de evaluación (básica y aplicada). Se priorizarán proyectos que propongan diseños robustos de medición y evaluación (experimental, cuasi-experimental, longitudinal o métodos mixtos), con indicadores operativos, línea de base y estrategias de atribución plausibles. En investigación social, se valorará la claridad en unidades de análisis, validez de medición, replicabilidad y plan de transferencia.
+
+	•	Escalabilidad territorial y adaptabilidad contextual. Se favorecerán propuestas escalables y transferibles a distintas regiones, considerando heterogeneidad territorial (urbano y rural, fronteras, zonas con presencia observable de economías ilegales), requerimientos de capacidades locales y criterios de adaptación cultural e institucional.
+
+	•	Sostenibilidad fiscal y operativa. Se priorizarán iniciativas con costos operativos razonables y planes claros de mantenimiento y continuidad. Se valorará el uso de infraestructura existente, estándares abiertos y/o cooperación público-privada que reduzca carga fiscal, evitando soluciones ad-hoc sin sostenibilidad post-piloto.
+
+	•	Fortalecimiento de capacidades nacionales. Se priorizarán proyectos que desarrollen talento y capacidades locales (formación, transferencia tecnológica y metodológica, cooperación con universidades y centros), y que reduzcan dependencia de proveedores externos mediante apropiación institucional.
+
+	•	Integración interdisciplinaria (ciencias sociales, tecnología, gestión pública). Se favorecerán propuestas que integren enfoques sociales, tecnológicos y organizacionales, incorporando factores de implementación, incentivos institucionales y comportamiento ciudadano (legitimidad, denuncia, cooperación), para asegurar efectividad en contextos reales.
+
+	•	Compatibilidad con derechos fundamentales y gobernanza de datos. Toda propuesta debe respetar privacidad, no discriminación y debido proceso. Proyectos intensivos en datos (vigilancia, IA, interoperabilidad) deberán incluir evaluación de riesgos, mitigación de sesgos, medidas de seguridad y mecanismos de transparencia y rendición de cuentas.
+
+	•	Articulación interinstitucional. Se exigirá cooperación entre actores relevantes (PNP, MP, PJ, INPE, gobiernos subnacionales y, cuando corresponda, sociedad civil y sector privado), con roles claros, flujos de información y mecanismos de coordinación.
+
+	•	Contribución al sistema nacional de CTI y a la infraestructura de evidencia. Se priorizarán proyectos que dejen capacidades instaladas: estándares de datos, repositorios anonimizados, protocolos, instrumentos de medición validados, guías operativas y productos reutilizables para nuevas convocatorias, asegurando legado institucional más allá del proyecto.
+
+
+	•	Tablas de consistencia de las prioridades de CTI para prevenir y controlar el delito según el PNSC 2026 – 2028
+
+	•	Tabla de consistencia de las Líneas 1 y 2: prevención del delito e investigación e inteligencia
+
+Problema central
+Causa directa
+Sub-línea (Línea 1 y 2)
+Tipo de instrumento
+Mecanismo causal
+Resultado esperado
+Indicador clave
+Modalidad de financiamiento
+
+
+
+
+
+
+
+
+
+Alta extorsión y homicidios
+
+
+
+Prevención policial y comunitaria débil
+1.1 Patrullaje preventivo inteligente
+Tecnológico y organizacional
+Optimizar ubicación temporal/espacial del patrullaje según riesgo
+Menos delitos en zonas críticas; mayor percepción local de seguridad
+Tasa de homicidios/extorsiones en áreas focalizadas; respuesta policial media
+Desarrollo tecnológico y validación experimental
+
+
+1.2 Prevención focalizada en jóvenes
+Informacional
+Involucrar a jóvenes en riesgo mediante TIC educativas
+Menor reclutamiento juvenil por bandas; reducción en delitos juveniles
+Tasa de participación juvenil en actividades criminales; número de jóvenes en programas
+Investigación aplicada y desarrollo tecnológico
+
+
+1.3 Redes de alerta comunitaria
+Organizacional e informacional
+Mejorar flujo de denuncias ciudadanas vía apps seguras
+Incremento en reportes comunitarios y respuesta policial oportuna
+Número de alertas ciudadanas atendidas; tiempo de atención a denuncias
+Desarrollo tecnológico y evaluación de impacto
+
+Investigación e inteligencia insuficiente
+2.1 Inteligencia digital
+Tecnológico
+Analizar grandes volúmenes de datos para identificar redes
+Más bandas desarticuladas; mayor eficacia investigativa
+Número de casos resueltos con apoyo de IA; tiempo promedio de resolución
+Investigación aplicada y desarrollo tecnológico
+
+
+2.2 Interoperabilidad interinstitucional
+Organizacional e informacional
+Integrar bases de datos (Policía-Fiscalía-INPE)
+Mejor seguimiento de casos; alertas interinstitucionales automáticas
+Casos con datos compartidos entre instituciones; reducción de casos no conectados
+Desarrollo tecnológico y investigación aplicada
+
+
+2.3 Formación asistida por tecnología
+Organizacional
+Actualizar competencias con simuladores y e-learning
+Personal más capacitado; mejor uso de tecnología investigativa
+Número de agentes capacitados; evaluación post-capacitación
+Desarrollo tecnológico y investigación aplicada
+
+
+2.4 Inteligencia financiera
+Tecnológico e Informacional
+Rastrear flujos financieros ilícitos ligados al crimen
+Cuantiosos activos ilícitos congelados; financiar ilícito detectado
+Monto de activos congelados; casos de lavado procesados
+Investigación aplicada y desarrollo tecnológico
+
+
+2.5 Seguridad tecnológica penitenciaria
+Tecnológico
+Vigilancia inteligente en penales (cámaras/sensores)
+Reducción de incidentes dentro de penales y fugas
+Incidentes delictivos ordenados desde prisión; número de fugas
+Desarrollo tecnológico y validación experimental
+
+	•	Tabla de consistencia de la Línea 3: investigación en ciencias sociales (básica y aplicada)
+
+Sub-línea
+(Línea 3)
+Contribución principal
+Causas directas del PNSC a las que contribuye
+Producto esperado
+Indicador clave
+Modalidad de financiamiento
+3.1 Fenómenos criminales y economías ilegales (medición, explicación causal y focalización territorial)
+Reducir incertidumbre estratégica sobre dinámicas, mercados y redes criminales; mejorar focalización territorial y priorización de intervenciones
+(i) Insuficiente control territorial en zonas vulnerables y de frontera; (ii) Insuficientes capacidades y recursos para inteligencia e investigación
+Tipologías y modelos explicativos; estimaciones y medición de mercados criminales priorizados; mapas e índices territoriales de riesgo; estándares de medición, calidad y gobernanza de datos
+Datasets integrados y diccionarios de variables; índices/variables territoriales validados; modelos replicables; evidencia incorporada en matrices de riesgo, planes operativos o documentos de política
+Investigación básica, investigación aplicada, con componente de infraestructura de datos (estandarización, interoperabilidad analítica, anonimización y gobernanza)
+3.2 Respuesta del Estado ante la criminalidad (evaluación de impacto, ciencia de implementación y mejora institucional)
+Producir evidencia sobre “qué funciona” y habilitar escalamiento; mejorar diseño, implementación y desempeño institucional mediante evaluación rigurosa
+(i) Debilidad en estrategias de prevención policial y comunitaria; (ii) Insuficientes capacidades y recursos para inteligencia e investigación; (iii) Debilidades en administración de justicia y control penitenciario
+Evaluaciones rigurosas (RCT/cuasi) y evaluaciones de proceso; análisis costo-efectividad; protocolos y guías basadas en evidencia; recomendaciones de rediseño y escalamiento
+Número de evaluaciones rigurosas ejecutadas; mejoras verificables en KPIs (tiempo de respuesta, tasa de esclarecimiento, trazabilidad de casos, reducción de cuellos de botella); decisiones de escalamiento documentadas; métricas de costo-efectividad
+Investigación aplicada, validación experimental o cuasi-experimental, más evaluación de proceso e implementación (para escalamiento), articulando academia–sector público
+3.3 Legitimidad, confianza y acción ciudadana (denuncia y cooperación)
+Fortalecer denuncia efectiva, cooperación y legitimidad operativa; mejorar prevención comunitaria y sostenibilidad de intervenciones (incluida adopción tecnológica)
+(i) Debilidad en estrategias de prevención policial y comunitaria; (ii) Insuficiente control territorial (gobernanza local); (iii) Factores transversales vinculados a baja denuncia y desconfianza institucional
+Instrumentos validados (encuestas e índices longitudinales de confianza, miedo, denuncia y cooperación); modelos explicativos y segmentación territorial; diseños de intervención comunitaria/comunicacional; pilotos evaluados
+Variación en confianza, denuncia y cooperación (línea de base y seguimiento); desempeño de pilotos (tratamiento vs control cuando sea viable); adopción de estrategias basadas en evidencia por comités locales, gobiernos locales y unidades PNP
+Investigación básica, investigación aplicada, con evaluación de impacto (cuasi/RCT donde sea viable) y mecanismos de transferencia a gobiernos locales y PNP
+
+
+
+	•	Referencias
+Abizanda, B., Serra Hoffman, J., Marmolejo, L., & Duryea, S. (2012). Citizen security: Conceptual framework and empirical evidence. Inter-American Development Bank
+https://publications.iadb.org/en/citizen-security-conceptual-framework-and-empirical-evidence
+
+Amaya, E., Cueto, J. J., Cozzubo, A., & Hernández, W. (2021). ¿Es efectivo el uso de la estrategia de hotspots en el Perú? Los resultados de la Estrategia Multisectorial Barrio Seguro en la lucha contra el crimen: Una mirada a la criminalidad y percepción de inseguridad. CIES
+
+Armas, C., & Herrera, J. (2018). ¿El lugar importa en la victimización? El caso de Lima Metropolitana (Working Papers No. 120). Peruvian Economic Association
+https://ideas.repec.org/p/apc/wpaper/120.html
+
+Azpilcueta Sandoval, M. B. (2016). Mecanismos de implementación de políticas de gestión de personal policial en la Comisaría de Canto Rey y su impacto en la seguridad ciudadana, periodo 2013–2014 [Tesis]
+
+Banco Interamericano de Desarrollo. (2010). La tecnología móvil en la lucha contra el delito [Nota de prensa]. Disponible en:
+https://www.iadb.org/es/noticias/la-tecnologia-movil-en-la-lucha-contra-el-delito
+
+Banco Interamericano de Desarrollo. (2024, March 7). Citizen Security in Latin America and the Caribbean
+https://www.iadb.org/en/news/citizen-security-latin-america-and-caribbean
+
+Barreto Verástegui, F. A. (2016). La implementación de medidas policiales para contrarrestar los accidentes de tránsito mortales asociados al consumo de alcohol en Lima Metropolitana en el periodo 2014 [Tesis]
+
+Becker, G. S. (1968). Crime and punishment: An economic approach. Journal of Political Economy, 76(2), 169–217
+https://doi.org/10.1086/259394 
+
+Belur, J., Thornton, A., Tompson, L., Manning, M., Sidebottom, A., & Bowers, K. (2020). A systematic review of the effectiveness of electronic monitoring on reducing reoffending. Journal of Criminal Justice, 68, 101686
+https://doi.org/10.1016/j.jcrimjus.2020.101686
+
+Bernaola Martínez, R. M. (2016). El comercio ilegal de prendas de vestir con marcas registradas. Análisis de la coordinación entre las Fiscalías Especializadas y la Dirección de la Policía Fiscal en el período 2014–2015 [Tesis]
+
+Bonilla, D. (2019). Organización social y criminalidad organizada en el norte peruano: El caso de Florencia de Mora, Trujillo [Tesis de licenciatura/maestría, Pontificia Universidad Católica del Perú]
+https://tesis.pucp.edu.pe/repositorio/handle/20.500.12404/14468
+
+Braga, A. A., Papachristos, A. V., & Hureau, D. M. (2012). Hot spots policing effects on crime. Campbell Systematic Reviews, 8(8)
+https://doi.org/10.4073/csr.2012.8
+
+Braga, A. A., Turchan, B., Papachristos, A. V., & Hureau, D. M. (2019). Hot spots policing of small geographic areas effects on crime. Campbell Systematic Reviews, 15(3), e1046
+https://doi.org/10.1002/cl2.1046
+
+Braga, A. A., Weisburd, D. L., & Turchan, B. (2019). Focused deterrence strategies and crime control: An updated systematic review and meta-analysis. Criminology & Public Policy, 18(1), 205–250
+https://doi.org/10.1111/1745-9133.12431
+
+Brayne, S. (2017). Big data surveillance: The case of policing. American Sociological Review, 82(5), 977–1008
+https://doi.org/10.1177/0003122417725865
+
+Bureau of Justice Statistics. (2022, August 2). National Incident-Based Reporting System (NIBRS)
+https://bjs.ojp.gov/national-incident-based-reporting-system-nibrs
+
+CIES (2022). Seguridad ciudadana: Balance de investigación 2016–2021 y agenda de investigación 2021–2026 (Eje 2: Estado y gestión pública). Consorcio de Investigación Económica y Social (CIES)
+https://cies.org.pe/wp-content/uploads/2022/06/2.4_estado_y_gestion_seguridad_ciudadana_0.pdf
+
+Comisión Europea. (s. f.-a). Schengen Information System. Migration and Home Affairs
+https://home-affairs.ec.europa.eu/policies/schengen/schengen-information-system_en
+
+Comisión Europea. (s. f.-a). What is SIS and how does it work? Migration and Home Affairs
+https://home-affairs.ec.europa.eu/policies/schengen/schengen-information-system/what-sis-and-how-does-it-work_en
+
+Congreso de la República del Perú, Departamento de Investigación Parlamentaria (DIDP). (2025, April 29). Nota de Información Referencial N.° 74/2024–2025-ASISP/DIP: Criminalidad organizada y seguridad ciudadana [PDF]
+https://www.congreso.gob.pe/Docs/DGP/DIDP/files/nir_74_criminalidad_organizada_y_seguridad_ciudadana.pdf
+
+Congreso de la República. (2025a). Creación de banco de perfiles genéticos contribuirá a lucha contra la criminalidad [Nota institucional]
+https://comunicaciones.congreso.gob.pe/noticias/creacion-de-banco-de-perfiles-geneticos-contribuira-a-lucha-contra-la-criminalidad/
+
+Congreso de la República. (2025b). Oficio N.° 001434-2025-IN-SG-PCR [Documento]
+https://api.congreso.gob.pe/spley-portal-service/archivo/Mjg5Njc0/pdf
+
+Consejo Nacional de Política Criminal. (2018). Homicidios en el Perú, contándolos uno a uno 2011–2017
+
+
+Contreras-Velasco, O., Jones, N. P., Weisz Argomedo, D., Sullivan, J. P., & Callaghan, C. (2025). Uncovering hidden alliances in organized crime networks with machine learning: From node similarity to graph neural networks. Journal of Computational Social Science, 8(4), 1–25
+https://doi.org/10.1007/s42001-025-00429-0
+
+Corbacho, A., Philipp, J., & Ruiz-Vega, M. (2015). Crime and erosion of trust: Evidence for Latin America. World Development, 70, 400–415
+https://doi.org/10.1016/j.worlddev.2014.04.013
+
+Dammert Guardia, M., Dammert, L., & Sarmiento, K. (2020). La trata de personas en los Andes: Dinámicas socio-espaciales en las fronteras de Perú. Íconos. Revista de Ciencias Sociales, 68, 117–134
+https://doi.org/10.17141/iconos.68.2020.4043
+
+DATACRIM–INEI. (s. f.). Panel Mapa | DATACRIM. Instituto Nacional de Estadística e Informática
+https://datacrim.inei.gob.pe/panel/mapa
+
+de la Jara Basombrío, E., & Bazán Seminario, C. (2019). ¿Cómo se forman los policías? Derechos humanos y policía comunitaria. Fondo Editorial de la Pontificia Universidad Católica del Perú
+
+Defensoría del Pueblo. (2020). Interoperabilidad en el sistema de justicia penal (Informe de Adjuntía N.° 01-2020-DP/ALCCTEE)
+https://www.defensoria.gob.pe/wp-content/uploads/2020/09/Informe-de-Adjunt%C3%ADa-N%C2%B0-01-2020-DP-ALCCTEE-Interoperabilidad-en-el-Sistema-de-Justicia-Penal.pdf
+
+Degli Esposti, M., Dantas, C., & Andresen, M. A. (2023). Effects of the Pelotas (Brazil) Peace Pact on violence and crime: A synthetic control evaluation. The Lancet Regional Health – Americas, 18, 100413
+https://doi.org/10.1016/j.lana.2023.100413
+
+Doucette, M. L., Buggs, S. A., Braga, A. A., & Hyder, A. A. (2021). Impact of ShotSpotter technology on firearm homicides and arrests among large metropolitan counties: A longitudinal analysis (1999–2016). Journal of Urban Health, 98(4), 497–506
+
+Durán-Martínez, A. (2015). To kill and tell? State power, criminal competition, and drug violence. Journal of Conflict Resolution, 59(8), 1377–1402
+https://www.jstor.org/stable/24546347
+
+El País. (2025, October 8). Las mafias han asesinado este año a 180 conductores de autobuses que se negaron a pagar la extorsión en Perú
+
+Espinoza, C. (2025, 21 de octubre). Confianza en la PNP se encuentra en su nivel histórico más bajo de los últimos 12 años. Infobae. Disponible en:
+https://www.infobae.com/peru/2025/10/21/confianza-en-la-pnp-se-encuentra-en-su-nivel-historico-mas-bajo-de-los-ultimos-12-anos/
+
+Europol. (2023). ChatGPT: The impact of large language models on law enforcement (Tech Watch Flash)
+https://www.europol.europa.eu/publications-events/publications/chatgpt-impact-of-large-language-models-law-enforcement
+
+Europol. (2025). EU Serious and Organised Crime Threat Assessment 2025 (EU-SOCTA 2025): The changing DNA of serious and organised crime
+https://www.europol.europa.eu/cms/sites/default/files/documents/EU-SOCTA-2025.pdf
+
+Europol. (2025, May 22). 270 arrested in global dark web crackdown targeting online drug and criminal networks (Operation RapTor)
+
+Federal Bureau of Investigation. (s. f.). National Incident-Based Reporting System (NIBRS)
+https://www.fbi.gov/how-we-can-help-you/more-fbi-services-and-information/ucr/nibrs
+
+Ferguson, A. G. (2017). The rise of big data policing: Surveillance, race, and the future of law enforcement. NYU Press
+https://nyupress.org/9781479802768/the-rise-of-big-data-policing/
+
+Ferri, P., & San Juan, P. (2025, 6 de diciembre). Organized crime is strangling Latin America. EL PAÍS English. Disponible en:
+https://english.elpais.com/international/2025-12-06/organized-crime-is-strangling-latin-america.html
+
+Financial Action Task Force. (s. f.). Virtual assets
+https://www.fatf-gafi.org/en/publications/Virtualassets/Virtual-assets.html
+
+Fondo Monetario Internacional (FMI). (2024). Violent crime and insecurity in Latin America and the Caribbean (Departmental Paper)
+https://www.imf.org/-/media/files/publications/dp/2024/english/vcilacea.pdf
+
+Fondo Monetario Internacional (FMI). (2024). Violent crime and insecurity in Latin America and the Caribbean (Departmental Paper)
+https://www.imf.org/-/media/files/publications/dp/2024/english/vcilacea.pdf
+
+Gill, C., Weisburd, D., Telep, C. W., Vitter, Z., & Bennett, T. (2014). Community-oriented policing to reduce crime, disorder and fear and increase satisfaction and legitimacy among citizens: A systematic review. Campbell Systematic Reviews, 10(1), 1–99
+https://doi.org/10.4073/csr.2014.3
+
+Global Initiative Against Transnational Organized Crime. (2023). Global Organized Crime Index 2023: A fractured world. Disponible en:
+https://globalinitiative.net/wp-content/uploads/2023/09/Global-organized-crime-index-2023-web-compressed-compressed.pdf
+
+Gobierno del Perú. (2024, octubre 29). Reporta incidentes y delitos mediante la aplicación Mi Policía Digital
+https://www.gob.pe/66396-reporta-incidentes-y-delitos-mediante-la-aplicacion-mi-policia-digital
+
+Gobierno Regional La Libertad. (2023, 7 de setiembre). En diciembre llegan 40 patrulleros inteligentes para la PNP [Nota de prensa]. Disponible en:
+https://www.gob.pe/institucion/regionlalibertad/noticias/894167-en-diciembre-llegan-40-patrulleros-inteligentes-para-la-pnp
+
+Gobierno Regional La Libertad. (2023, September 7). En diciembre llegan 40 patrulleros inteligentes para la PNP [Nota de prensa]. Plataforma del Estado Peruano (gob.pe)
+
+Hernández, W. (2017). Additive and synergistic perceived risk of crime: A multilevel longitudinal study in Peru. En The Routledge International Handbook on Fear of Crime (pp. 368–387). Routledge
+https://doi.org/10.4324/9781315651781
+
+Hernández, W. (2019). Do criminal justice reforms reduce crime and perceived risk of crime? A quasi-experimental approach in Peru. International Review of Law and Economics, 58, 89–100
+https://doi.org/10.1016/j.irle.2019.03.004
+
+Hernández, W., & Corcuera, J. (2020). ¿Cómo funciona la extorsión en el Perú? Reglas informales de un delito en expansión. En La muerte es un negocio: Miradas cercanas a la violencia criminal en América Latina
+
+Hernández, W., Cozzubo, Á., & Román, A. (2024). ¿A costa de qué?: Impacto de corto y mediano plazo de los Estados de Emergencia en el Callao sobre la seguridad ciudadana, violencia de pareja y el bienestar social. Consorcio de Investigación Económica y Social (CIES)
+https://cies.org.pe/wp-content/uploads/2023/10/Estado-de-Emergencia-en-el-Callao-y-su-impacto.pdf
+
+Hernández, W., Dammert, L., & Kanashiro, L. (2020). Fear of crime examined through diversity of crime, social inequalities, and social capital: An empirical evaluation in Peru. Australian and New Zealand Journal of Criminology, 53(4), 515–535
+https://doi.org/10.1177/0004865820954466
+
+IDB Invest. (2021). Uruguay IDB Group country strategy 2021–2025 . (Ver sección sobre PADO y comparación de robos)
+
+IDEHPUCP. (2022). Boletín jurisprudencial sobre trata de personas, trabajo forzoso y otras formas de explotación (N.° 2). IDEHPUCP
+https://cdn01.pucp.education/idehpucp/wp-content/uploads/2022/07/19191353/boletin_21.pdf
+
+INDAGA. (2017a). El fenómeno del sicariato en el Perú: Estado situacional y experiencias del adolescente en conflicto con la Ley Penal sancionado por sicariato. Ministerio de Justicia y Derechos Humanos
+https://www.gob.pe/institucion/minjus/informes-publicaciones/1604518-el-fenomeno-del-sicariato-en-el-peru
+
+INDAGA. (2017b). Homicidios en el Perú: Análisis de tendencias. Ministerio de Justicia y Derechos Humanos
+https://www.gob.pe/institucion/minjus/informes-publicaciones/1604525-homicidios-en-el-peru
+
+INDAGA. (2017c). Trata de personas en el Perú: Criminología de actores y perfiles penitenciarios. Ministerio de Justicia y Derechos Humanos
+https://chsalternativo.org/recurso/trata-de-personas-en-el-peru-criminologia-de-actores-y-perfiles-penitenciarios/
+
+INDEHPUCP. (2024). Boletín jurisprudencial sobre trata de personas, trabajo forzoso y otras formas de explotación (N.° 7). IDEHPUCP
+https://cdn01.pucp.education/idehpucp/images/2024/05/boletin-n_7.pdf
+
+Instituto Nacional de Estadística e Informática (INEI). (2026, 22 de enero). Evolución de la tasa de homicidios e indicadores de seguridad ciudadana, 2022–2025 [Informe técnico]. Disponible en:
+https://www.gob.pe/institucion/inei/informes-publicaciones/7648859-evolucion-de-la-tasa-de-homicidios-e-indicadores-de-seguridad-ciudadana-2022-2025
+
+Instituto Nacional de Estadística e Informática. (2024). Informe técnico: Estadísticas de seguridad ciudadana del semestre móvil: enero–junio 2024. Disponible en:
+https://www.inei.gob.pe/media/MenuRecursivo/boletines/estadisticas-de-seguridad-ciudadana-enero-junio-2024.pdf
+
+Instituto Nacional de Estadística e Informática. (2025). Informe técnico: Estadísticas de seguridad ciudadana del semestre móvil diciembre 2024–mayo 2025. INEI
+https://www.inei.gob.pe/media/MenuRecursivo/boletines/boletin_seguridad_ciudadana_dic24-may25.pdf
+
+Instituto Nacional de Estadística e Informática. (2026, January 22). Evolución de la tasa de homicidios e indicadores de seguridad ciudadana, 2022–2025 [Informe técnico]. gob.pe
+https://www.gob.pe/institucion/inei/informes-publicaciones/7648859-evolucion-de-la-tasa-de-homicidios-e-indicadores-de-seguridad-ciudadana-2022-2025
+
+Instituto Nacional de Estadística e Informática. (2026a). Informe técnico: Evolución de la tasa de homicidios e indicadores de seguridad ciudadana, 2022–2025 (Comité Estadístico Interinstitucional de la Criminalidad—CEIC)
+
+Instituto Nacional de Estadística e Informática. (2026a, 22 de enero). Evolución de la tasa de homicidios e indicadores de seguridad ciudadana, 2022–2025 [Informe técnico]
+https://www.gob.pe/institucion/inei/informes-publicaciones/7648859-evolucion-de-la-tasa-de-homicidios-e-indicadores-de-seguridad-ciudadana-2022-2025
+
+Instituto Nacional Penitenciario. (2025). Informe estadístico: Diciembre 2025. INPE
+https://siep.inpe.gob.pe/Archivos/2025/Informes%20estadisticos/informe_estadistico_diciembre_2025.pdf
+
+Inter-American Development Bank. (2010). Cell phones in the fight against crime
+https://www.iadb.org/en/news/cell-phones-fight-against-crime
+
+Inter-American Development Bank. (2024, March 7). Citizen Security in Latin America and the Caribbean [News release]. Disponible en:
+https://www.iadb.org/en/news/citizen-security-latin-america-and-caribbean
+
+INTERPOL & United Nations Interregional Crime and Justice Research Institute. (2019). Artificial intelligence and robotics for law enforcement. UNICRI/INTERPOL
+https://unicri.org/sites/default/files/2025-06/UNICRI%20-%20Artificial%20intelligence%20and%20robotics%20for%20law%20enforcement.pdf
+
+INTERPOL, & United Nations Interregional Crime and Justice Research Institute. (2019). Artificial intelligence and robotics for law enforcement. UNICRI/INTERPOL
+https://unicri.org/sites/default/files/2025-06/UNICRI%20-%20Artificial%20intelligence%20and%20robotics%20for%20law%20enforcement.pdf
+
+INTERPOL. (2024). Asia and South Pacific Cyberthreat Assessment Report 2024
+https://www.interpol.int/content/download/22308/file/Asia%20and%20South%20Pacific%20Cyberthreat%20Assessment%20Report%202024-4.pdf
+
+INTERPOL. (s. f.). Our 19 databases
+https://www.interpol.int/en/How-we-work/Databases/Our-databases
+
+Jares Reyme, D. J. (2017). El proceso de geolocalización en la investigación de delitos extorsivos de la Dirección de Investigación Criminal PNP, en el periodo 2015–2016 [Tesis]
+
+Kanashiro, L., Dammert, L., & Hernández, W. (2018). Percepción de inseguridad: Determinantes y narrativas. CIES
+https://www.researchgate.net/publication/351515818_Percepcion_de_inseguridad_Determinantes_y_narrativas
+
+Kochel, T. R., O’Guinn, B. J., Nouri, S., & Haberman, C. P. (2026). Impact of hot spots patrol treatment duration on gun violence and disorder: A randomized controlled trial. Policing: A Journal of Policy and Practice, 20, paaf069
+https://doi.org/10.1093/police/paaf069
+
+Lee, Y. (2024). The effectiveness of big data-driven predictive policing: Systematic review. Journal of Experimental Criminology
+https://doi.org/10.1080/24751979.2024.2371781
+
+Lee, Y., Bradford, B., & Posch, K. (2024). The effectiveness of big data-driven predictive policing: Systematic review. Justice Evaluation Journal, 1–34
+https://doi.org/10.1080/24751979.2024.2371781
+
+Lessing, B. (2018). Making peace in drug wars: Crackdowns and cartels in Latin America. Cambridge University Press
+
+López, N., & Tuesta, D. (2015). Economías ilícitas y orden social: La frontera de Perú, Brasil y Colombia. Revista CIDOB d’Afers Internacionals, 111, 79–104
+https://raco.cat/index.php/RevistaCIDOB/article/view/302705
+
+Lossio Chávez, F. (2008). «Ahí sí hubo justicia»: Linchamientos en el Perú actual. Debates en Sociología, (33), 117–139
+https://doi.org/10.18800/debatesensociologia.200801.006
+
+Lossio Chávez, F. (2008). «Ahí sí hubo justicia»: Linchamientos en el Perú actual. Debates en Sociología, 33, 117–146
+
+Lum, C., Koper, C. S., Wilson, D. B., Stoltz, M., & Goodier, M. (2020). Body-worn cameras’ effects on police officers and citizen behavior: A systematic review. Campbell Systematic Reviews, 16(3), e1112
+https://doi.org/10.1002/cl2.1112
+
+Lum, K., & Isaac, W. (2016). To predict and serve? Significance, 13(5), 14–19
+https://doi.org/10.1111/j.1740-9713.2016.00960.x
+
+Malamud, C., & Núñez Castellano, R. (2024, 25 de noviembre). América Latina, crimen organizado e inseguridad ciudadana. Real Instituto Elcano. Disponible en:
+https://www.realinstitutoelcano.org/analisis/america-latina-crimen-organizado-e-inseguridad-ciudadana/
+
+Malamud, M. (2018). Economías ilícitas en la Amazonia: Un desafío para la gobernabilidad en Perú, Brasil y Colombia. Journal of Globalization, Competitiveness and Governability, 12(1), 34–47
+https://doi.org/10.3232/GCG.2018.V12.N1.01
+
+Meehan, A. J. (1998). The impact of mobile data terminal (MDT) information technology on police patrol. Journal of Criminal Justice, 26(5), 331–345
+https://link.springer.com/article/10.1023/A%3A1022190402726
+
+Meza Farfán, V. H. (2018). Estructura del mercado informal de compra-venta de vehículos siniestrados en Lima, el año 2017 [Tesis]
+
+Ministerio de Transportes y Comunicaciones. (2026, January 14). MTC y MININTER avanzan en piloto de conectividad segura a través de la Red Dorsal de Fibra Óptica [Nota de prensa]. Plataforma del Estado Peruano (gob.pe)
+
+Ministerio del Interior (MININTER). (2025a, 20 de octubre). Base de datos del SIDPOL a setiembre del 2025 [Base de datos]. Disponible en:
+https://www.gob.pe/institucion/mininter/informes-publicaciones/7304416-base-de-datos-del-sidpol-a-setiembre-del-2025
+
+Ministerio del Interior. (2017, febrero 23). Sistema informático de planificación y control del patrullaje policial (SIPCOP) se registra en INDECOPI [Nota de prensa]
+https://www.gob.pe/institucion/mininter/noticias/15813-sistema-informatico-de-planificacion-y-control-del-patrullaje-sipcop-se-registra-en-indecopi
+
+Ministerio del Interior. (2021). Política Nacional Multisectorial de Seguridad Ciudadana al 2030 (documento oficial). Observatorio MININTER
+https://observatorio.mininter.gob.pe/sites/default/files/proyecto/archivos/DOCUMENTOS-Pol%C3%ADtica%20Nacional%20Multisectorial%20de%20Seguridad%20Ciudadana%202030.pdf
+
+Ministerio del Interior. (2025a, October 20). Base de datos del SIDPOL a setiembre del 2025 [Base de datos]. gob.pe
+https://www.gob.pe/institucion/mininter/informes-publicaciones/7304416-base-de-datos-del-sidpol-a-setiembre-del-2025
+
+Ministerio del Interior. (2026). Homicidios – Observatorio Mininter [Tablero]
+https://observatorio.mininter.gob.pe/content/homicidios-0
+
+Ministerio Público. (2025). Revista de la Fiscalía Especializada Contra la Criminalidad Organizada, Edición N° 004 - Setiembre 2025. Disponible en:
+https://cdn.www.gob.pe/uploads/document/file/8856437/7306577-revista-fiscalia-especializada-de-la-fecor-2025.pdf?v=1760991417
+
+Mohler, G. O., Short, M. B., Malinowski, S., Johnson, M., Tita, G. E., Bertozzi, A. L., & Brantingham, P. J. (2015). Randomized controlled field trials of predictive policing. Journal of the American Statistical Association, 110(512), 1399–1411
+https://doi.org/10.1080/01621459.2015.1077710
+
+Musayón Díaz, L. A. (2019). Las competencias profesionales del pesquisa, plasmadas en la investigación criminal, en el DEPINCRI PNP Barranco Chorrillos, enero–octubre 2018 [Tesis]
+
+Nagin, D. S., Solow, R. M., & Lum, C. (2015). Deterrence, criminal opportunities, and police. Criminology, 53(1), 74–100
+https://doi.org/10.1111/1745-9125.12047
+
+National Academies of Sciences, Engineering, and Medicine. (2024). Law enforcement use of predictive policing approaches (sección sobre person-based predictive policing)
+https://www.nationalacademies.org/read/28036/chapter/4
+
+National Academies of Sciences, Engineering, and Medicine. (2024). Law enforcement use of predictive policing approaches: Proceedings of a workshop—in brief. The National Academies Press
+https://doi.org/10.17226/28037
+
+National Institute of Justice. (2018, marzo 6). Evaluation of the Shreveport Predictive Policing Experiment
+https://nij.ojp.gov/topics/articles/evaluation-shreveport-predictive-policing-experiment
+
+Observatorio del Crimen y la Violencia. (2026, enero). Reporte mensual: Enero 2026 [Quinto reporte]. Disponible en:
+https://admin.observatoriodelcrimenylaviolencia.com/media/Reporte_BCP_2026-enero_v10.pdf
+
+Observatorio Nacional de Seguridad Ciudadana. (2019). Inversión pública en seguridad ciudadana a nivel subnacional. Ministerio del Interior
+
+OCDE. (2025). AI in law enforcement and disaster risk management (capítulo)
+https://www.oecd.org/en/publications/2025/06/governing-with-artificial-intelligence_398fa287/full-report/ai-in-law-enforcement-and-disaster-risk-management_99fc1804.html
+
+Organización para la Cooperación y el Desarrollo Económicos (OCDE). (2022). Tackling policy challenges through public sector innovation. OECD Publishing. Disponible en:
+https://www.oecd.org/en/publications/tackling-policy-challenges-through-public-sector-innovation_052b06b7-en.html
+
+Organización para la Cooperación y el Desarrollo Económicos. (2022). Tackling policy challenges through public sector innovation. OECD Publishing
+https://www.oecd.org/en/publications/tackling-policy-challenges-through-public-sector-innovation_052b06b7-en.html
+
+Organización para la Cooperación y el Desarrollo Económicos. (2025). AI in law enforcement and disaster risk management (capítulo)
+https://www.oecd.org/en/publications/2025/06/governing-with-artificial-intelligence_398fa287/full-report/ai-in-law-enforcement-and-disaster-risk-management_99fc1804.html
+
+Palomino Firma, S. V. (2026). Extorsión digital con inteligencia artificial en el Perú: Revisión sistemática del marco normativo y lineamientos para su prevención. Revista InveCom, 6(3)
+https://ve.scielo.org/scielo.php?pid=S2739-00632026000303092&script=sci_arttext
+
+Perez-Vincent, S. M., Puebla, D., & Alvarado, N. (2024). Los costos del crimen y la violencia: Ampliación y actualización de las estimaciones para América Latina y el Caribe. Banco Interamericano de Desarrollo
+https://doi.org/10.18235/0013238
+
+Perry, W. L., McInnis, B., Price, C. C., Smith, S., & Hollywood, J. S. (2013). Predictive policing: The role of crime forecasting in law enforcement operations. RAND Corporation
+https://www.rand.org/pubs/research_reports/RR233.html
+
+Pimentel, B. (2019). Más allá de la legalidad: Una aproximación a los mercados ilícitos de celulares en Trujillo. En El fenómeno criminológico y la política criminal en las regiones: I Convocatoria Nacional de Artículos (pp. 133–153). INDAGA
+https://cdn.www.gob.pe/uploads/document/file/1616613/El%20Fenómeno%20Criminológico%20y%20la%20Política%20Criminal%20en%20las%20Regiones.pdf.pdf
+
+Piza, E. L. (2023). The impact of gunshot detection technology on gun violence, arrests, and community outcomes (NIJ grant report)
+https://www.ojp.gov/pdffiles1/nij/grants/308357.pdf
+
+Piza, E. L., Welsh, B. C., Farrington, D. P., & Thomas, A. L. (2019). CCTV surveillance for crime prevention: A 40-year systematic review with meta-analysis. Criminology & Public Policy, 18(1), 135–159
+https://doi.org/10.1111/1745-9133.12419
+
+Plataforma Nacional de Datos Abiertos. (s. f.). Delitos [catálogo]
+https://www.datosabiertos.gob.pe/SEARCH/field_tags/delitos-1011
+
+Poder Judicial del Perú. (2024). Memoria institucional 2023–2024. Lima, Perú: Poder Judicial del Perú. Disponible en:
+https://www.pj.gob.pe/wps/wcm/connect/CorteSuprema/s_cortes_suprema_home/as_poder_judicial/as_corte_suprema/as_presidencia/as_memoria_institucional/
+
+Policía Nacional del Perú. (2026). Boletín informativo (del 1 al 31 de enero de 2026). Disponible en:
+https://cdn.www.gob.pe/uploads/document/file/9398979/7702189-boletin-informativo-enero-2026.pdf?v=1770313535
+
+Presidencia del Consejo de Ministros. (2025, febrero 20). Plataforma de Interoperabilidad del Estado (PIDE)
+https://www.gob.pe/741-plataforma-de-interoperabilidad-del-estado
+
+Ramírez, L. A. (2019). Análisis del plan de estudio de las escuelas de educación superior técnico profesional de la Policía Nacional del Perú y su relación con el perfil profesional de la especialidad de investigación criminal, año 2018 [Tesis]
+
+Ratcliffe, J. H., Taylor, R. B., Askey, A. P., Thomas, K., Grasso, J., Bethel, K. J., Fisher, R., & Koehnlein, J. (2021). The Philadelphia predictive policing experiment. Journal of Experimental Criminology, 17, 15–41
+https://doi.org/10.1007/s11292-019-09400-2
+
+Rivas Sucuple, J. A. (2019). El patrullaje policial como estrategia en la prevención de delitos contra el patrimonio en la modalidad de robo y hurto en la jurisdicción de la Comisaría de Villa Chorrillos. Lima–2018 [Tesis]
+
+
+Rivero Rodríguez, D., Martínez Acevedo, M. L., & Izquierdo Bueno, R. M. (2025). Impacto de la tecnología en la inteligencia policial: Una revisión sistemática. ESCPOGRA PNP, 5(1), 15–29
+https://doi.org/10.59956/escpograpnpv5n1.2
+
+Rosales, C. (2026, January 24). Gobierno presenta resultados sobre homicidios y sicariato con INEI (nota sobre tasa estimada 2025: 10.7 por 100,000). Gestión
+
+Ruiz, M. (2018). Diagnóstico de la implementación del plan nacional de lucha contra la trata y su ejecución a través de planes regionales: El caso de Madre de Dios
+
+Sáenz, R. E. (2018). Utilidad del sistema de videovigilancia municipal en la función policial, frente al delito contra el patrimonio en las modalidades de hurto y robo, en el distrito de San Isidro durante el período 2015–2016 [Tesis]
+
+Salazar-Tobar, F., & Rengifo, A. F. (2023). Trust in the police in Latin America: A multilevel analysis of institutional and experiential models. Policing: A Journal of Policy and Practice, 17, paac113
+https://doi.org/10.1093/police/paac113
+
+Samame, F. (2017). Empleo de los helicópteros EC-145, en el patrullaje policial en Lima Metropolitana, durante el período 2016 [Tesis]
+
+Sarango, J. F. (2016). Desarrollo e implementación del control policial del contrabando de ropa usada en el distrito de Desaguadero—Puno durante el 2014 [Tesis]
+
+Schargrodsky, E. (2021). Inequality and crime in Latin America and the Caribbean: New data for an old question [Documento de trabajo]. CAF
+https://scioteca.caf.com/bitstream/handle/123456789/1786/Inequality%20and%20Crime%20in%20Latin%20America%20and%20the%20Caribbean_New%20Data%20for%20and%20Old%20Question.pdf
+
+Seclén, D. (2025, November 17). Confianza en la PNP en su nivel más bajo: vista como una marca, cómo cambiar esa percepción (cita de 14.2% primer semestre 2025, con referencia a INEI/ENAHO/Observatorio). Gestión
+
+Silvestre Condo, L. R., Guivar Zumaeta, D. E., & Morales Ortega, R. F. (2025). Causas y efectos de la criminalidad organizada en el Perú: Análisis integral. Revista ESCPOGRA PNP, 4(2), 1–17
+https://doi.org/10.59956/escpograpnpv4n2.1
+
+Skogan, W. G. (2006). The promise of community policing. In D. L. Weisburd & A. A. Braga (Eds.), Police innovation: Contrasting perspectives (pp. 27–43). Cambridge University Press
+
+Soares, R. R., & Naritomi, J. (2010). Understanding high crime rates in Latin America: The role of social and policy factors. En R. Di Tella, S. Edwards, & E. Schargrodsky (Eds.), The economics of crime: Lessons for and from Latin America (pp. 19–55). University of Chicago Press / NBER
+https://www.nber.org/system/files/chapters/c11831/c11831.pdf
+
+Sunshine, J., & Tyler, T. R. (2003). The role of procedural justice and legitimacy in shaping public support for policing. Law & Society Review, 37(3), 555–589
+https://www.cambridge.org/core/journals/law-and-society-review/article/role-of-procedural-justice-and-legitimacy-in-shaping-public-support-for-policing/3EB985ACD855B32B3C10EDAAD0B0EA57
+
+Sunshine, J., & Tyler, T. R. (2003). The role of procedural justice and legitimacy in shaping public support for policing. Law & Society Review, 37(3), 555–589
+
+Superintendencia de Banca, Seguros y AFP. (s. f.). Unidad de Inteligencia Financiera del Perú (UIF-Perú)
+https://www.sbs.gob.pe/prevencion-de-lavado-activos
+
+Superintendencia Nacional de Migraciones. (2024a, marzo 26). Adquirirán equipos de control migratorio de vanguardia para el nuevo Aeropuerto Internacional Jorge Chávez
+https://www.gob.pe/institucion/migraciones/noticias/925762-adquiriran-equipos-de-control-migratorio-de-vanguardia-para-el-nuevo-aeropuerto-internacional-jorge-chavez
+
+Superintendencia Nacional de Migraciones. (2024b, diciembre 19). Migraciones presenta sistema de control migratorio automatizado en el nuevo aeropuerto
+https://www.gob.pe/institucion/migraciones/noticias/1077859-migraciones-presenta-sistema-de-control-migratorio-automatizado-en-el-nuevo-aeropuerto
+
+Torrejón, J. A. (2016). El sistema de videovigilancia de la Central de Emergencia 105–PNP en la lucha contra la inseguridad ciudadana en la DIVTER Centro 1, durante el año 2015 [Tesis]
+
+Tuesta, D. (2018). «Son prácticamente casos perdidos». Trata de personas y respuesta judicial en Madre de Dios, Perú. Debates en Sociología, 47, 73–99
+https://doi.org/10.18800/debatesensociologia.201802.003
+
+Tyler, T. R. (2015). Procedural justice, legitimacy, and effective law enforcement. Yale Law School
+https://law.yale.edu/sites/default/files/area/center/justice/document/5697d9ee08aea2d74375cb87.pdf
+
+Unidad de Inteligencia Financiera. (2023). Memoria anual 2023. Construyendo una cultura de prevención financiera. Disponible en:
+https://www.sbs.gob.pe/Portals/0/MEMORIA-2023.pdf
+
+United Nations Interregional Crime and Justice Research Institute. (2024). Digital rehabilitation in prisons [Brief/report]
+https://unicri.org/sites/default/files/2024-03/Digital%20Rehabilitation%20in%20Prisons_0.pdf
+
+United Nations Office on Drugs and Crime, & Comisión Nacional para el Desarrollo y Vida sin Drogas (DEVIDA). (2024). Perú: Monitoreo de cultivos de coca 2023 (junio 2024). UNODC/DEVIDA
+https://www.unodc.org/documents/crop-monitoring/Peru/Peru_monitoreo_2023_DEVIDA.pdf
+
+United Nations Office on Drugs and Crime. (2011). Forensic services and infrastructure (Criminal Justice Assessment Toolkit)
+https://www.unodc.org/documents/justice-and-prison-reform/cjat_eng/Forensic_services_and_infrastructure.pdf
+
+United Nations Office on Drugs and Crime. (2015). International classification of crime for statistical purposes (ICCS). UNODC
+https://www.cdeunodc.inegi.org.mx/index.php/clasificacion-internacional-del-delito-con-fines-estadisticos/
+
+United Nations Office on Drugs and Crime. (2020). Global Study on Firearms Trafficking 2020
+https://www.unodc.org/documents/data-and-analysis/Firearms/2020_REPORT_Global_Study_on_Firearms_Trafficking_2020_web.pdf
+
+United Nations Office on Drugs and Crime. (2023). Global study on homicide 2023. Disponible en:
+https://www.unodc.org/documents/data-and-analysis/gsh/2023/Global_study_on_homicide_2023_web.pdf
+
+United Nations Office on Drugs and Crime. (2024). United Nations Convention against Cybercrime (página oficial; adoptada el 24/12/2024)
+https://www.unodc.org/unodc/en/cybercrime/convention/home.html
+
+United Nations Office on Drugs and Crime. (2024a). World drug report 2024. UNODC
+https://www.unodc.org/unodc/en/data-and-analysis/world-drug-report-2024.html
+
+United Nations Office on Drugs and Crime. (2024a). World Wildlife Crime Report 2024
+https://www.unodc.org/cofrb/uploads/documents/ECOS/World_Wildlife_Crime_Report_2024.pdf
+
+United Nations Office on Drugs and Crime. (2024b). Global Report on Trafficking in Persons 2024
+https://www.unodc.org/documents/data-and-analysis/glotip/2024/GLOTIP2024_BOOK.pdf
+
+United Nations Office on Drugs and Crime. (2024c, November 14). Responsible AI Innovation in Law Enforcement: Understanding Risks and Opportunities (seminar note; INTERPOL–UNICRI toolkit)
+https://www.unodc.org/unodc/en/human-trafficking/glo-act6/Countries/responsible-ai-innovation-in-law-enforcement_-understanding-risks-and-opportunities.html
+
+United Nations Office on Drugs and Crime. (2025). UNODC hands over modernized CCTV system to prison service of Tajikistan [News]
+https://www.unodc.org/roca/en/NEWS/2025/unodc-hands-over-modernized-cctv-system-to-prison-service-of-tajikistan-under-rftf-phase-ii.html
+
+United Nations Office on Drugs and Crime. (2025a, April 7). UNODC: New study shows forest crime converging with other types of organized crime, fueling harms to the environment, communities and economy [Press release]. UNODC
+https://www.unodc.org/unodc/en/press/releases/2025/April/unodc_-new-study-shows-forest-crime-converging-with-other-types-of-organized-crime--fueling-harms-to-the-environment--communities--and-economy.html
+
+United Nations Office on Drugs and Crime. (2025a, October 25). What to know about cybercrime in 2025 (artículo divulgativo técnico)
+https://www.unodc.org/unodc/frontpage/2025/October/what-to-know-about-cybercrime-in-2025.html
+
+United Nations Office on Drugs and Crime. (2025b). Emerging threats: The intersection of criminal and technological innovation in the use of automation and AI (reporte)
+https://www.unodc.org/roseap/uploads/documents/Publications/2025/UNODC_Report_Emerging_threats_-_The_intersection_of_criminal_and_technological_innovation_in_the_use_of_automation_and_AI.pdf
+
+United Nations Office on Drugs and Crime. (2025b). Minerals crime (Crimes that affect the environment report series). UNODC
+https://www.unodc.org/documents/data-and-analysis/Crimes%20on%20Environment/ECR25_P2b_Minerals_Crime.pdf
+
+United Nations Office on Drugs and Crime. (2025c). Monitoring of territories with presence of coca cultivation, 2023 (Colombia survey report). UNODC
+https://www.unodc.org/documents/crop-monitoring/Colombia/Colombia_survey_report_EN_2023.pdf
+
+Vergaray Van Meerbeck, E. M. (2016). Limitaciones temporales en la investigación técnica científica especializada de la DIRINTRAP en los casos de flagrancia del delito por trata de personas en la modalidad de explotación sexual de menores de edad en Lima Metropolitana durante 2015 [Tesis]
+
+Vizcarra, S., Bonilla, D., & Prado, B. (2020). Respuestas del Estado peruano frente al crimen organizado en el siglo XXI. CS
+http://www.scielo.org.co/scielo.php?pid=S2011-03242020000200109&script=sci_abstract&tlng=es
+
+Wallace, H. M., Jackson, A. R. W., Gruber, J., & Thibedeau, A. D. (2014). Forensic DNA databases—Ethical and legal standards: A global review. Journal of Forensic and Legal Medicine, 22, 18–25
+https://doi.org/10.1016/j.jflm.2013.12.012
+
+Weisburd, D., Telep, C. W., Hinkle, J. C., & Eck, J. E. (2010). Is problem-oriented policing effective in reducing crime and disorder? Criminology & Public Policy, 9(1), 139–172
+https://doi.org/10.1111/j.1745-9133.2010.00617.x
+
+Welsh, B. C., & Farrington, D. P. (2002). Crime prevention effects of closed circuit television: A systematic review (Home Office Research Study 252)
+
+Welsh, B. C., & Farrington, D. P. (2008). Effects of closed circuit television surveillance on crime. Campbell Systematic Reviews, 4(1), 1–62
+https://doi.org/10.4073/csr.2008.17
+
+Welsh, B. C., & Farrington, D. P. (2009). Public area CCTV and crime prevention: An updated systematic review and meta-analysis. Justice Quarterly, 26(4), 716–745
+https://doi.org/10.1080/07418820802506206
+
+World Bank. (2025). AML/CFT national risk assessment on virtual assets and virtual asset service providers (PDF; discusión sobre capacidades de blockchain analytics para LEA/supervisores)
+https://documents1.worldbank.org/curated/en/099101825095526746/pdf/P502461-a14939d7-c956-4997-973b-b39acb000a8b.pdf
+
+World Economic Forum. (2025). Global Cybersecurity Outlook 2025 
+https://reports.weforum.org/docs/WEF_Global_Cybersecurity_Outlook_2025.pdf
+
+Yupari-Azabache, I., Rabanal León, H., Villena Zapata, L., Zurita Melendrez, M., & León, H. R. (2020). Factores asociados a la comisión del delito de extorsión en el Distrito Fiscal de La Libertad 2017–2018. Revista Criminalidad, 62(2), 145–163
+
