@@ -9,7 +9,7 @@ page-layout: full
 <p class="hero-meta">
 <span>Noam López Villanes</span>
 <span>Dirección de Investigación y Estudios</span>
-<span>Consejo Nacional de Ciencia, Tecnología e Innovación Tecnológica.</span>
+<span>Consejo Nacional de Ciencia, Tecnología e Innovación Tecnológica</span>
 </p>
 
 :::: {.kpi-strip .hero-kpi-strip}
