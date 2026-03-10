@@ -5,7 +5,7 @@ page-layout: full
 
 ::: {.hero-compact #mininter}
 <div class="hero-inner hero-inner-compact">
-<p class="hero-title">Prioridades de CTI para prevenir y controlar la criminalidad violenta en el Perú</p>
+<p class="hero-title">Prioridades de CTI para prevenir y controlar<br>la criminalidad violenta en el Perú</p>
 <p class="hero-meta">
 <span>Noam López Villanes</span>
 <span>Dirección de Investigación y Estudios</span>
@@ -16,7 +16,7 @@ page-layout: full
 
 <section class="section-block">
 
-### Enfoque de intervención { .subsection-title }
+### ¿Qué priorizar? { .subsection-title }
 
 <div class="visual-block reveal-on-scroll">
 <div class="focus-map">
@@ -43,7 +43,7 @@ page-layout: full
 </div>
 </div>
 
-### PROBLEMA PÚBLICO SEGÚN EL PNSSC LM 2026-2028 { .subsection-title .subsection-title-center }
+### Priorización según el Plan Nacional de Seguridad Ciudadana y Lucha contra la Criminalidad 2026-2028 { .subsection-title .subsection-title-center }
 
 <div class="visual-block reveal-on-scroll">
 <div class="tree-controls" aria-label="Filtros del árbol de problemas">

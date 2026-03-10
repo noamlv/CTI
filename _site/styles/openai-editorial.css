@@ -118,15 +118,15 @@ main.content,
 
 .hero-title {
   margin: 0;
-  max-width: 15ch;
-  font-size: clamp(2rem, 5.9vw, 4.25rem);
-  line-height: 1.04;
+  max-width: none;
+  font-size: clamp(2rem, 4.7vw, 3rem);
+  line-height: 1.07;
   letter-spacing: -0.03em;
   font-weight: 700;
 }
 
 .hero-meta {
-  margin-top: 1.15rem;
+  margin-top: 1.75rem;
   color: var(--muted);
   font-size: 1rem;
   line-height: 1.42;
@@ -151,12 +151,12 @@ main.content,
 }
 
 .hero-compact .hero-title {
-  max-width: 14ch;
-  font-size: clamp(1.9rem, 4.8vw, 3.7rem);
+  max-width: none;
+  font-size: clamp(2rem, 4.7vw, 3rem);
 }
 
 .hero-compact .hero-meta {
-  margin-top: 0.9rem;
+  margin-top: 1.75rem;
 }
 
 .focus-map {

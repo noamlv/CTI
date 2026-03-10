@@ -5,7 +5,7 @@ page-layout: full
 
 ::: {.hero-screen #inicio}
 <div class="hero-inner">
-<p class="hero-title">Prioridades de CTI para prevenir y controlar la criminalidad violenta en el Perú</p>
+<p class="hero-title">Prioridades de CTI para prevenir y controlar<br>la criminalidad violenta en el Perú</p>
 <p class="hero-meta">
 <span>Noam López Villanes</span>
 <span>Dirección de Investigación y Estudios</span>

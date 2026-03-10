@@ -22,7 +22,7 @@ website:
         href: "index.qmd#marco"
       - text: "Referencias"
         href: "index.qmd#referencias"
-      - text: "MinInter"
+      - text: "MININTER"
         href: "mininter.qmd"
 
 format:
