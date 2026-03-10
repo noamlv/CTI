@@ -23,6 +23,8 @@ body {
   background: var(--bg);
   color: var(--text);
   font-family: "Söhne", "Soehne", Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+  max-width: 100%;
+  overflow-x: hidden;
 }
 
 body {
@@ -98,6 +100,7 @@ a {
 main.content,
 #quarto-document-content,
 .page-layout-full #quarto-document-content {
+  width: 100%;
   max-width: var(--content-max) !important;
   margin: 0 auto;
   padding-left: 1.3rem;
@@ -1362,8 +1365,22 @@ h3.subsection-title {
     --nav-h: 64px;
   }
 
+  main.content,
+  #quarto-document-content,
+  .page-layout-full #quarto-document-content {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
   .hero-screen {
     padding-top: calc(var(--nav-h) + 0.75rem);
+  }
+
+  .hero-title {
+    font-size: clamp(1.78rem, 8.8vw, 2.28rem);
+    line-height: 1.08;
+    letter-spacing: -0.022em;
+    max-width: 100%;
   }
 
   .hero-compact {
@@ -1382,7 +1399,12 @@ h3.subsection-title {
   }
 
   .hero-kpi-strip {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
+    grid-template-columns: 1fr;
+    row-gap: 1rem;
+  }
+
+  .hero-kpi-strip .kpi-item .value {
+    font-size: 1.02rem;
   }
 
   .hbar-row {
