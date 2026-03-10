@@ -14,7 +14,7 @@ page-layout: full
 </div>
 :::
 
-<section class="section-block mininter-section">
+<section class="mininter-section">
 
 ### ¿Qué priorizar? { .subsection-title }
 
@@ -193,7 +193,7 @@ page-layout: full
     <details class="priority-item tone-control">
       <summary><span class="priority-code">2.4</span>Inteligencia financiera</summary>
       <ul class="priority-list">
-        <li><strong>Aplicaciones:</strong> trazabilidad de pagos extorsivos y cuentas “mulas”; modelos de riesgo para detectar transacciones anómalas; matrices conjuntas UIF-SUNAT-PNP-MP para priorizar objetivos financieros.</li>
+        <li><strong>Aplicaciones:</strong> trazabilidad de pagos extorsivos y cuentas receptoras; modelos de riesgo para detectar transacciones anómalas; matrices conjuntas UIF-SUNAT-PNP-MP para priorizar objetivos financieros.</li>
         <li><strong>Estudios tipo:</strong> estudios de firmas financieras de casos cerrados vs. no detectados; evaluación de desempeño de modelos de alertamiento temprano; análisis de impacto de congelamiento de activos en continuidad operativa de redes.</li>
         <li><strong>Preguntas de investigación:</strong> ¿qué tipologías financieras son señales tempranas de extorsión y homicidio? ¿cuál es la ventana de oportunidad para inmovilizar activos? ¿qué barreras normativas frenan intercambio de datos útiles?</li>
       </ul>
