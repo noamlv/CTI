@@ -1,0 +1,166 @@
+---
+title: ""
+page-layout: full
+---
+
+::: {.hero-compact #mininter}
+<div class="hero-inner hero-inner-compact">
+<p class="hero-title">Prioridades de CTI para MinInter</p>
+<p class="hero-meta">
+<span>Noam López Villanes</span>
+<span>Dirección de Investigación y Estudios</span>
+<span>Consejo Nacional de Ciencia, Tecnología e Innovación Tecnológica.</span>
+</p>
+</div>
+:::
+
+<section class="section-block">
+
+### Árbol del problema público del Plan Nacional de Seguridad Ciudadana y Lucha contra la Criminalidad 2026 - 2028 { .subsection-title }
+
+<div class="visual-block reveal-on-scroll">
+<div class="tree-controls" aria-label="Filtros del árbol de problemas">
+<button class="tree-filter-btn is-active" type="button" data-tree-filter-target="problem-tree-mininter" data-tree-filter="all">Todo</button>
+<button class="tree-filter-btn" type="button" data-tree-filter-target="problem-tree-mininter" data-tree-filter="priority">Priorizadas CTI</button>
+<button class="tree-filter-btn" type="button" data-tree-filter-target="problem-tree-mininter" data-tree-filter="linea1">Línea 1</button>
+<button class="tree-filter-btn" type="button" data-tree-filter-target="problem-tree-mininter" data-tree-filter="linea2">Línea 2</button>
+<button class="tree-filter-btn" type="button" data-tree-filter-target="problem-tree-mininter" data-tree-filter="linea3">Línea 3</button>
+</div>
+<div class="problem-tree" id="problem-tree-mininter" data-tree-filter-state="all">
+<div class="tree-band">
+<span class="tree-label">Efectos</span>
+<div class="tree-grid tree-grid-3">
+<article class="tree-card">Incremento de la victimización y percepción de inseguridad ciudadana.</article>
+<article class="tree-card">Deslegitimación del sistema de justicia y desconfianza ciudadana en los operadores de justicia.</article>
+<article class="tree-card">Desincentivo a la inversión formal y corrupción institucional por el poder económico del crimen organizado.</article>
+</div>
+</div>
+
+<div class="tree-band tree-central">
+<span class="tree-label">Problema central</span>
+<div class="tree-central-row">
+<div class="tree-node">Problema central identificado</div>
+<div class="tree-main">Alta incidencia de delitos violentos, en las modalidades de extorsión y homicidios a nivel nacional.</div>
+</div>
+</div>
+
+<div class="tree-band">
+<span class="tree-label">Causas directas</span>
+<div class="tree-grid tree-grid-4">
+<article class="tree-card tree-direct" data-group="linea1" data-linea3="1">Debilidad en las estrategias de prevención policial y comunitaria en territorios de alta vulnerabilidad.</article>
+<article class="tree-card tree-direct" data-linea3="1">Insuficiente control territorial del Estado en zonas de frontera y espacios vulnerables que facilitan la migración ilegal, el desplazamiento y el desarrollo de economías ilegales.</article>
+<article class="tree-card tree-direct" data-group="linea2" data-linea3="1">Insuficientes capacidades y recursos del Estado para generar inteligencia, desarrollar investigación criminal y análisis criminalístico.</article>
+<article class="tree-card tree-direct" data-group="linea2" data-linea3="1">Debilidades en el sistema de administración de justicia que generan impunidad y deficiente control en el interior de los establecimientos penitenciarios.</article>
+</div>
+</div>
+
+<div class="tree-band">
+<span class="tree-label">Causas indirectas</span>
+<div class="tree-columns">
+<div class="tree-column">
+<article class="tree-subcard">Deterioro de espacios públicos comunitarios que facilitan la comisión y proliferación de faltas y delitos.</article>
+<article class="tree-subcard tree-priority" data-priority="1" data-group="linea1" data-linea3="1">Limitada capacidad operativa policial en la prevención de delitos.</article>
+<article class="tree-subcard tree-priority" data-priority="1" data-group="linea1" data-linea3="1">Limitada implementación de actividades preventivas para jóvenes y poblaciones en situación de vulnerabilidad.</article>
+<article class="tree-subcard tree-priority" data-priority="1" data-group="linea1" data-linea3="1">Limitada articulación de las organizaciones sociales y vecinales (rondas campesinas, juntas vecinales, entre otros) con las instancias del SINASEC.</article>
+</div>
+<div class="tree-column">
+<article class="tree-subcard">Limitada vigilancia y control fronterizo de flujos migratorios y de bienes fiscalizados.</article>
+<article class="tree-subcard">Limitadas acciones de control de actividades económicas informales e ilegales.</article>
+<article class="tree-subcard">Debilidad de las capacidades del Estado para fiscalizar insumos y rutas vinculadas a la minería ilegal y al tráfico de armas, municiones y explosivos.</article>
+<article class="tree-subcard">Limitada capacidad de respuesta operativa integrada en territorios de alta incidencia delictiva.</article>
+</div>
+<div class="tree-column">
+<article class="tree-subcard tree-priority" data-priority="1" data-group="linea2" data-linea3="1">Insuficientes herramientas tecnológicas y recursos para la inteligencia, investigación criminal y pericias criminalísticas.</article>
+<article class="tree-subcard tree-priority" data-priority="1" data-group="linea2" data-linea3="1">Limitado desarrollo de la interoperabilidad entre entidades vinculadas a la seguridad ciudadana.</article>
+<article class="tree-subcard">Limitada disponibilidad de personal policial especializado en inteligencia, investigación y criminalística, con énfasis en extorsiones y homicidios.</article>
+<article class="tree-subcard tree-priority" data-priority="1" data-group="linea2" data-linea3="1">Limitadas capacidades para investigar flujos económicos de origen ilegal.</article>
+</div>
+<div class="tree-column">
+<article class="tree-subcard">Incremento de la carga procesal e incumplimiento de plazos en el proceso penal.</article>
+<article class="tree-subcard">Desactualización normativa que dificulta la tipificación y sanción a nuevas modalidades delictivas.</article>
+<article class="tree-subcard">Deficiencias en la gestión y administración penitenciaria.</article>
+<article class="tree-subcard tree-priority" data-priority="1" data-group="linea2" data-linea3="1">Limitada capacidad de los sistemas de seguridad tecnológica en los penales que facilitan la comisión de delitos desde su interior.</article>
+</div>
+</div>
+</div>
+</div>
+<p class="chart-source">Fuente: Ministerio del Interior. <a href="https://busquedas.elperuano.pe/dispositivo/NL/2493627-1" target="_blank" rel="noopener noreferrer">Decreto Supremo N.° 001-2026-IN, que aprueba el Plan Nacional de Seguridad Ciudadana y Lucha contra la Criminalidad 2026-2028</a>. Publicado el 9 de marzo de 2026.</p>
+</div>
+
+### Prioridades de ciencia, tecnología e innovación para MinInter { .subsection-title }
+
+<div class="visual-block reveal-on-scroll">
+<div class="dx-table-wrap">
+<table class="dx-table dx-table-priorities">
+  <thead>
+    <tr>
+      <th>Sub-línea priorizada</th>
+      <th>Aplicaciones para el caso peruano (casos/estudios tipo)</th>
+      <th>Preguntas de investigación clave</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>1.1 Patrullaje preventivo inteligente</td>
+      <td>Focalización dinámica por microterritorio y horario con datos SIDPOL/911/ENAPRES. Caso tipo: reasignación semanal de patrullaje en distritos con mayor presión de homicidio y extorsión.</td>
+      <td>¿Qué combinación de patrullaje reduce más rápido homicidios y extorsión por zona? ¿Cuánto dura el efecto disuasivo y cómo evitar desplazamiento geográfico?</td>
+    </tr>
+    <tr>
+      <td>1.2 Prevención focalizada en jóvenes y poblaciones vulnerables</td>
+      <td>Intervenciones tempranas en barrios críticos con tutoría, permanencia educativa, empleabilidad y seguimiento comunitario. Estudio tipo: cohorte longitudinal con grupos comparables.</td>
+      <td>¿Qué perfil de riesgo predice mejor la captación por bandas? ¿Qué paquete preventivo tiene mayor permanencia y menor reincidencia?</td>
+    </tr>
+    <tr>
+      <td>1.3 Redes de alerta comunitaria</td>
+      <td>Canales seguros de reporte con juntas vecinales, rondas campesinas y PNP (app, bot y central telefónica). Caso tipo: piloto de denuncia anónima verificable en zonas extorsivas.</td>
+      <td>¿Qué diseño de canal incrementa reportes útiles sin elevar falsos positivos? ¿Qué incentivos sostienen participación vecinal en el tiempo?</td>
+    </tr>
+    <tr>
+      <td>2.1 Inteligencia digital</td>
+      <td>Analítica de redes criminales sobre denuncias, operativos, llamadas y evidencia digital. Estudio tipo: modelos de priorización de objetivos para investigación de extorsión/homicidio.</td>
+      <td>¿Qué variables anticipan escalamiento de violencia letal? ¿Qué precisión operativa aportan los modelos frente al análisis tradicional?</td>
+    </tr>
+    <tr>
+      <td>2.2 Interoperabilidad interinstitucional</td>
+      <td>Trazabilidad de casos entre PNP, MP, PJ e INPE con estándares comunes y expediente interoperable. Caso tipo: piloto de integración para extorsión en Lima y Callao.</td>
+      <td>¿En qué etapa se rompe con mayor frecuencia la cadena de información? ¿Qué impacto tiene la interoperabilidad en judicialización y tiempos de respuesta?</td>
+    </tr>
+    <tr>
+      <td>2.3 Formación asistida por tecnología</td>
+      <td>Capacitación de unidades de inteligencia e investigación con simuladores, laboratorios de casos y entrenamiento digital continuo. Estudio tipo: evaluación pre/post con métricas operativas.</td>
+      <td>¿Qué formato de entrenamiento mejora más el esclarecimiento de casos? ¿Cuánto tiempo se sostiene la mejora en desempeño?</td>
+    </tr>
+    <tr>
+      <td>2.4 Inteligencia financiera</td>
+      <td>Rastreo de pagos extorsivos, flujos de lavado y redes de testaferros con soporte UIF y análisis transaccional. Caso tipo: mapas de circuito financiero por organización criminal.</td>
+      <td>¿Qué patrones financieros permiten detección temprana de estructuras extorsivas? ¿Qué medidas aceleran inmovilización de activos ilícitos?</td>
+    </tr>
+    <tr>
+      <td>2.5 Seguridad tecnológica penitenciaria</td>
+      <td>Control intramuros con analítica CCTV, monitoreo de comunicaciones ilícitas y gestión de riesgo por pabellón. Estudio tipo: evaluación de interrupción de órdenes delictivas desde penales.</td>
+      <td>¿Qué combinación tecnológica reduce más la coordinación delictiva desde prisión? ¿Qué efectos colaterales genera y cómo mitigarlos?</td>
+    </tr>
+    <tr>
+      <td>3.1 Fenómenos criminales y economías ilegales</td>
+      <td>Producción de evidencia sobre estructuras, mercados y nodos territoriales de extorsión y homicidio. Caso tipo: índices distritales de riesgo y tipologías criminales replicables.</td>
+      <td>¿Qué economías ilegales se asocian con mayor intensidad a la violencia letal? ¿Qué factores territoriales explican su reproducción?</td>
+    </tr>
+    <tr>
+      <td>3.2 Respuesta del Estado ante la criminalidad</td>
+      <td>Evaluación de impacto y ciencia de implementación para pilotos policiales, fiscales, judiciales y penitenciarios. Estudio tipo: diseños cuasi-experimentales y análisis costo-efectividad.</td>
+      <td>¿Qué intervenciones funcionan mejor, para quién y bajo qué condiciones? ¿Qué barreras institucionales bloquean el escalamiento?</td>
+    </tr>
+    <tr>
+      <td>3.3 Legitimidad, confianza y acción ciudadana</td>
+      <td>Investigación aplicada sobre denuncia, cooperación y confianza en operadores de justicia. Caso tipo: pilotos de prevención comunitaria con rendición de cuentas local.</td>
+      <td>¿Qué explica la no denuncia en territorios críticos? ¿Qué cambios institucionales elevan cooperación ciudadana de forma sostenida?</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+<p class="chart-source">Fuente: Entregable 1 (secciones 3.4, 3.6.1 y 3.6.2), adaptado para priorización operativa MinInter.</p>
+</div>
+
+</section>
+
+<script src="scripts/indicadores.js"></script>

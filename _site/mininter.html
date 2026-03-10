@@ -1,0 +1,810 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="es" xml:lang="es"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.8.27">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>mininter – Prioridades CTI</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="site_libs/quarto-html/axe/axe-check.js" type="module"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-ed96de9b727972fe78a7b5d16c58bf87.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap-ff63373b1067ca6f91cf1456aa1f00a2.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "language": {
+    "search-no-results-text": "No se han encontrado resultados",
+    "search-matching-documents-text": "documentos encontrados",
+    "search-copy-link-title": "Copiar el enlace en la búsqueda",
+    "search-hide-matches-text": "Ocultar resultados adicionales",
+    "search-more-match-text": "resultado adicional en este documento",
+    "search-more-matches-text": "resultados adicionales en este documento",
+    "search-clear-button-title": "Borrar",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancelar",
+    "search-submit-button-title": "Enviar",
+    "search-label": "Buscar"
+  }
+}</script>
+<style>html{ scroll-behavior: smooth; }</style>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&amp;display=swap" rel="stylesheet">
+
+
+<link rel="stylesheet" href="styles/openai-editorial.css">
+</head>
+
+<body class="nav-fixed quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="./index.html">
+    <span class="navbar-title">Prioridades CTI</span>
+    </a>
+  </div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Navegación de palanca" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="./index.html#indicadores"> 
+<span class="menu-text">Indicadores</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./index.html#diagnostico"> 
+<span class="menu-text">Diagnóstico</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./index.html#marco"> 
+<span class="menu-text">Marco</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./index.html#referencias"> 
+<span class="menu-text">Referencias</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link active" href="./mininter.html" aria-current="page"> 
+<span class="menu-text">MinInter</span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    
+<!-- main -->
+<main class="content column-page" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"></header>
+
+
+
+
+<div id="mininter" class="hero-compact">
+<div class="hero-inner hero-inner-compact">
+<p class="hero-title">
+Prioridades de CTI para MinInter
+</p>
+<p class="hero-meta">
+<span>Noam López Villanes</span> <span>Dirección de Investigación y Estudios</span> <span>Consejo Nacional de Ciencia, Tecnología e Innovación Tecnológica.</span>
+</p>
+</div>
+</div>
+<section class="section-block">
+<section id="árbol-del-problema-público-del-plan-nacional-de-seguridad-ciudadana-y-lucha-contra-la-criminalidad-2026---2028" class="level3 subsection-title">
+<h3 class="subsection-title" data-anchor-id="árbol-del-problema-público-del-plan-nacional-de-seguridad-ciudadana-y-lucha-contra-la-criminalidad-2026---2028">Árbol del problema público del Plan Nacional de Seguridad Ciudadana y Lucha contra la Criminalidad 2026 - 2028</h3>
+<div class="visual-block reveal-on-scroll">
+<div class="tree-controls" aria-label="Filtros del árbol de problemas">
+<button class="tree-filter-btn is-active" type="button" data-tree-filter-target="problem-tree-mininter" data-tree-filter="all">
+Todo
+</button>
+<button class="tree-filter-btn" type="button" data-tree-filter-target="problem-tree-mininter" data-tree-filter="priority">
+Priorizadas CTI
+</button>
+<button class="tree-filter-btn" type="button" data-tree-filter-target="problem-tree-mininter" data-tree-filter="linea1">
+Línea 1
+</button>
+<button class="tree-filter-btn" type="button" data-tree-filter-target="problem-tree-mininter" data-tree-filter="linea2">
+Línea 2
+</button>
+<button class="tree-filter-btn" type="button" data-tree-filter-target="problem-tree-mininter" data-tree-filter="linea3">
+Línea 3
+</button>
+</div>
+<div id="problem-tree-mininter" class="problem-tree" data-tree-filter-state="all">
+<div class="tree-band">
+<span class="tree-label">Efectos</span>
+<div class="tree-grid tree-grid-3">
+<article class="tree-card">
+Incremento de la victimización y percepción de inseguridad ciudadana.
+</article>
+<article class="tree-card">
+Deslegitimación del sistema de justicia y desconfianza ciudadana en los operadores de justicia.
+</article>
+<article class="tree-card">
+Desincentivo a la inversión formal y corrupción institucional por el poder económico del crimen organizado.
+</article>
+</div>
+</div>
+<div class="tree-band tree-central">
+<span class="tree-label">Problema central</span>
+<div class="tree-central-row">
+<div class="tree-node">
+Problema central identificado
+</div>
+<div class="tree-main">
+Alta incidencia de delitos violentos, en las modalidades de extorsión y homicidios a nivel nacional.
+</div>
+</div>
+</div>
+<div class="tree-band">
+<span class="tree-label">Causas directas</span>
+<div class="tree-grid tree-grid-4">
+<article class="tree-card tree-direct" data-group="linea1" data-linea3="1">
+Debilidad en las estrategias de prevención policial y comunitaria en territorios de alta vulnerabilidad.
+</article>
+<article class="tree-card tree-direct" data-linea3="1">
+Insuficiente control territorial del Estado en zonas de frontera y espacios vulnerables que facilitan la migración ilegal, el desplazamiento y el desarrollo de economías ilegales.
+</article>
+<article class="tree-card tree-direct" data-group="linea2" data-linea3="1">
+Insuficientes capacidades y recursos del Estado para generar inteligencia, desarrollar investigación criminal y análisis criminalístico.
+</article>
+<article class="tree-card tree-direct" data-group="linea2" data-linea3="1">
+Debilidades en el sistema de administración de justicia que generan impunidad y deficiente control en el interior de los establecimientos penitenciarios.
+</article>
+</div>
+</div>
+<div class="tree-band">
+<span class="tree-label">Causas indirectas</span>
+<div class="tree-columns">
+<div class="tree-column">
+<article class="tree-subcard">
+Deterioro de espacios públicos comunitarios que facilitan la comisión y proliferación de faltas y delitos.
+</article>
+<article class="tree-subcard tree-priority" data-priority="1" data-group="linea1" data-linea3="1">
+Limitada capacidad operativa policial en la prevención de delitos.
+</article>
+<article class="tree-subcard tree-priority" data-priority="1" data-group="linea1" data-linea3="1">
+Limitada implementación de actividades preventivas para jóvenes y poblaciones en situación de vulnerabilidad.
+</article>
+<article class="tree-subcard tree-priority" data-priority="1" data-group="linea1" data-linea3="1">
+Limitada articulación de las organizaciones sociales y vecinales (rondas campesinas, juntas vecinales, entre otros) con las instancias del SINASEC.
+</article>
+</div>
+<div class="tree-column">
+<article class="tree-subcard">
+Limitada vigilancia y control fronterizo de flujos migratorios y de bienes fiscalizados.
+</article>
+<article class="tree-subcard">
+Limitadas acciones de control de actividades económicas informales e ilegales.
+</article>
+<article class="tree-subcard">
+Debilidad de las capacidades del Estado para fiscalizar insumos y rutas vinculadas a la minería ilegal y al tráfico de armas, municiones y explosivos.
+</article>
+<article class="tree-subcard">
+Limitada capacidad de respuesta operativa integrada en territorios de alta incidencia delictiva.
+</article>
+</div>
+<div class="tree-column">
+<article class="tree-subcard tree-priority" data-priority="1" data-group="linea2" data-linea3="1">
+Insuficientes herramientas tecnológicas y recursos para la inteligencia, investigación criminal y pericias criminalísticas.
+</article>
+<article class="tree-subcard tree-priority" data-priority="1" data-group="linea2" data-linea3="1">
+Limitado desarrollo de la interoperabilidad entre entidades vinculadas a la seguridad ciudadana.
+</article>
+<article class="tree-subcard">
+Limitada disponibilidad de personal policial especializado en inteligencia, investigación y criminalística, con énfasis en extorsiones y homicidios.
+</article>
+<article class="tree-subcard tree-priority" data-priority="1" data-group="linea2" data-linea3="1">
+Limitadas capacidades para investigar flujos económicos de origen ilegal.
+</article>
+</div>
+<div class="tree-column">
+<article class="tree-subcard">
+Incremento de la carga procesal e incumplimiento de plazos en el proceso penal.
+</article>
+<article class="tree-subcard">
+Desactualización normativa que dificulta la tipificación y sanción a nuevas modalidades delictivas.
+</article>
+<article class="tree-subcard">
+Deficiencias en la gestión y administración penitenciaria.
+</article>
+<article class="tree-subcard tree-priority" data-priority="1" data-group="linea2" data-linea3="1">
+Limitada capacidad de los sistemas de seguridad tecnológica en los penales que facilitan la comisión de delitos desde su interior.
+</article>
+</div>
+</div>
+</div>
+</div>
+<p class="chart-source">
+Fuente: Ministerio del Interior. <a href="https://busquedas.elperuano.pe/dispositivo/NL/2493627-1" target="_blank" rel="noopener noreferrer">Decreto Supremo N.° 001-2026-IN, que aprueba el Plan Nacional de Seguridad Ciudadana y Lucha contra la Criminalidad 2026-2028</a>. Publicado el 9 de marzo de 2026.
+</p>
+</div>
+</section>
+<section id="prioridades-de-ciencia-tecnología-e-innovación-para-mininter" class="level3 subsection-title">
+<h3 class="subsection-title" data-anchor-id="prioridades-de-ciencia-tecnología-e-innovación-para-mininter">Prioridades de ciencia, tecnología e innovación para MinInter</h3>
+<div class="visual-block reveal-on-scroll">
+<div class="dx-table-wrap">
+<table class="dx-table dx-table-priorities">
+<thead>
+<tr>
+<th>
+Sub-línea priorizada
+</th>
+<th>
+Aplicaciones para el caso peruano (casos/estudios tipo)
+</th>
+<th>
+Preguntas de investigación clave
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+1.1 Patrullaje preventivo inteligente
+</td>
+<td>
+Focalización dinámica por microterritorio y horario con datos SIDPOL/911/ENAPRES. Caso tipo: reasignación semanal de patrullaje en distritos con mayor presión de homicidio y extorsión.
+</td>
+<td>
+¿Qué combinación de patrullaje reduce más rápido homicidios y extorsión por zona? ¿Cuánto dura el efecto disuasivo y cómo evitar desplazamiento geográfico?
+</td>
+</tr>
+<tr>
+<td>
+1.2 Prevención focalizada en jóvenes y poblaciones vulnerables
+</td>
+<td>
+Intervenciones tempranas en barrios críticos con tutoría, permanencia educativa, empleabilidad y seguimiento comunitario. Estudio tipo: cohorte longitudinal con grupos comparables.
+</td>
+<td>
+¿Qué perfil de riesgo predice mejor la captación por bandas? ¿Qué paquete preventivo tiene mayor permanencia y menor reincidencia?
+</td>
+</tr>
+<tr>
+<td>
+1.3 Redes de alerta comunitaria
+</td>
+<td>
+Canales seguros de reporte con juntas vecinales, rondas campesinas y PNP (app, bot y central telefónica). Caso tipo: piloto de denuncia anónima verificable en zonas extorsivas.
+</td>
+<td>
+¿Qué diseño de canal incrementa reportes útiles sin elevar falsos positivos? ¿Qué incentivos sostienen participación vecinal en el tiempo?
+</td>
+</tr>
+<tr>
+<td>
+2.1 Inteligencia digital
+</td>
+<td>
+Analítica de redes criminales sobre denuncias, operativos, llamadas y evidencia digital. Estudio tipo: modelos de priorización de objetivos para investigación de extorsión/homicidio.
+</td>
+<td>
+¿Qué variables anticipan escalamiento de violencia letal? ¿Qué precisión operativa aportan los modelos frente al análisis tradicional?
+</td>
+</tr>
+<tr>
+<td>
+2.2 Interoperabilidad interinstitucional
+</td>
+<td>
+Trazabilidad de casos entre PNP, MP, PJ e INPE con estándares comunes y expediente interoperable. Caso tipo: piloto de integración para extorsión en Lima y Callao.
+</td>
+<td>
+¿En qué etapa se rompe con mayor frecuencia la cadena de información? ¿Qué impacto tiene la interoperabilidad en judicialización y tiempos de respuesta?
+</td>
+</tr>
+<tr>
+<td>
+2.3 Formación asistida por tecnología
+</td>
+<td>
+Capacitación de unidades de inteligencia e investigación con simuladores, laboratorios de casos y entrenamiento digital continuo. Estudio tipo: evaluación pre/post con métricas operativas.
+</td>
+<td>
+¿Qué formato de entrenamiento mejora más el esclarecimiento de casos? ¿Cuánto tiempo se sostiene la mejora en desempeño?
+</td>
+</tr>
+<tr>
+<td>
+2.4 Inteligencia financiera
+</td>
+<td>
+Rastreo de pagos extorsivos, flujos de lavado y redes de testaferros con soporte UIF y análisis transaccional. Caso tipo: mapas de circuito financiero por organización criminal.
+</td>
+<td>
+¿Qué patrones financieros permiten detección temprana de estructuras extorsivas? ¿Qué medidas aceleran inmovilización de activos ilícitos?
+</td>
+</tr>
+<tr>
+<td>
+2.5 Seguridad tecnológica penitenciaria
+</td>
+<td>
+Control intramuros con analítica CCTV, monitoreo de comunicaciones ilícitas y gestión de riesgo por pabellón. Estudio tipo: evaluación de interrupción de órdenes delictivas desde penales.
+</td>
+<td>
+¿Qué combinación tecnológica reduce más la coordinación delictiva desde prisión? ¿Qué efectos colaterales genera y cómo mitigarlos?
+</td>
+</tr>
+<tr>
+<td>
+3.1 Fenómenos criminales y economías ilegales
+</td>
+<td>
+Producción de evidencia sobre estructuras, mercados y nodos territoriales de extorsión y homicidio. Caso tipo: índices distritales de riesgo y tipologías criminales replicables.
+</td>
+<td>
+¿Qué economías ilegales se asocian con mayor intensidad a la violencia letal? ¿Qué factores territoriales explican su reproducción?
+</td>
+</tr>
+<tr>
+<td>
+3.2 Respuesta del Estado ante la criminalidad
+</td>
+<td>
+Evaluación de impacto y ciencia de implementación para pilotos policiales, fiscales, judiciales y penitenciarios. Estudio tipo: diseños cuasi-experimentales y análisis costo-efectividad.
+</td>
+<td>
+¿Qué intervenciones funcionan mejor, para quién y bajo qué condiciones? ¿Qué barreras institucionales bloquean el escalamiento?
+</td>
+</tr>
+<tr>
+<td>
+3.3 Legitimidad, confianza y acción ciudadana
+</td>
+<td>
+Investigación aplicada sobre denuncia, cooperación y confianza en operadores de justicia. Caso tipo: pilotos de prevención comunitaria con rendición de cuentas local.
+</td>
+<td>
+¿Qué explica la no denuncia en territorios críticos? ¿Qué cambios institucionales elevan cooperación ciudadana de forma sostenida?
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p class="chart-source">
+Fuente: Entregable 1 (secciones 3.4, 3.6.1 y 3.6.2), adaptado para priorización operativa MinInter.
+</p>
+</div>
+</section>
+<script src="scripts/indicadores.js"></script>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copiado");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copiado");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp('/' + window.location.host + '/');
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+
+
+
+
+<script src="site_libs/quarto-html/zenscroll-min.js"></script>
+</body></html>
