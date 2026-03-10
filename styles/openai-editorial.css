@@ -159,12 +159,12 @@ main.content,
   margin-top: 1.75rem;
 }
 
-.mininter-section.section-block {
-  padding-top: 1.05rem;
+.mininter-section {
+  padding-top: 0.35rem;
 }
 
 .mininter-section > section.subsection-title:first-of-type > h3.subsection-title {
-  margin-top: clamp(1rem, 2.4vw, 1.6rem);
+  margin-top: clamp(1.1rem, 2.1vw, 1.6rem);
 }
 
 .focus-map {
