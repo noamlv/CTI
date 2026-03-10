@@ -141,6 +141,24 @@ main.content,
   margin-top: 0;
 }
 
+.hero-compact {
+  padding-top: calc(var(--nav-h) + 0.9rem);
+  padding-bottom: 0.25rem;
+}
+
+.hero-inner-compact {
+  width: 100%;
+}
+
+.hero-compact .hero-title {
+  max-width: 14ch;
+  font-size: clamp(1.9rem, 4.8vw, 3.7rem);
+}
+
+.hero-compact .hero-meta {
+  margin-top: 0.9rem;
+}
+
 .section-block {
   padding-top: clamp(4.2rem, 8vw, 6.8rem);
 }
@@ -467,6 +485,30 @@ h3.subsection-title {
 .dx-table-tight td {
   font-size: 0.86rem;
   line-height: 1.45;
+}
+
+.dx-table-priorities {
+  min-width: 1080px;
+}
+
+.dx-table-priorities th:nth-child(1),
+.dx-table-priorities td:nth-child(1) {
+  width: 22%;
+}
+
+.dx-table-priorities th:nth-child(2),
+.dx-table-priorities td:nth-child(2) {
+  width: 43%;
+}
+
+.dx-table-priorities th:nth-child(3),
+.dx-table-priorities td:nth-child(3) {
+  width: 35%;
+}
+
+.dx-table-priorities td {
+  font-size: 0.88rem;
+  line-height: 1.46;
 }
 
 .tree-caption {
@@ -1050,6 +1092,10 @@ h3.subsection-title {
 
   .hero-screen {
     padding-top: calc(var(--nav-h) + 0.75rem);
+  }
+
+  .hero-compact {
+    padding-top: calc(var(--nav-h) + 0.7rem);
   }
 
   .kpi-strip,
