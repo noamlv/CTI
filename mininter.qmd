@@ -244,3 +244,4 @@ page-layout: full
 </section>
 
 <script src="scripts/indicadores.js"></script>
+<script src="scripts/navbar-mobile.js"></script>
