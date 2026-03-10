@@ -517,8 +517,24 @@ function setupProblemTreeFilters() {
   });
 }
 
+function setupSingleAccordion() {
+  document.querySelectorAll('[data-accordion="single"]').forEach((container) => {
+    const items = [...container.querySelectorAll("details.priority-item")];
+    if (!items.length) return;
+    items.forEach((item) => {
+      item.addEventListener("toggle", () => {
+        if (!item.open) return;
+        items.forEach((other) => {
+          if (other !== item) other.open = false;
+        });
+      });
+    });
+  });
+}
+
 activateTabs();
 setupLazyRendering();
 setupRevealAnimations();
 setupReferencesNLP();
 setupProblemTreeFilters();
+setupSingleAccordion();

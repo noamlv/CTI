@@ -5,18 +5,45 @@ page-layout: full
 
 ::: {.hero-compact #mininter}
 <div class="hero-inner hero-inner-compact">
-<p class="hero-title">Prioridades de CTI para MinInter</p>
+<p class="hero-title">Prioridades de CTI para prevenir y controlar la criminalidad violenta en el Perú</p>
 <p class="hero-meta">
 <span>Noam López Villanes</span>
 <span>Dirección de Investigación y Estudios</span>
-<span>Consejo Nacional de Ciencia, Tecnología e Innovación Tecnológica.</span>
+<span>Consejo Nacional de Ciencia, Tecnología e Innovación Tecnológica</span>
 </p>
 </div>
 :::
 
 <section class="section-block">
 
-### Árbol del problema público del Plan Nacional de Seguridad Ciudadana y Lucha contra la Criminalidad 2026 - 2028 { .subsection-title }
+### Enfoque de intervención { .subsection-title }
+
+<div class="visual-block reveal-on-scroll">
+<div class="focus-map">
+<article class="focus-card focus-card-prevention" tabindex="0">
+  <p class="focus-kicker">Pilar 1</p>
+  <h4 class="focus-title">Prevención</h4>
+  <p class="focus-body">Aborda factores territoriales y comunitarios para reducir riesgo antes de la escalada delictiva.</p>
+  <ul class="focus-detail">
+    <li>Prevención policial focalizada en zonas de alta vulnerabilidad.</li>
+    <li>Prevención comunitaria con redes vecinales y alerta temprana.</li>
+    <li>Intervenciones preventivas para jóvenes en riesgo.</li>
+  </ul>
+</article>
+<article class="focus-card focus-card-control" tabindex="0">
+  <p class="focus-kicker">Pilar 2</p>
+  <h4 class="focus-title">Control</h4>
+  <p class="focus-body">Fortalece la respuesta del Estado para investigar, desarticular redes criminales y cortar flujos ilícitos.</p>
+  <ul class="focus-detail">
+    <li>Investigación criminal con inteligencia digital y analítica.</li>
+    <li>Interoperabilidad entre PNP, MP, PJ e INPE.</li>
+    <li>Investigación e inteligencia financiera para extorsión y homicidio.</li>
+  </ul>
+</article>
+</div>
+</div>
+
+### PROBLEMA PÚBLICO SEGÚN EL PNSSC LM 2026-2028 { .subsection-title .subsection-title-center }
 
 <div class="visual-block reveal-on-scroll">
 <div class="tree-controls" aria-label="Filtros del árbol de problemas">
@@ -87,79 +114,129 @@ page-layout: full
 <p class="chart-source">Fuente: Ministerio del Interior. <a href="https://busquedas.elperuano.pe/dispositivo/NL/2493627-1" target="_blank" rel="noopener noreferrer">Decreto Supremo N.° 001-2026-IN, que aprueba el Plan Nacional de Seguridad Ciudadana y Lucha contra la Criminalidad 2026-2028</a>. Publicado el 9 de marzo de 2026.</p>
 </div>
 
-### Prioridades de ciencia, tecnología e innovación para MinInter { .subsection-title }
+### Prioridades de ciencia, tecnología e innovación { .subsection-title }
 
 <div class="visual-block reveal-on-scroll">
-<div class="dx-table-wrap">
-<table class="dx-table dx-table-priorities">
-  <thead>
-    <tr>
-      <th>Sub-línea priorizada</th>
-      <th>Aplicaciones para el caso peruano (casos/estudios tipo)</th>
-      <th>Preguntas de investigación clave</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>1.1 Patrullaje preventivo inteligente</td>
-      <td>Focalización dinámica por microterritorio y horario con datos SIDPOL/911/ENAPRES. Caso tipo: reasignación semanal de patrullaje en distritos con mayor presión de homicidio y extorsión.</td>
-      <td>¿Qué combinación de patrullaje reduce más rápido homicidios y extorsión por zona? ¿Cuánto dura el efecto disuasivo y cómo evitar desplazamiento geográfico?</td>
-    </tr>
-    <tr>
-      <td>1.2 Prevención focalizada en jóvenes y poblaciones vulnerables</td>
-      <td>Intervenciones tempranas en barrios críticos con tutoría, permanencia educativa, empleabilidad y seguimiento comunitario. Estudio tipo: cohorte longitudinal con grupos comparables.</td>
-      <td>¿Qué perfil de riesgo predice mejor la captación por bandas? ¿Qué paquete preventivo tiene mayor permanencia y menor reincidencia?</td>
-    </tr>
-    <tr>
-      <td>1.3 Redes de alerta comunitaria</td>
-      <td>Canales seguros de reporte con juntas vecinales, rondas campesinas y PNP (app, bot y central telefónica). Caso tipo: piloto de denuncia anónima verificable en zonas extorsivas.</td>
-      <td>¿Qué diseño de canal incrementa reportes útiles sin elevar falsos positivos? ¿Qué incentivos sostienen participación vecinal en el tiempo?</td>
-    </tr>
-    <tr>
-      <td>2.1 Inteligencia digital</td>
-      <td>Analítica de redes criminales sobre denuncias, operativos, llamadas y evidencia digital. Estudio tipo: modelos de priorización de objetivos para investigación de extorsión/homicidio.</td>
-      <td>¿Qué variables anticipan escalamiento de violencia letal? ¿Qué precisión operativa aportan los modelos frente al análisis tradicional?</td>
-    </tr>
-    <tr>
-      <td>2.2 Interoperabilidad interinstitucional</td>
-      <td>Trazabilidad de casos entre PNP, MP, PJ e INPE con estándares comunes y expediente interoperable. Caso tipo: piloto de integración para extorsión en Lima y Callao.</td>
-      <td>¿En qué etapa se rompe con mayor frecuencia la cadena de información? ¿Qué impacto tiene la interoperabilidad en judicialización y tiempos de respuesta?</td>
-    </tr>
-    <tr>
-      <td>2.3 Formación asistida por tecnología</td>
-      <td>Capacitación de unidades de inteligencia e investigación con simuladores, laboratorios de casos y entrenamiento digital continuo. Estudio tipo: evaluación pre/post con métricas operativas.</td>
-      <td>¿Qué formato de entrenamiento mejora más el esclarecimiento de casos? ¿Cuánto tiempo se sostiene la mejora en desempeño?</td>
-    </tr>
-    <tr>
-      <td>2.4 Inteligencia financiera</td>
-      <td>Rastreo de pagos extorsivos, flujos de lavado y redes de testaferros con soporte UIF y análisis transaccional. Caso tipo: mapas de circuito financiero por organización criminal.</td>
-      <td>¿Qué patrones financieros permiten detección temprana de estructuras extorsivas? ¿Qué medidas aceleran inmovilización de activos ilícitos?</td>
-    </tr>
-    <tr>
-      <td>2.5 Seguridad tecnológica penitenciaria</td>
-      <td>Control intramuros con analítica CCTV, monitoreo de comunicaciones ilícitas y gestión de riesgo por pabellón. Estudio tipo: evaluación de interrupción de órdenes delictivas desde penales.</td>
-      <td>¿Qué combinación tecnológica reduce más la coordinación delictiva desde prisión? ¿Qué efectos colaterales genera y cómo mitigarlos?</td>
-    </tr>
-    <tr>
-      <td>3.1 Fenómenos criminales y economías ilegales</td>
-      <td>Producción de evidencia sobre estructuras, mercados y nodos territoriales de extorsión y homicidio. Caso tipo: índices distritales de riesgo y tipologías criminales replicables.</td>
-      <td>¿Qué economías ilegales se asocian con mayor intensidad a la violencia letal? ¿Qué factores territoriales explican su reproducción?</td>
-    </tr>
-    <tr>
-      <td>3.2 Respuesta del Estado ante la criminalidad</td>
-      <td>Evaluación de impacto y ciencia de implementación para pilotos policiales, fiscales, judiciales y penitenciarios. Estudio tipo: diseños cuasi-experimentales y análisis costo-efectividad.</td>
-      <td>¿Qué intervenciones funcionan mejor, para quién y bajo qué condiciones? ¿Qué barreras institucionales bloquean el escalamiento?</td>
-    </tr>
-    <tr>
-      <td>3.3 Legitimidad, confianza y acción ciudadana</td>
-      <td>Investigación aplicada sobre denuncia, cooperación y confianza en operadores de justicia. Caso tipo: pilotos de prevención comunitaria con rendición de cuentas local.</td>
-      <td>¿Qué explica la no denuncia en territorios críticos? ¿Qué cambios institucionales elevan cooperación ciudadana de forma sostenida?</td>
-    </tr>
-  </tbody>
-</table>
+<div class="priority-chips" aria-label="Tipos de prioridad">
+  <span class="priority-chip tone-prevention">Línea 1 · Prevención</span>
+  <span class="priority-chip tone-control">Línea 2 · Investigación e inteligencia</span>
+  <span class="priority-chip tone-social">Línea 3 · Investigación en ciencias sociales</span>
 </div>
-<p class="chart-source">Fuente: Entregable 1 (secciones 3.4, 3.6.1 y 3.6.2), adaptado para priorización operativa MinInter.</p>
+
+<div class="priority-board" data-accordion="single">
+  <section class="priority-group">
+    <h4 class="priority-group-title tone-prevention">Línea 1 · Prevención policial y comunitaria</h4>
+
+    <details class="priority-item tone-prevention" open>
+      <summary><span class="priority-code">1.1</span>Patrullaje preventivo inteligente</summary>
+      <ul class="priority-list">
+          <li><strong>Aplicación en Perú:</strong> focalización dinámica por microterritorio y horario con datos SIDPOL/911/ENAPRES.</li>
+          <li><strong>Caso o estudio tipo:</strong> piloto de reasignación semanal de patrullaje en distritos con mayor presión de homicidio y extorsión.</li>
+          <li><strong>Preguntas de investigación:</strong> ¿Qué combinación de patrullaje reduce más rápido homicidios y extorsión? ¿Cuánto dura el efecto y cómo evitar desplazamiento geográfico?</li>
+        </ul>
+    </details>
+
+    <details class="priority-item tone-prevention">
+      <summary><span class="priority-code">1.2</span>Prevención focalizada en jóvenes y poblaciones vulnerables</summary>
+      <ul class="priority-list">
+          <li><strong>Aplicación en Perú:</strong> intervenciones tempranas en barrios críticos con tutoría, permanencia educativa, empleabilidad y seguimiento comunitario.</li>
+          <li><strong>Caso o estudio tipo:</strong> cohorte longitudinal con grupos comparables para medir captación por bandas y reincidencia.</li>
+          <li><strong>Preguntas de investigación:</strong> ¿Qué perfil de riesgo predice mejor la captación por bandas? ¿Qué paquete preventivo logra mayor permanencia?</li>
+        </ul>
+    </details>
+
+    <details class="priority-item tone-prevention">
+      <summary><span class="priority-code">1.3</span>Redes de alerta comunitaria</summary>
+      <ul class="priority-list">
+          <li><strong>Aplicación en Perú:</strong> canales seguros de reporte con juntas vecinales, rondas campesinas y PNP (app, bot y central telefónica).</li>
+          <li><strong>Caso o estudio tipo:</strong> piloto de denuncia anónima verificable en territorios con alta extorsión.</li>
+          <li><strong>Preguntas de investigación:</strong> ¿Qué diseño incrementa reportes útiles sin aumentar falsos positivos? ¿Qué incentivos sostienen la participación vecinal?</li>
+        </ul>
+    </details>
+  </section>
+
+  <section class="priority-group">
+    <h4 class="priority-group-title tone-control">Línea 2 · Investigación e inteligencia</h4>
+
+    <details class="priority-item tone-control">
+      <summary><span class="priority-code">2.1</span>Inteligencia digital</summary>
+      <ul class="priority-list">
+          <li><strong>Aplicación en Perú:</strong> analítica de redes criminales sobre denuncias, operativos, llamadas y evidencia digital.</li>
+          <li><strong>Caso o estudio tipo:</strong> modelos de priorización de objetivos para investigación de extorsión y homicidio.</li>
+          <li><strong>Preguntas de investigación:</strong> ¿Qué variables anticipan escalamiento de violencia letal? ¿Qué precisión aporta el modelo frente al análisis tradicional?</li>
+        </ul>
+    </details>
+
+    <details class="priority-item tone-control">
+      <summary><span class="priority-code">2.2</span>Interoperabilidad interinstitucional</summary>
+      <ul class="priority-list">
+          <li><strong>Aplicación en Perú:</strong> trazabilidad de casos entre PNP, MP, PJ e INPE con estándares comunes y expediente interoperable.</li>
+          <li><strong>Caso o estudio tipo:</strong> piloto de integración para extorsión en Lima y Callao.</li>
+          <li><strong>Preguntas de investigación:</strong> ¿En qué etapa se rompe más la cadena de información? ¿Cómo cambia la judicialización con interoperabilidad real?</li>
+        </ul>
+    </details>
+
+    <details class="priority-item tone-control">
+      <summary><span class="priority-code">2.3</span>Formación asistida por tecnología</summary>
+      <ul class="priority-list">
+          <li><strong>Aplicación en Perú:</strong> capacitación de unidades de inteligencia e investigación con simuladores y entrenamiento digital continuo.</li>
+          <li><strong>Caso o estudio tipo:</strong> evaluación pre/post con métricas de desempeño operativo.</li>
+          <li><strong>Preguntas de investigación:</strong> ¿Qué formato de entrenamiento mejora más el esclarecimiento de casos? ¿Cuánto se sostiene la mejora en el tiempo?</li>
+        </ul>
+    </details>
+
+    <details class="priority-item tone-control">
+      <summary><span class="priority-code">2.4</span>Inteligencia financiera</summary>
+      <ul class="priority-list">
+          <li><strong>Aplicación en Perú:</strong> rastreo de pagos extorsivos, flujos de lavado y redes de testaferros con soporte UIF y análisis transaccional.</li>
+          <li><strong>Caso o estudio tipo:</strong> mapas de circuito financiero por organización criminal priorizada.</li>
+          <li><strong>Preguntas de investigación:</strong> ¿Qué patrones financieros permiten detección temprana? ¿Qué medidas aceleran inmovilización de activos ilícitos?</li>
+        </ul>
+    </details>
+
+    <details class="priority-item tone-control">
+      <summary><span class="priority-code">2.5</span>Seguridad tecnológica penitenciaria</summary>
+      <ul class="priority-list">
+          <li><strong>Aplicación en Perú:</strong> control intramuros con analítica CCTV, monitoreo de comunicaciones ilícitas y gestión de riesgo por pabellón.</li>
+          <li><strong>Caso o estudio tipo:</strong> evaluación de interrupción de órdenes delictivas emitidas desde penales.</li>
+          <li><strong>Preguntas de investigación:</strong> ¿Qué combinación tecnológica reduce más la coordinación delictiva desde prisión? ¿Qué efectos colaterales deben mitigarse?</li>
+        </ul>
+    </details>
+  </section>
+
+  <section class="priority-group">
+    <h4 class="priority-group-title tone-social">Línea 3 · Investigación en ciencias sociales</h4>
+
+    <details class="priority-item tone-social">
+      <summary><span class="priority-code">3.1</span>Fenómenos criminales y economías ilegales</summary>
+      <ul class="priority-list">
+          <li><strong>Aplicación en Perú:</strong> producción de evidencia sobre estructuras, mercados y nodos territoriales de extorsión y homicidio.</li>
+          <li><strong>Caso o estudio tipo:</strong> índices distritales de riesgo y tipologías criminales replicables para focalización.</li>
+          <li><strong>Preguntas de investigación:</strong> ¿Qué economías ilegales se asocian más con violencia letal? ¿Qué factores territoriales explican su reproducción?</li>
+        </ul>
+    </details>
+
+    <details class="priority-item tone-social">
+      <summary><span class="priority-code">3.2</span>Respuesta del Estado ante la criminalidad</summary>
+      <ul class="priority-list">
+          <li><strong>Aplicación en Perú:</strong> evaluación de impacto y ciencia de implementación para pilotos policiales, fiscales, judiciales y penitenciarios.</li>
+          <li><strong>Caso o estudio tipo:</strong> diseños cuasi-experimentales con análisis de costo-efectividad y rutas de escalamiento.</li>
+          <li><strong>Preguntas de investigación:</strong> ¿Qué intervenciones funcionan mejor, para quién y bajo qué condiciones? ¿Qué cuellos institucionales bloquean el escalamiento?</li>
+        </ul>
+    </details>
+
+    <details class="priority-item tone-social">
+      <summary><span class="priority-code">3.3</span>Legitimidad, confianza y acción ciudadana</summary>
+      <ul class="priority-list">
+          <li><strong>Aplicación en Perú:</strong> investigación aplicada sobre denuncia, cooperación y confianza en operadores de justicia con enfoque territorial.</li>
+          <li><strong>Caso o estudio tipo:</strong> pilotos de prevención comunitaria con rendición de cuentas local y seguimiento longitudinal.</li>
+          <li><strong>Preguntas de investigación:</strong> ¿Qué explica la no denuncia en territorios críticos? ¿Qué cambios institucionales elevan cooperación ciudadana sostenida?</li>
+        </ul>
+    </details>
+  </section>
 </div>
+</div>
+<p class="chart-source">Fuente: Entregable 1 (secciones 3.4, 3.6.1 y 3.6.2), adaptado para trabajo de priorización en taller con MinInter.</p>
 
 </section>
 
