@@ -1,0 +1,121 @@
+---
+title: "Prioridades de ciencia, tecnología e innovación para prevenir y controlar la criminalidad violenta en el Perú"
+subtitle: "Documento de Trabajo"
+lang: es
+format:
+  docx:
+    toc: false
+  pdf:
+    toc: false
+    number-sections: false
+    pdf-engine: xelatex
+    documentclass: article
+execute:
+  echo: false
+  warning: false
+  error: false
+---
+
+## Propósito
+
+Este documento de trabajo resume la propuesta de priorización de ciencia, tecnología e innovación (CTI) para el intercambio técnico entre representantes del CONCYTEC y del Ministerio del Interior. El objetivo es ordenar un conjunto breve, accionable y evaluable de investigaciones y desarrollos que contribuyan a prevenir y controlar la criminalidad violenta, con énfasis en extorsión y homicidios.
+
+La propuesta toma como referencia el **Plan Nacional de Seguridad Ciudadana y Lucha contra la Criminalidad 2026-2028**, aprobado mediante Decreto Supremo N.° 001-2026-IN, y traduce su diagnóstico causal en un conjunto acotado de prioridades de CTI.
+
+## Punto de partida
+
+El problema público priorizado en el Plan es la **alta incidencia de delitos violentos, en las modalidades de extorsión y homicidios a nivel nacional**. A partir del árbol del problema y de la revisión técnica desarrollada, la propuesta se concentra en tres frentes:
+
+1. **Prevención policial y comunitaria**, para reducir exposición al riesgo y mejorar capacidad preventiva en territorios críticos.
+2. **Investigación criminal e inteligencia**, para mejorar esclarecimiento, trazabilidad y desarticulación de redes.
+3. **Investigación en ciencias sociales**, para entender mecanismos, evaluar qué funciona y fortalecer legitimidad, denuncia y cooperación.
+
+## Prioridades de ciencia
+
+Se propone trabajar con **11 prioridades de ciencia**, distribuidas en tres líneas.
+
+### Línea 1. Prevención policial y comunitaria
+
+**1.1 Patrullaje preventivo inteligente**  
+Aplicaciones: motor de riesgo por cuadrante con datos SIDPOL, 911 y SINADEF; dosificación del patrullaje por franja horaria y puntos calientes; tablero de comando para reasignación semanal de recursos.  
+Estudios tipo: piloto comparativo con sectores de tratamiento y control; ensayo por clúster para probar duración del patrullaje (2, 4 y 8 semanas); evaluación de proceso sobre cumplimiento real de rutas y tiempos.  
+Preguntas de investigación: ¿qué intensidad y duración de patrullaje reducen más extorsión y homicidios? ¿hay desplazamiento geográfico del delito o efectos de difusión? ¿cuál es el costo por delito evitado?
+
+**1.2 Prevención focalizada en jóvenes y poblaciones vulnerables**  
+Aplicaciones: sistema de alerta temprana escolar-comunitario; gestión de casos de jóvenes en riesgo con seguimiento digital; focalización territorial de oferta social (educación, empleo y salud mental).  
+Estudios tipo: cohorte longitudinal en barrios de alta incidencia; evaluación cuasi-experimental de paquetes preventivos (tutoría e inserción educativa y laboral); evaluación realista para identificar mecanismos que sí operan en cada territorio.  
+Preguntas de investigación: ¿qué perfiles de riesgo anticipan captación por bandas vinculadas a extorsión y sicariato? ¿qué combinación de intervención reduce abandono escolar y reincidencia? ¿qué resultados varían por sexo, edad y contexto migratorio?
+
+**1.3 Redes de alerta comunitaria**  
+Aplicaciones: canales seguros de reporte (app, bot y línea) con trazabilidad; integración de juntas vecinales, redes de cooperantes, BAPES, entre otras organizaciones sociales de base; protocolos de respuesta rápida para mercados, transporte y zonas comerciales extorsionadas.  
+Estudios tipo: pruebas comparativas de diseño de canal y anonimato; evaluación antes y después de tiempos de atención y calidad de reporte; análisis de redes comunitarias para identificar nodos de confianza y cobertura.  
+Preguntas de investigación: ¿qué diseño aumenta reportes útiles sin elevar falsos positivos? ¿qué factores sostienen cooperación comunitaria en el tiempo? ¿cómo reducir riesgo de represalia y subregistro?
+
+### Línea 2. Investigación criminal e inteligencia
+
+**2.1 Inteligencia digital**  
+Aplicaciones: análisis de grafos para vincular extorsión-homicidio; minería de evidencia digital (telefonía, redes y mensajería judicializada); priorización de objetivos de alto impacto para unidades de investigación.  
+Estudios tipo: comparación de desempeño entre investigaciones con y sin analítica avanzada; validación de modelos (precisión, recall y sesgo); análisis de supervivencia para medir reducción de tiempos de esclarecimiento.  
+Preguntas de investigación: ¿qué señales anticipan escalamiento de violencia letal? ¿qué umbral de alertas optimiza resultados sin sobrecargar unidades? ¿qué evidencia digital incrementa judicialización efectiva?
+
+**2.2 Interoperabilidad interinstitucional**  
+Aplicaciones: expediente interoperable entre PNP, MP, PJ e INPE; diccionario único de variables e identificador de caso; alertas automáticas para hitos críticos (captura, audiencia, internamiento y egreso).  
+Estudios tipo: process mining del flujo de casos para detectar quiebres; despliegue escalonado (stepped-wedge) por distrito/fiscalía; auditorías de calidad y completitud de datos interinstitucionales.  
+Preguntas de investigación: ¿en qué tramo se pierde más información? ¿cuánto reduce la interoperabilidad el archivo por fallas informativas? ¿qué arreglos de gobernanza sostienen interoperabilidad en el tiempo?
+
+**2.3 Formación asistida por tecnología**  
+Aplicaciones: simuladores para escenas de homicidio y casos de extorsión; rutas de microcertificación para analistas, peritos y equipos de campo; repositorio de casos resueltos para aprendizaje institucional continuo.  
+Estudios tipo: evaluación antes y después de competencias con seguimiento a 3 y 6 meses; ensayos de formatos de entrenamiento (sincrónico, asincrónico y simulación); evaluación de transferencia al expediente real.  
+Preguntas de investigación: ¿qué competencias explican mayor esclarecimiento y menor error pericial? ¿cada cuánto se requiere refuerzo para evitar pérdida de habilidades? ¿qué modalidad mejora más por tipo de unidad?
+
+**2.4 Inteligencia financiera**  
+Aplicaciones: trazabilidad de pagos extorsivos y cuentas receptoras; modelos de riesgo para detectar transacciones anómalas; matrices conjuntas UIF-SUNAT-PNP-MP para priorizar objetivos financieros.  
+Estudios tipo: estudios de firmas financieras de casos cerrados vs. no detectados; evaluación de desempeño de modelos de alertamiento temprano; análisis de impacto de congelamiento de activos en continuidad operativa de redes.  
+Preguntas de investigación: ¿qué tipologías financieras son señales tempranas de extorsión y homicidio? ¿cuál es la ventana de oportunidad para inmovilizar activos? ¿qué barreras normativas frenan intercambio de datos útiles?
+
+**2.5 Seguridad tecnológica penitenciaria**  
+Aplicaciones: analítica CCTV y sensores para eventos críticos; control de comunicaciones ilícitas y trazabilidad de incidentes; sistemas de riesgo por pabellón con alertas a fiscalía e inteligencia.  
+Estudios tipo: pilotos comparativos entre penales intervenidos y no intervenidos; series temporales interrumpidas para medir delitos ordenados desde prisión; auditorías operativas y de derechos para validar sostenibilidad.  
+Preguntas de investigación: ¿qué paquete tecnológico reduce más coordinación criminal intramuros? ¿qué adaptación usan las redes para eludir controles? ¿qué protocolos minimizan abuso, corrupción y fallas de operación?
+
+### Línea 3. Investigación en ciencias sociales
+
+**3.1 Fenómenos criminales y economías ilegales**  
+Aplicaciones: construcción de datasets integrados sobre extorsión y homicidio; tipologías territoriales de riesgo por distrito; modelos explicativos de redes y mercados criminales (extorsión, sicariato y economías ilegales conexas).  
+Estudios tipo: estudios mixtos (etnografía + análisis espacial/econométrico); panel longitudinal distrital con indicadores de riesgo; análisis de redes criminales con validación interinstitucional.  
+Preguntas de investigación: ¿qué mecanismos vinculan economías ilegales con violencia letal? ¿qué factores territoriales aceleran la expansión de extorsión? ¿qué indicadores predicen transición de delitos patrimoniales a violencia organizada?
+
+**3.2 Respuesta del Estado ante la criminalidad**  
+Aplicaciones: portafolio de evaluaciones para operativos focalizados, herramientas de investigación y control penitenciario; laboratorio de implementación para rediseñar procesos críticos; tableros de desempeño y costo-efectividad para decisiones de escalamiento.  
+Estudios tipo: evaluaciones experimentales y cuasi-experimentales con línea de base; evaluaciones de proceso e implementación (fidelidad, cuellos y capacidad instalada); análisis económico de costos y beneficios fiscales.  
+Preguntas de investigación: ¿qué funciona, para quién y en qué condiciones institucionales? ¿cuál es el umbral mínimo de capacidades para escalar? ¿qué efectos no deseados (desplazamiento, saturación judicial) deben mitigarse?
+
+**3.3 Legitimidad, confianza y acción ciudadana**  
+Aplicaciones: instrumentos longitudinales de confianza, miedo, denuncia y cooperación; diseños de intervención comunitaria con rendición de cuentas local; estrategias de comunicación conductual para elevar denuncia útil y reducir tolerancia social al crimen.  
+Estudios tipo: paneles de percepción y experimentos de información; evaluación de pilotos comunitarios con comparación territorial; investigación-acción participativa con comités locales y unidades policiales.  
+Preguntas de investigación: ¿qué explica la no denuncia en zonas de alta extorsión? ¿qué mensajes, canales y tiempos elevan cooperación ciudadana? ¿cómo influye la legitimidad institucional en adopción de herramientas intensivas en datos?
+
+## ¿Por qué esta propuesta?
+
+La propuesta busca que el financiamiento en CTI no se disperse en una lista amplia de temas, sino que se concentre en problemas con tres atributos:
+
+1. **Relevancia estratégica**, porque inciden directamente en prevención, investigación o legitimidad institucional.
+2. **Viabilidad de implementación**, porque pueden desarrollarse mediante pilotos, evaluaciones y transferencias institucionales concretas.
+3. **Potencial de uso público**, porque permiten traducir evidencia en protocolos, herramientas, sistemas de información, entrenamiento o decisiones de focalización.
+
+## Siguientes pasos
+
+Para la coordinación con el Ministerio del Interior, se propone avanzar en tres pasos:
+
+1. Validar si existen sugerencias para agregar, ajustar o precisar las prioridades de ciencia propuestas, y confirmar el acuerdo sobre el conjunto final de 11 prioridades.
+2. Sostener una reunión de trabajo con la Policía Nacional del Perú para informar que la convocatoria está en curso y promover condiciones de facilitación para los equipos ganadores, de modo que puedan acceder a datos no personales, públicos o no sensibles, y desarrollar herramientas útiles para la función policial.
+3. Socializar la propuesta y comunicarla a los actores del Sistema Nacional de Ciencia, Tecnología e Innovación para que estén atentos a la próxima convocatoria.
+
+## Referencia
+
+Ministerio del Interior. (2026). *Decreto Supremo N.° 001-2026-IN que aprueba el Plan Nacional de Seguridad Ciudadana y Lucha contra la Criminalidad 2026-2028*. Diario Oficial *El Peruano*.
+
+\vspace{1em}
+
+Elaboración: Noam López Villanes, Dirección de Investigación y Estudios, Consejo Nacional de Ciencia, Tecnología e Innovación Tecnológica.  
+Fecha: 10 de marzo
