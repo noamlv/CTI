@@ -818,6 +818,84 @@ h3.subsection-title {
   font-weight: 700;
 }
 
+.priority-reference {
+  margin: 0 0.85rem 0.85rem 1.85rem;
+  border: 1px solid color-mix(in srgb, var(--tone) 28%, white);
+  border-radius: 10px;
+  background: #FFFFFF;
+  overflow: hidden;
+}
+
+.priority-reference summary {
+  list-style: none;
+  cursor: pointer;
+  padding: 0.54rem 0.68rem;
+  font-size: 0.8rem;
+  line-height: 1.35;
+  font-weight: 600;
+  color: var(--tone);
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+}
+
+.priority-reference summary::-webkit-details-marker {
+  display: none;
+}
+
+.priority-reference summary::before {
+  content: "Estudio referido";
+  border: 1px solid color-mix(in srgb, var(--tone) 34%, white);
+  border-radius: 999px;
+  padding: 0.1rem 0.42rem;
+  font-size: 0.68rem;
+  font-weight: 700;
+  color: var(--tone);
+  background: color-mix(in srgb, var(--tone) 10%, white);
+}
+
+.priority-reference summary::after {
+  content: "+";
+  margin-left: auto;
+  color: var(--tone);
+  font-size: 0.94rem;
+  line-height: 1;
+  font-weight: 700;
+}
+
+.priority-reference[open] summary::after {
+  content: "−";
+}
+
+.priority-reference-body {
+  padding: 0 0.68rem 0.7rem;
+}
+
+.priority-reference-title {
+  margin: 0;
+  font-size: 0.8rem;
+  line-height: 1.42;
+  font-weight: 600;
+}
+
+.priority-reference-title a {
+  color: var(--text);
+  text-decoration: none;
+}
+
+.priority-reference-title a:hover,
+.priority-reference-title a:focus-visible {
+  color: var(--tone);
+  text-decoration: underline;
+}
+
+.priority-reference-meta {
+  margin: 0.36rem 0 0;
+  font-size: 0.75rem;
+  line-height: 1.45;
+  color: var(--muted);
+}
+
 .tree-caption {
   margin: 0 0 0.75rem;
   font-size: 0.84rem;
