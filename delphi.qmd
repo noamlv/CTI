@@ -54,9 +54,9 @@ page-layout: full
 <p class="chart-source">Escala sugerida: 1 = muy bajo, 2 = bajo, 3 = medio, 4 = alto, 5 = muy alto.</p>
 </div>
 
-### Formulario Delphi { .subsection-title }
+### Formulario Delphi { .subsection-title #delphi-form-section }
 
-<div class="visual-block reveal-on-scroll">
+<div class="visual-block reveal-on-scroll" id="delphi-form-block">
 <div class="delphi-actions">
   <a class="delphi-btn delphi-btn-primary" id="delphi-form-link" href="#" target="_blank" rel="noopener noreferrer">Abrir formulario</a>
   <a class="delphi-btn delphi-btn-secondary" href="Instrumento%20Delphi.pdf" target="_blank" rel="noopener noreferrer">Ver guía maestra</a>

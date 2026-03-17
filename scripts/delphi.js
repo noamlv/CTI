@@ -139,12 +139,19 @@
   }
 
   function setupForm(config) {
+    const sectionTitle = document.getElementById('delphi-form-section');
+    const sectionBlock = document.getElementById('delphi-form-block');
     const link = document.getElementById('delphi-form-link');
     const note = document.getElementById('delphi-form-note');
     const wrap = document.getElementById('delphi-form-embed-wrap');
     const iframe = document.getElementById('delphi-form-embed');
     const statusCard = document.getElementById('delphi-status-card');
-    if (!link || !note || !wrap || !iframe || !statusCard) return;
+    if (!sectionTitle || !sectionBlock || !link || !note || !wrap || !iframe || !statusCard) return;
+
+    const formEnabled = !!(config.formUrl || config.formEmbedUrl);
+    sectionTitle.hidden = !formEnabled;
+    sectionBlock.hidden = !formEnabled;
+    if (!formEnabled) return;
 
     if (config.formUrl) {
       link.href = config.formUrl;
@@ -153,18 +160,19 @@
       note.textContent = config.formEmbedUrl
         ? 'Completa el formulario directamente en esta página o ábrelo en una pestaña aparte.'
         : 'El formulario ya está habilitado para participantes.';
-      statusCard.hidden = !!config.formEmbedUrl;
+      statusCard.hidden = true;
     } else {
       link.removeAttribute('href');
       link.setAttribute('aria-disabled', 'true');
       link.classList.add('is-disabled');
-      note.textContent = 'La ronda aún no está habilitada. El formulario aparecerá aquí cuando se active la participación.';
-      statusCard.hidden = false;
+      note.hidden = true;
+      statusCard.hidden = true;
     }
 
     if (config.formEmbedUrl) {
       wrap.hidden = false;
       iframe.src = config.formEmbedUrl;
+      note.hidden = false;
     }
   }
 
