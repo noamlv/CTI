@@ -114,53 +114,6 @@
     }).join('');
   }
 
-  function setupForm(config) {
-    const link = document.getElementById('delphi-form-link');
-    const note = document.getElementById('delphi-form-note');
-    const wrap = document.getElementById('delphi-form-embed-wrap');
-    const iframe = document.getElementById('delphi-form-embed');
-    const statusCard = document.getElementById('delphi-status-card');
-    if (!link || !note || !wrap || !iframe || !statusCard) return;
-    if (config.formUrl) {
-      link.href = config.formUrl;
-      link.classList.remove('is-disabled');
-      link.removeAttribute('aria-disabled');
-      note.textContent = 'El formulario ya está habilitado para participantes.';
-      statusCard.hidden = true;
-    } else {
-      link.removeAttribute('href');
-      link.setAttribute('aria-disabled', 'true');
-      link.classList.add('is-disabled');
-      note.textContent = 'La ronda aún no está habilitada. El formulario aparecerá aquí cuando se active la participación.';
-      statusCard.hidden = false;
-    }
-    if (config.formEmbedUrl) {
-      wrap.hidden = false;
-      iframe.src = config.formEmbedUrl;
-      statusCard.hidden = true;
-    }
-  }
-
-  function setText(id, text) {
-    const el = document.getElementById(id);
-    if (el && text) el.textContent = text;
-  }
-
-  async function loadRows(config) {
-    if (config.summaryCsvUrl) {
-      try {
-        const response = await fetch(config.summaryCsvUrl, { cache: 'no-store' });
-        const text = await response.text();
-        const rows = parseCSV(text).filter(function (row) { return row.codigo; });
-        if (rows.length) return rows;
-      } catch (error) {
-        console.error('No se pudo cargar el resumen Delphi', error);
-      }
-    }
-    return Array.isArray(config.demoRows) ? config.demoRows : [];
-  }
-
-
   function setupRevealAnimations() {
     const targets = document.querySelectorAll('.reveal-on-scroll');
     if (!targets.length) return;
@@ -172,29 +125,81 @@
       return;
     }
 
-    const revealObserver = new IntersectionObserver(
-      function (entries) {
-        entries.forEach(function (entry) {
-          if (!entry.isIntersecting) return;
-          entry.target.classList.add('is-visible');
-          revealObserver.unobserve(entry.target);
-        });
-      },
-      {
-        threshold: 0.18,
-        rootMargin: '0px 0px -6% 0px'
-      }
-    );
+    const revealObserver = new IntersectionObserver(function (entries) {
+      entries.forEach(function (entry) {
+        if (!entry.isIntersecting) return;
+        entry.target.classList.add('is-visible');
+        revealObserver.unobserve(entry.target);
+      });
+    }, { threshold: 0.18, rootMargin: '0px 0px -6% 0px' });
 
     targets.forEach(function (target) {
       revealObserver.observe(target);
     });
   }
 
+  function setupForm(config) {
+    const link = document.getElementById('delphi-form-link');
+    const note = document.getElementById('delphi-form-note');
+    const wrap = document.getElementById('delphi-form-embed-wrap');
+    const iframe = document.getElementById('delphi-form-embed');
+    const statusCard = document.getElementById('delphi-status-card');
+    if (!link || !note || !wrap || !iframe || !statusCard) return;
+
+    if (config.formUrl) {
+      link.href = config.formUrl;
+      link.classList.remove('is-disabled');
+      link.removeAttribute('aria-disabled');
+      note.textContent = config.formEmbedUrl
+        ? 'Completa el formulario directamente en esta página o ábrelo en una pestaña aparte.'
+        : 'El formulario ya está habilitado para participantes.';
+      statusCard.hidden = !!config.formEmbedUrl;
+    } else {
+      link.removeAttribute('href');
+      link.setAttribute('aria-disabled', 'true');
+      link.classList.add('is-disabled');
+      note.textContent = 'La ronda aún no está habilitada. El formulario aparecerá aquí cuando se active la participación.';
+      statusCard.hidden = false;
+    }
+
+    if (config.formEmbedUrl) {
+      wrap.hidden = false;
+      iframe.src = config.formEmbedUrl;
+    }
+  }
+
+  function setText(id, text) {
+    const el = document.getElementById(id);
+    if (el && text) el.textContent = text;
+  }
+
+  function toggleResults(show) {
+    const title = document.getElementById('delphi-results-section');
+    const block = document.getElementById('delphi-results-block');
+    if (title) title.hidden = !show;
+    if (block) block.hidden = !show;
+  }
+
+  async function loadRows(config) {
+    if (!config.summaryCsvUrl) return [];
+    try {
+      const response = await fetch(config.summaryCsvUrl, { cache: 'no-store' });
+      const text = await response.text();
+      return parseCSV(text).filter(function (row) { return row.codigo; });
+    } catch (error) {
+      console.error('No se pudo cargar el resumen Delphi', error);
+      return [];
+    }
+  }
+
   async function init() {
     const config = window.DELPHI_CONFIG || {};
     setupRevealAnimations();
     setupForm(config);
+    const shouldShowResults = !!config.showResults;
+    toggleResults(shouldShowResults);
+    if (!shouldShowResults) return;
+
     setText('delphi-results-source', config.sourceLabel);
     setText('delphi-results-intro', config.resultsIntro);
     const rows = await loadRows(config);
