@@ -160,8 +160,40 @@
     return Array.isArray(config.demoRows) ? config.demoRows : [];
   }
 
+
+  function setupRevealAnimations() {
+    const targets = document.querySelectorAll('.reveal-on-scroll');
+    if (!targets.length) return;
+
+    if (!('IntersectionObserver' in window)) {
+      targets.forEach(function (target) {
+        target.classList.add('is-visible');
+      });
+      return;
+    }
+
+    const revealObserver = new IntersectionObserver(
+      function (entries) {
+        entries.forEach(function (entry) {
+          if (!entry.isIntersecting) return;
+          entry.target.classList.add('is-visible');
+          revealObserver.unobserve(entry.target);
+        });
+      },
+      {
+        threshold: 0.18,
+        rootMargin: '0px 0px -6% 0px'
+      }
+    );
+
+    targets.forEach(function (target) {
+      revealObserver.observe(target);
+    });
+  }
+
   async function init() {
     const config = window.DELPHI_CONFIG || {};
+    setupRevealAnimations();
     setupForm(config);
     setText('delphi-results-source', config.sourceLabel);
     setText('delphi-results-intro', config.resultsIntro);
@@ -176,5 +208,9 @@
     renderLineBars(rows);
   }
 
-  document.addEventListener('DOMContentLoaded', init);
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', init);
+  } else {
+    init();
+  }
 })();
