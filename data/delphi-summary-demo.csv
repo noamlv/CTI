@@ -1,0 +1,12 @@
+codigo,linea,prioridad,n_respuestas,mediana_general,q1_general,q3_general,consenso
+1.1,Línea 1,Patrullaje preventivo inteligente,9,4.6,4.0,5.0,Alto
+1.2,Línea 1,Prevención focalizada en jóvenes y poblaciones vulnerables,9,4.4,4.0,5.0,Alto
+1.3,Línea 1,Redes de alerta comunitaria,9,4.2,4.0,4.5,Medio-alto
+2.1,Línea 2,Inteligencia digital,9,4.7,4.0,5.0,Alto
+2.2,Línea 2,Interoperabilidad interinstitucional,9,4.8,4.5,5.0,Alto
+2.3,Línea 2,Formación asistida por tecnología,9,4.1,3.5,4.5,Medio
+2.4,Línea 2,Inteligencia financiera,9,4.5,4.0,5.0,Alto
+2.5,Línea 2,Seguridad tecnológica penitenciaria,9,4.0,3.5,4.5,Medio
+3.1,Línea 3,Fenómenos criminales y economías ilegales,9,4.6,4.0,5.0,Alto
+3.2,Línea 3,Respuesta del Estado ante la criminalidad,9,4.3,4.0,4.5,Medio-alto
+3.3,Línea 3,Legitimidad confianza y acción ciudadana,9,3.9,3.0,4.5,Medio
