@@ -1824,3 +1824,22 @@ h3.subsection-title {
     min-height: 980px;
   }
 }
+
+.delphi-status-card {
+  border: 1px dashed var(--divider);
+  border-radius: 16px;
+  padding: 1rem;
+  background: #FAFAF9;
+  margin-top: 0.9rem;
+}
+
+.delphi-status-card strong {
+  display: block;
+  margin-bottom: 0.3rem;
+  font-size: 1rem;
+}
+
+.delphi-status-card p {
+  margin: 0;
+  color: var(--muted);
+}

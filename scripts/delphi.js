@@ -119,45 +119,61 @@
     const note = document.getElementById('delphi-form-note');
     const wrap = document.getElementById('delphi-form-embed-wrap');
     const iframe = document.getElementById('delphi-form-embed');
-    if (!link || !note || !wrap || !iframe) return;
+    const statusCard = document.getElementById('delphi-status-card');
+    if (!link || !note || !wrap || !iframe || !statusCard) return;
     if (config.formUrl) {
       link.href = config.formUrl;
-      note.textContent = 'Formulario listo para participantes. Las respuestas pueden consolidarse automáticamente en Google Sheets.';
+      link.classList.remove('is-disabled');
+      link.removeAttribute('aria-disabled');
+      note.textContent = 'El formulario ya está habilitado para participantes.';
+      statusCard.hidden = true;
     } else {
       link.removeAttribute('href');
       link.setAttribute('aria-disabled', 'true');
       link.classList.add('is-disabled');
-      note.textContent = 'Conecta aquí el enlace público de Google Forms para habilitar la recolección en línea.';
+      note.textContent = 'La ronda aún no está habilitada. El formulario aparecerá aquí cuando se active la participación.';
+      statusCard.hidden = false;
     }
     if (config.formEmbedUrl) {
       wrap.hidden = false;
       iframe.src = config.formEmbedUrl;
+      statusCard.hidden = true;
     }
   }
 
-  function setSource(text) {
-    const el = document.getElementById('delphi-results-source');
+  function setText(id, text) {
+    const el = document.getElementById(id);
     if (el && text) el.textContent = text;
+  }
+
+  async function loadRows(config) {
+    if (config.summaryCsvUrl) {
+      try {
+        const response = await fetch(config.summaryCsvUrl, { cache: 'no-store' });
+        const text = await response.text();
+        const rows = parseCSV(text).filter(function (row) { return row.codigo; });
+        if (rows.length) return rows;
+      } catch (error) {
+        console.error('No se pudo cargar el resumen Delphi', error);
+      }
+    }
+    return Array.isArray(config.demoRows) ? config.demoRows : [];
   }
 
   async function init() {
     const config = window.DELPHI_CONFIG || {};
     setupForm(config);
-    setSource(config.sourceLabel);
-    if (!config.summaryCsvUrl) return;
-    try {
-      const response = await fetch(config.summaryCsvUrl, { cache: 'no-store' });
-      const text = await response.text();
-      const rows = parseCSV(text).filter(function (row) { return row.codigo; });
-      if (!rows.length) return;
-      renderKPIs(rows);
-      renderTable(rows, 'delphi-top-priorities', 'top');
-      renderTable(rows, 'delphi-low-consensus', 'consensus');
-      renderLineBars(rows);
-    } catch (error) {
-      console.error('No se pudo cargar el resumen Delphi', error);
-      setSource('No se pudo cargar la tabla resumen Delphi.');
+    setText('delphi-results-source', config.sourceLabel);
+    setText('delphi-results-intro', config.resultsIntro);
+    const rows = await loadRows(config);
+    if (!rows.length) {
+      setText('delphi-results-source', 'Aún no hay resultados disponibles para visualización.');
+      return;
     }
+    renderKPIs(rows);
+    renderTable(rows, 'delphi-top-priorities', 'top');
+    renderTable(rows, 'delphi-low-consensus', 'consensus');
+    renderLineBars(rows);
   }
 
   document.addEventListener('DOMContentLoaded', init);
