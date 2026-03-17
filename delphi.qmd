@@ -71,9 +71,9 @@ page-layout: full
 </div>
 </div>
 
-### Resultados Delphi { .subsection-title }
+### Resultados Delphi { .subsection-title #delphi-results-section }
 
-<div class="visual-block reveal-on-scroll">
+<div class="visual-block reveal-on-scroll" id="delphi-results-block">
 <p class="section-lead section-lead-small" id="delphi-results-intro">Aquí se muestran los resultados agregados del panel. Mientras no se active la ronda, se presenta una visualización de ejemplo para validar la lectura del consolidado.</p>
 <div class="delphi-kpis" id="delphi-kpis"></div>
 :::: {.delphi-results-grid}

@@ -1609,15 +1609,15 @@ h3.subsection-title {
 
 .section-lead {
   max-width: 840px;
-  font-size: 1.08rem;
-  line-height: 1.65;
+  font-size: 0.98rem;
+  line-height: 1.6;
   color: var(--muted);
-  margin: 0 0 2.2rem;
+  margin: 0 0 1.8rem;
 }
 
 .section-lead-small {
-  font-size: 1rem;
-  margin-bottom: 1.4rem;
+  font-size: 0.92rem;
+  margin-bottom: 1.15rem;
 }
 
 .delphi-flow {
@@ -1638,8 +1638,9 @@ h3.subsection-title {
 
 .delphi-flow-card h4,
 .criteria-card h4 {
-  margin: 0 0 0.45rem;
-  font-size: 1.05rem;
+  margin: 0 0 0.38rem;
+  font-size: 0.94rem;
+  line-height: 1.3;
 }
 
 .delphi-flow-card p,
@@ -1649,6 +1650,8 @@ h3.subsection-title {
 .delphi-setup-list {
   margin: 0;
   color: var(--muted);
+  font-size: 0.84rem;
+  line-height: 1.5;
 }
 
 .delphi-step {
@@ -1682,11 +1685,13 @@ h3.subsection-title {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  min-height: 2.75rem;
-  padding: 0.72rem 1rem;
+  min-height: 2.55rem;
+  padding: 0.68rem 0.96rem;
   border-radius: 999px;
   text-decoration: none;
   font-weight: 600;
+  font-size: 0.94rem;
+  line-height: 1.1;
   border: 1px solid var(--divider);
 }
 
@@ -1835,11 +1840,13 @@ h3.subsection-title {
 
 .delphi-status-card strong {
   display: block;
-  margin-bottom: 0.3rem;
-  font-size: 1rem;
+  margin-bottom: 0.22rem;
+  font-size: 0.88rem;
 }
 
 .delphi-status-card p {
   margin: 0;
   color: var(--muted);
+  font-size: 0.82rem;
+  line-height: 1.45;
 }
