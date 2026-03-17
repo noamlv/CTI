@@ -1,0 +1,110 @@
+---
+title: ""
+page-layout: full
+---
+
+::: {.hero-compact #delphi}
+<div class="hero-inner hero-inner-compact">
+<p class="hero-title">Priorización Delphi para líneas y prioridades de CTI</p>
+<p class="hero-meta">
+<span>Noam López Villanes</span>
+<span>Dirección de Investigación y Estudios</span>
+<span>Consejo Nacional de Ciencia, Tecnología e Innovación Tecnológica</span>
+</p>
+</div>
+:::
+
+::: {.section-block .delphi-page}
+## Delphi { .section-title }
+
+<p class="section-lead">Esta pestaña organiza el juicio de expertos para valorar las 3 líneas y las 11 prioridades de ciencia. El formulario recoge las respuestas individuales y la sección de resultados resume el nivel de acuerdo alcanzado por el panel.</p>
+
+### Cómo funciona { .subsection-title }
+
+<div class="visual-block reveal-on-scroll">
+<div class="delphi-flow">
+  <article class="delphi-flow-card">
+    <span class="delphi-step">1</span>
+    <h4>Responder</h4>
+    <p>Cada participante evalúa relevancia, viabilidad, factibilidad técnica, potencial de uso público y oportunidad temporal.</p>
+  </article>
+  <article class="delphi-flow-card">
+    <span class="delphi-step">2</span>
+    <h4>Consolidar</h4>
+    <p>Las respuestas se almacenan en Google Sheets y se resumen en una tabla pública con medianas y nivel de consenso.</p>
+  </article>
+  <article class="delphi-flow-card">
+    <span class="delphi-step">3</span>
+    <h4>Devolver resultados</h4>
+    <p>La misma página muestra prioridades mejor valoradas, brechas de consenso y desempeño por línea.</p>
+  </article>
+</div>
+</div>
+
+### Criterios de valoración { .subsection-title }
+
+<div class="visual-block reveal-on-scroll">
+<div class="delphi-criteria-grid">
+  <article class="criteria-card"><h4>Relevancia estratégica</h4><p>¿Contribuye directamente a reducir extorsión, homicidios o sus mecanismos críticos?</p></article>
+  <article class="criteria-card"><h4>Viabilidad institucional</h4><p>¿Existen condiciones mínimas para implementar pilotos, acceder a datos y articular actores?</p></article>
+  <article class="criteria-card"><h4>Factibilidad técnica</h4><p>¿Puede traducirse en proyectos de investigación o desarrollo realistas dentro de una convocatoria?</p></article>
+  <article class="criteria-card"><h4>Potencial de uso público</h4><p>¿Los resultados podrían convertirse en protocolos, herramientas, sistemas o decisiones utilizables por el Estado?</p></article>
+  <article class="criteria-card"><h4>Oportunidad temporal</h4><p>¿Es pertinente financiarla en el corto plazo y no solo en una agenda futura?</p></article>
+</div>
+<p class="chart-source">Escala sugerida: 1 = muy bajo, 2 = bajo, 3 = medio, 4 = alto, 5 = muy alto.</p>
+</div>
+
+### Instrumento { .subsection-title }
+
+<div class="visual-block reveal-on-scroll">
+<div class="delphi-actions">
+  <a class="delphi-btn delphi-btn-primary" id="delphi-form-link" href="#" target="_blank" rel="noopener noreferrer">Responder instrumento</a>
+  <a class="delphi-btn delphi-btn-secondary" href="Instrumento%20Delphi.pdf" target="_blank" rel="noopener noreferrer">Ver guía maestra</a>
+  <a class="delphi-btn delphi-btn-secondary" href="Instrumento%20Delphi.docx" target="_blank" rel="noopener noreferrer">Descargar Word</a>
+</div>
+<p class="delphi-note" id="delphi-form-note">Conecta aquí el enlace público de Google Forms para habilitar la recolección en línea.</p>
+<div class="delphi-embed-wrap" id="delphi-form-embed-wrap" hidden>
+  <iframe id="delphi-form-embed" class="delphi-form-embed" title="Formulario Delphi"></iframe>
+</div>
+</div>
+
+### Resultados Delphi { .subsection-title }
+
+<div class="visual-block reveal-on-scroll">
+<p class="section-lead section-lead-small">Esta sección se alimenta desde una tabla resumen publicada en Google Sheets. Mientras no se conecte una hoja pública, se muestra un conjunto de ejemplo para validar el diseño.</p>
+<div class="delphi-kpis" id="delphi-kpis"></div>
+:::: {.delphi-results-grid}
+::: {.delphi-panel}
+<h4 class="micro-title">Prioridades mejor valoradas</h4>
+<div id="delphi-top-priorities" class="delphi-table-wrap"></div>
+:::
+::: {.delphi-panel}
+<h4 class="micro-title">Prioridades con menor consenso</h4>
+<div id="delphi-low-consensus" class="delphi-table-wrap"></div>
+:::
+::::
+
+::: {.delphi-panel .delphi-panel-wide}
+<h4 class="micro-title">Resultado por línea</h4>
+<div id="delphi-line-bars" class="delphi-line-bars"></div>
+:::
+<p class="chart-source" id="delphi-results-source">Fuente: hoja resumen Delphi publicada para visualización web.</p>
+</div>
+
+### Cómo conectarlo con Google Forms { .subsection-title }
+
+<div class="visual-block reveal-on-scroll">
+<ol class="delphi-setup-list">
+  <li>Crear el Google Form con los criterios del instrumento Delphi.</li>
+  <li>Vincular el formulario a Google Sheets.</li>
+  <li>Generar en esa hoja una pestaña resumen con una fila por prioridad y sus estadísticas agregadas.</li>
+  <li>Publicar la pestaña resumen como CSV e ingresar ese enlace en <code>scripts/delphi-config.js</code>.</li>
+  <li>Si se desea mostrar el formulario dentro del sitio, pegar también el enlace de publicación o embed del formulario en ese mismo archivo.</li>
+</ol>
+<p class="chart-source">Formato esperado para la tabla resumen: <code>codigo</code>, <code>linea</code>, <code>prioridad</code>, <code>n_respuestas</code>, <code>mediana_general</code>, <code>q1_general</code>, <code>q3_general</code>, <code>consenso</code>.</p>
+</div>
+:::
+
+<script src="scripts/delphi-config.js"></script>
+<script src="scripts/delphi.js"></script>
+<script src="scripts/navbar-mobile.js"></script>

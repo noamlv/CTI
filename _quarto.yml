@@ -4,6 +4,9 @@ project:
   render:
     - index.qmd
     - mininter.qmd
+    - delphi.qmd
+  resources:
+    - data/**
 
 lang: es
 
@@ -24,6 +27,8 @@ website:
         href: "index.qmd#referencias"
       - text: "MININTER"
         href: "mininter.qmd"
+      - text: "Delphi"
+        href: "delphi.qmd"
 
 format:
   html:
