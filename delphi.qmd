@@ -17,30 +17,6 @@ page-layout: full
 ::: {.section-block .delphi-page}
 ## Delphi { .section-title }
 
-<p class="section-lead">Esta herramienta recoge la valoración de especialistas sobre las 3 líneas y las 11 prioridades de ciencia. Cada participante completa el formulario de manera individual y la misma página muestra el consolidado agregado del panel.</p>
-
-### Instrucciones de uso { .subsection-title }
-
-<div class="visual-block reveal-on-scroll">
-<div class="delphi-flow">
-  <article class="delphi-flow-card">
-    <span class="delphi-step">1</span>
-    <h4>Revisa los criterios</h4>
-    <p>Valora cada prioridad según relevancia estratégica, viabilidad institucional, factibilidad técnica, potencial de uso público y oportunidad temporal.</p>
-  </article>
-  <article class="delphi-flow-card">
-    <span class="delphi-step">2</span>
-    <h4>Completa el formulario</h4>
-    <p>Marca una única respuesta por criterio y añade observaciones cuando consideres que una prioridad debe ajustarse o reformularse.</p>
-  </article>
-  <article class="delphi-flow-card">
-    <span class="delphi-step">3</span>
-    <h4>Consulta el consolidado</h4>
-    <p>Los resultados se presentan de forma agregada para identificar prioridades mejor valoradas, brechas de consenso y desempeño por línea.</p>
-  </article>
-</div>
-</div>
-
 ### Criterios de valoración { .subsection-title }
 
 <div class="visual-block reveal-on-scroll">
